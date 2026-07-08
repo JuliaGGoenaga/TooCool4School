@@ -217,7 +217,7 @@ window.ESTRATEGIAS = [
     "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.5",
     "subgrupo_nombre": "Agua",
-    "titulo": "Drenaje verde",
+    "titulo": "Pavimento drenante",
     "imagen": "assets/img/A-5-1.svg",
     "impacto": "Medio",
     "coste": "Medio",

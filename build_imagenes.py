@@ -83,16 +83,20 @@ M["A.2"] = sun(60, 60) + ground() + (
     + '<rect x="0" y="256" width="480" height="6" fill="{d}" opacity=".25"/>'
 )
 
-M["A.3.1"] = ground(210) + sun(410, 56) + (
-    # pavimento permeable con juntas verdes + gotas
-    '<g>'
-    + ''.join(
-        f'<rect x="{40+ (i%5)*84}" y="{150+ (i//5)*46}" width="76" height="38" rx="6" fill="{{ground}}" stroke="{{d}}" stroke-width="2"/>'
-        for i in range(10))
-    + '</g>'
-    + ''.join(f'<line x1="{40+j*84+42}" y1="150" x2="{40+j*84+42}" y2="242" stroke="{{p}}" stroke-width="4" opacity=".8"/>' for j in range(4))
-    + '<path d="M120 60 q6 12 0 20 a10 10 0 1 1-0 -20z" fill="{glass}"/>'
-    '<path d="M230 44 q6 12 0 20 a10 10 0 1 1-0 -20z" fill="{glass}"/>'
+# despiece de pavimento (aparejo a matajunta), sin más elementos
+_pav_rows = ''
+for _r in range(6):
+    _y = 60 + _r * 32
+    _off = 0 if _r % 2 == 0 else -42
+    for _c in range(-1, 7):
+        _x = 44 + _off + _c * 84
+        _fill = "{ground}" if (_r + _c) % 3 == 0 else "#ffffff"
+        _pav_rows += f'<rect x="{_x}" y="{_y}" width="78" height="28" rx="4" fill="{_fill}" stroke="{{p}}" stroke-width="2.5"/>'
+M["A.3.1"] = (
+    '<defs><clipPath id="pv"><rect x="42" y="58" width="396" height="188" rx="14"/></clipPath></defs>'
+    '<rect x="42" y="58" width="396" height="188" rx="14" fill="{ground}"/>'
+    '<g clip-path="url(#pv)">' + _pav_rows + '</g>'
+    '<rect x="42" y="58" width="396" height="188" rx="14" fill="none" stroke="{d}" stroke-width="3"/>'
 )
 
 M["A.3.2"] = ground() + sun(240, 70) + (
@@ -105,7 +109,7 @@ M["A.3.2"] = ground() + sun(240, 70) + (
 )
 
 M["A.4"] = sun(410, 58) + ground() + (
-    tree(120, 232, 1.15)
+    tree(188, 232, 1.05)
     # pérgola con banco y fuente
     + '<rect x="230" y="120" width="150" height="8" rx="3" fill="{d}"/>'
     '<line x1="240" y1="124" x2="240" y2="232" stroke="{d}" stroke-width="7"/>'
@@ -116,25 +120,41 @@ M["A.4"] = sun(410, 58) + ground() + (
     '<circle cx="150" cy="248" r="10" fill="{glass}"/>'
 )
 
-M["A.5.1"] = ground(205) + sun(410, 56) + (
-    # jardín de lluvia: depresión vegetada con agua
-    '<path d="M40 205 Q240 300 440 205 L440 262 L40 262 Z" fill="{ground}"/>'
-    '<path d="M120 232 Q240 285 360 232" fill="none" stroke="{glass}" stroke-width="10" stroke-linecap="round"/>'
-    + ''.join(f'<path d="M{110+i*38} 224 q6 -22 12 0" stroke="{{p}}" stroke-width="4" fill="none"/>' for i in range(7))
-    + '<path d="M150 70 q6 12 0 20 a10 10 0 1 1 0 -20z" fill="{glass}"/>'
-    '<path d="M250 54 q6 12 0 20 a10 10 0 1 1 0 -20z" fill="{glass}"/>'
-    '<path d="M330 74 q6 12 0 20 a10 10 0 1 1 0 -20z" fill="{glass}"/>'
+# pavimento drenante: losetas con juntas permeables y gotas grandes infiltrando
+_drp = ''
+for _i in range(6):
+    _x = 80 + _i * 60
+    _y = 44 + (28 if _i % 2 else 0)
+    _drp += f'<path d="M{_x} {_y} q11 20 0 34 a17 17 0 1 1 0 -34z" fill="{{glass}}" stroke="{{p}}" stroke-width="2"/>'
+    _drp += f'<circle cx="{_x}" cy="{_y+22}" r="4" fill="#ffffff" opacity=".7"/>'
+M["A.5.1"] = (
+    '<rect x="40" y="150" width="400" height="96" rx="10" fill="{ground}"/>'
+    + ''.join(
+        f'<rect x="{48+ (_i%5)*80}" y="{162+ (_i//5)*40}" width="72" height="32" rx="5" fill="#ffffff" stroke="{{d}}" stroke-width="2"/>'
+        for _i in range(10))
+    # juntas permeables verticales
+    + ''.join(f'<rect x="{120+_j*80}" y="150" width="8" height="96" fill="{{p}}" opacity=".85"/>' for _j in range(4))
+    # flechas de infiltración por las juntas
+    + ''.join(f'<path d="M{124+_j*80} 200 v30" stroke="{{glass}}" stroke-width="4" stroke-linecap="round"/><path d="M{118+_j*80} 224 l6 8 l6 -8" fill="none" stroke="{{glass}}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>' for _j in range(4))
+    + _drp
 )
 
-M["A.5.2"] = ground() + (
-    # fuente de agua
-    '<rect x="180" y="150" width="120" height="82" rx="10" fill="{p}"/>'
-    '<rect x="192" y="162" width="96" height="30" rx="6" fill="{glass}"/>'
-    '<rect x="234" y="90" width="12" height="70" rx="6" fill="{d}"/>'
-    '<circle cx="240" cy="86" r="12" fill="{d}"/>'
-    '<path d="M240 100 q-16 22 0 44 q16 -22 0 -44z" fill="{glass}"/>'
-    '<path d="M150 120 q6 12 0 20 a10 10 0 1 1 0 -20z" fill="{glass}"/>'
-    '<path d="M330 130 q6 12 0 20 a10 10 0 1 1 0 -20z" fill="{glass}"/>'
+M["A.5.2"] = ground() + sun(410, 56) + (
+    # depósito de agua con nivel, grifo, canalón de recogida y gota
+    '<rect x="150" y="96" width="150" height="136" rx="16" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    # agua dentro (nivel)
+    '<path d="M156 150 h138 v72 a10 10 0 0 1 -10 10 h-118 a10 10 0 0 1 -10 -10 z" fill="{glass}"/>'
+    '<path d="M156 150 q34 -12 69 0 t69 0" fill="none" stroke="#ffffff" stroke-width="3" opacity=".7"/>'
+    # marcas de nivel
+    + ''.join(f'<line x1="160" y1="{170+_i*18}" x2="172" y2="{170+_i*18}" stroke="{{d}}" stroke-width="2" opacity=".5"/>' for _i in range(3))
+    # canalón que llena el depósito + gota entrando
+    + '<path d="M120 70 h70 v10 h-60 v20" fill="none" stroke="{d}" stroke-width="4" stroke-linecap="round"/>'
+    '<path d="M130 104 q6 12 0 20 a10 10 0 1 1 0 -20z" fill="{glass}"/>'
+    # grifo con chorro y charco
+    + '<rect x="300" y="196" width="26" height="9" rx="3" fill="{d}"/>'
+    '<rect x="322" y="196" width="9" height="20" rx="3" fill="{d}"/>'
+    '<path d="M326 216 q-6 10 0 18 q6 -8 0 -18z" fill="{glass}"/>'
+    '<ellipse cx="326" cy="238" rx="16" ry="4" fill="{glass}"/>'
 )
 
 # ---- B. Pasiva envolvente ----
@@ -193,15 +213,23 @@ M["B.2.2"] = sun(410, 58) + (
     + ''.join(f'<rect x="{150+i*60}" y="185" width="34" height="34" rx="4" fill="{{glass}}"/>' for i in range(3))
 )
 
-M["B.3"] = ground() + sun(410, 56) + (
-    # muro con capas de aislamiento
-    '<rect x="150" y="70" width="60" height="160" fill="#e9ded0"/>'
-    '<rect x="210" y="70" width="34" height="160" fill="{p}"/>'
-    + ''.join(f'<path d="M210 {78+i*18} q17 9 34 0" stroke="{{d}}" stroke-width="2" fill="none" opacity=".5"/>' for i in range(9))
-    + '<rect x="244" y="70" width="18" height="160" fill="{d}"/>'
-    '<rect x="262" y="70" width="150" height="160" fill="{glass}" opacity=".5"/>'
-    '<text x="330" y="160" font-family="sans-serif" font-size="34" fill="{d}" text-anchor="middle">°</text>'
-    '<circle cx="330" cy="150" r="4" fill="{d}"/>'
+M["B.3"] = ground() + sun(58, 60) + (
+    # sección de muro: exterior soleado | aislamiento | interior en confort
+    # sol calienta por fuera, el calor se frena en el aislamiento
+    ''.join(f'<path d="M40 {96+_i*34} h96" stroke="{{sun}}" stroke-width="4" stroke-linecap="round" opacity=".85"/><path d="M128 {90+_i*34} l10 6 l-10 6" fill="none" stroke="{{sun}}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>' for _i in range(3))
+    # hoja exterior
+    + '<rect x="150" y="72" width="30" height="156" fill="#d8cbb8"/>'
+    # aislamiento (capa gruesa acolchada)
+    '<rect x="180" y="72" width="72" height="156" fill="{p}"/>'
+    + ''.join(f'<path d="M180 {80+_i*20} q36 12 72 0" stroke="#ffffff" stroke-width="3" fill="none" opacity=".55"/>' for _i in range(8))
+    # hoja interior
+    + '<rect x="252" y="72" width="26" height="156" fill="#e9e2d5"/>'
+    '<rect x="150" y="72" width="128" height="156" fill="none" stroke="{d}" stroke-width="3"/>'
+    # interior confortable: termómetro ok
+    + '<rect x="360" y="120" width="16" height="70" rx="8" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<circle cx="368" cy="196" r="15" fill="{p}"/>'
+    '<rect x="364" y="140" width="8" height="52" rx="4" fill="{p}"/>'
+    '<path d="M300 150 q30 -8 52 0" stroke="{p}" stroke-width="3" fill="none" stroke-dasharray="2 6"/>'
 )
 
 # ---- C. Pasiva interior ----
@@ -221,16 +249,24 @@ M["C.1.1"] = sun(60, 58) + ground() + (
 )
 
 M["C.1.2"] = (
-    '<rect width="480" height="300" fill="{d}" opacity=".08"/>'
-    + '<circle cx="405" cy="60" r="26" fill="{sun}"/><circle cx="393" cy="52" r="26" fill="{sky}"/>'
-    + ''.join(f'<circle cx="{80+i*70}" cy="{40+((i*37)%50)}" r="2.5" fill="{{d}}"/>' for i in range(6))
-    + ground()
-    + '<rect x="150" y="90" width="180" height="140" rx="8" fill="#ffffff" stroke="{d}" stroke-width="4"/>'
-    '<rect x="163" y="103" width="154" height="114" fill="{glass}" opacity=".7"/>'
-    '<path d="M110 150 q40 -14 60 0" stroke="{p}" stroke-width="5" fill="none"/>'
-    '<path d="M162 143 l14 7 l-14 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round"/>'
-    '<path d="M110 185 q40 14 60 0" stroke="{p}" stroke-width="5" fill="none"/>'
-    '<path d="M162 178 l14 7 l-14 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round"/>'
+    # cielo nocturno oscuro
+    '<rect width="480" height="300" fill="#1e2c40"/>'
+    '<rect x="0" y="232" width="480" height="68" fill="#141d2b"/>'
+    # estrellas
+    + ''.join(f'<circle cx="{54+_i*52}" cy="{34+((_i*41)%54)}" r="{1.6+(_i%2)}" fill="#f2f5ff" opacity=".85"/>' for _i in range(8))
+    # luna creciente (círculo claro tallado por otro del color del cielo)
+    + '<circle cx="402" cy="64" r="30" fill="#eef0dc"/>'
+    '<circle cx="390" cy="56" r="27" fill="#1e2c40"/>'
+    # ventana abierta con flujo de aire (purga nocturna)
+    + '<rect x="150" y="96" width="180" height="140" rx="8" fill="#f4f7fb" stroke="#0d1420" stroke-width="4"/>'
+    '<rect x="163" y="109" width="70" height="114" fill="{glass}"/>'
+    '<rect x="247" y="109" width="70" height="114" fill="{glass}" opacity=".5"/>'
+    '<path d="M247 166 l70 -16 l0 74 l-70 -16z" fill="#cfe0ee"/>'
+    # flechas de aire saliendo (claras para verse sobre el cielo)
+    '<path d="M108 150 q40 -14 62 0" stroke="#cfe0ee" stroke-width="5" fill="none"/>'
+    '<path d="M162 143 l14 7 l-14 7" fill="none" stroke="#cfe0ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+    '<path d="M108 190 q40 14 62 0" stroke="#cfe0ee" stroke-width="5" fill="none"/>'
+    '<path d="M162 183 l14 7 l-14 7" fill="none" stroke="#cfe0ee" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
 )
 
 M["C.1.3"] = ground() + sun(410, 56) + (
