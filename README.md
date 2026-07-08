@@ -12,13 +12,13 @@ También puede publicarse tal cual en **GitHub Pages** (Settings → Pages → r
 
 ## Funciones de la app
 
-- **Rejilla de 4 columnas** con una **imagen por estrategia**, ordenada de lo general (A, pasivas exteriores) a lo particular (D, activas).
+- **Tablero de 4 columnas** (una por grupo: Pasiva exterior · Pasiva envolvente · Pasiva interior · Activa), de lo general a lo particular.
+- Dentro de cada columna, las estrategias aparecen como **bubbles** con su ilustración en pequeño y su título.
 - **Interacción en dos fases:**
-  - *1er clic* en una tarjeta → se expande y muestra **foto + descripción** y las etiquetas (impacto, coste, plazo).
-  - *2º clic* → abre el **modal con la ficha completa**.
+  - *1er clic* en una bubble → se expande y muestra **descripción + etiquetas** (impacto, coste, plazo).
+  - *2º clic* → abre el **modal con la ficha completa** (con banner de la imagen).
 - **Buscador** por texto (título, descripción, materiales, criterios, referencias…).
 - **Filtros** por grupo (A/B/C/D), impacto y coste.
-- **Navegación lateral** por categorías y subcategorías.
 - El enlace del modal incluye el código (`index.html#B.2.1`) para compartir una estrategia concreta.
 
 ## Estructura del catálogo
