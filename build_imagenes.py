@@ -358,6 +358,34 @@ M["D.1.4"] = (
     + '<circle cx="344" cy="158" r="13" fill="{d}"/>'
 )
 
+M["D.1.5"] = (
+    # red de conductos en planta con cambios de sección que llegan a la UTA (máquina)
+    # tramo estrecho (izquierda) -> transición -> tramo ancho -> máquina (derecha)
+    '<rect x="60" y="148" width="118" height="18" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    '<path d="M178 148 l18 -10 v38 l-18 -10 z" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    '<rect x="196" y="136" width="140" height="40" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    # ramales verticales "por planta" con rejilla arriba
+    + ''.join(
+        f'<rect x="{_x}" y="{_y0}" width="18" height="{_h}" fill="#eef1f5" stroke="{{d}}" stroke-width="2.5"/>'
+        f'<rect x="{_x-7}" y="{_y0-15}" width="32" height="13" rx="3" fill="{{p}}"/>'
+        for (_x, _y0, _h) in [(92, 106, 42), (150, 106, 42), (258, 96, 40)])
+    # flujo hacia la máquina
+    + '<path d="M92 157 H322" stroke="{p}" stroke-width="4" stroke-dasharray="2 9" stroke-linecap="round" opacity=".85"/>'
+    '<path d="M314 150 l12 7 l-12 7" fill="none" stroke="{p}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
+    # UTA / máquina de tratamiento del aire (derecha)
+    + '<rect x="330" y="102" width="112" height="108" rx="12" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    # batería / filtro
+    '<rect x="344" y="124" width="24" height="64" rx="4" fill="{glass}"/>'
+    + ''.join(f'<path d="M344 {138+_i*16} q12 -7 24 0" stroke="{{d}}" stroke-width="2" fill="none" opacity=".55"/>' for _i in range(3))
+    # ventilador
+    + '<circle cx="404" cy="156" r="26" fill="{p}" opacity=".2" stroke="{d}" stroke-width="3"/>'
+    + ''.join(f'<path d="M404 156 L{404+23} 156 A23 23 0 0 0 {404+16} {156-16} Z" fill="{{p}}" opacity=".85" transform="rotate({_r} 404 156)"/>' for _r in (0, 90, 180, 270))
+    + '<circle cx="404" cy="156" r="8" fill="{d}"/>'
+    # aire tratado saliendo por arriba de la UTA
+    + '<path d="M384 102 v-18" stroke="{glass}" stroke-width="6" stroke-linecap="round"/>'
+    '<path d="M420 102 v-18" stroke="{glass}" stroke-width="6" stroke-linecap="round"/>'
+)
+
 M["D.2"] = (
     # split de climatización + aire frío (más grande, sin sol ni suelo)
     '<rect x="86" y="92" width="308" height="86" rx="18" fill="#ffffff" stroke="{d}" stroke-width="3"/>'

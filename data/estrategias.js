@@ -1050,6 +1050,61 @@ window.ESTRATEGIAS = [
     "nivel_grupo": ""
   },
   {
+    "codigo": "D.1.5",
+    "grupo": "D",
+    "grupo_nombre": "Activa",
+    "subgrupo": "D.1",
+    "subgrupo_nombre": "Ventilación",
+    "titulo": "Instalación de climatización y tratamiento del aire interior",
+    "imagen": "assets/img/D-1-5.svg",
+    "impacto": "Alto",
+    "coste": "Alto",
+    "plazo": "Medio-largo plazo",
+    "descripcion": "Instalación nueva y completa de climatización con tratamiento del aire interior: unidades de tratamiento de aire (UTA) con batería de frío/calor, filtración y, preferiblemente, recuperación de calor, distribuidas por una red de conductos con difusores y compuertas de regulación. A diferencia de la mejora de la ventilación mecánica existente (D.1.3), aquí se proyecta y ejecuta el sistema desde cero. Puede resolverse como una red centralizada que aprovecha los patinillos existentes o como unidades por planta con rutas de conducto propias, que simplifican la obra y el mantenimiento. Es la medida activa de mayor alcance y solo debe plantearse cuando las estrategias pasivas, operativas y de apoyo no bastan.",
+    "beneficios": [
+      "Control estable y garantizado de temperatura, humedad y calidad del aire, incluso en episodios cálidos persistentes o en espacios de alta ocupación.",
+      "Trata el aire además de enfriarlo: integra ventilación, filtración y, con recuperación de calor, una parte importante de la eficiencia.",
+      "Permite zonificación y regulación por planta o por local, ajustando el servicio a la ocupación real y a los horarios.",
+      "La opción por planta (una UTA por planta con rutas propias) reduce recorridos de conducto, acota la afección de obra y facilita el mantenimiento y la localización de averías.",
+      "Solución robusta y duradera para espacios críticos donde el confort y la calidad de aire son prioritarios."
+    ],
+    "limitaciones": [
+      "Inversión elevada y plazo largo: proyecto, obra, conductos, espacio para máquinas y patinillos.",
+      "Consumo energético y costes de operación y mantenimiento significativos; requiere mantenimiento especializado (filtros, baterías, tratamiento frente a legionella).",
+      "Necesita espacio técnico (cubierta o planta), pasos de instalaciones y, a veces, refuerzo eléctrico o estructural.",
+      "Riesgo de sobredimensionamiento y de coste innecesario si no se ha reducido antes la demanda: no debe sustituir al control solar, la ventilación natural ni la reducción de cargas.",
+      "Impacto acústico y en la imagen del edificio, y afección al periodo lectivo durante la ejecución."
+    ],
+    "criterios": [
+      "Plantearla solo como último nivel, tras agotar las medidas pasivas (control solar, envolvente), operativas y de apoyo (ventiladores, ventilación híbrida).",
+      "Dimensionar sobre la demanda ya reducida, evitando sobredimensionar; priorizar equipos de alta eficiencia estacional (bomba de calor) y recuperación de calor.",
+      "Elegir con criterio entre red centralizada aprovechando patinillos existentes o UTAs por planta con rutas por planta: esta última suele simplificar conductos, obra y mantenimiento y acotar el impacto de un fallo.",
+      "Diseñar los conductos con cambios de sección adecuados para equilibrar caudales y limitar pérdidas de carga y ruido; prever registros y accesibilidad para el mantenimiento.",
+      "Integrar filtración y ventilación con control por CO₂/temperatura (enlaza con D.4), zonificar por uso y coordinar con la fotovoltaica (D.3) para maximizar el autoconsumo.",
+      "Ejecutar por fases y fuera del periodo lectivo siempre que sea posible."
+    ],
+    "coste_detalle": "Coste alto y plazo medio-largo (proyecto más obra). La inversión depende del alcance (centralizada frente a por planta), de la red de conductos y del espacio para máquinas; el consumo y el mantenimiento son costes recurrentes relevantes. La opción por planta suele reducir el coste de conductos y la afección de la obra.",
+    "referencias": [
+      "RITE (Reglamento de Instalaciones Térmicas en los Edificios): exigencias de eficiencia energética, ventilación y mantenimiento de las instalaciones.",
+      "UNE-EN 16798 y BB101: caudales de ventilación, confort térmico y calidad de aire interior en escuelas.",
+      "Guías de diseño de sistemas todo-aire y de UTAs con recuperación de calor; buenas prácticas de zonificación y control (BMS).",
+      "Tendencia europea de refrigeración eficiente: reducir primero la demanda con diseño pasivo y después combinar sistemas eficientes y renovables."
+    ],
+    "ejemplos_mercado": [
+      "Unidades de tratamiento de aire (UTA) con batería de frío/calor, filtración y recuperación de calor (Trox, Systemair, Zehnder, Swegon).",
+      "Bombas de calor aire-agua/aire-aire y enfriadoras de alta eficiencia (Daikin, Mitsubishi Electric, Carrier).",
+      "Redes de conductos con difusores y compuertas de regulación de caudal (sistemas VAV).",
+      "Control y BMS por zonas o por planta con sondas de Tª/HR/CO₂ (KNX, Siemens Desigo, Loxone)."
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor",
+      "Mejora de las condiciones térmicas interiores",
+      "Diagnóstico, control y automatización"
+    ],
+    "nivel": 4,
+    "nivel_grupo": ""
+  },
+  {
     "codigo": "D.2",
     "grupo": "D",
     "grupo_nombre": "Activa",
