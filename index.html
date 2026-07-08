@@ -85,7 +85,7 @@
 
   /* ---------- Matriz "tipo de impacto" ---------- */
   .matrix-wrap { overflow-x: auto; padding-bottom: 6px; }
-  .matrix { display: grid; grid-template-columns: minmax(210px, 1.5fr) repeat(8, minmax(58px, 1fr));
+  .matrix { display: grid; grid-template-columns: minmax(210px, 1.5fr) repeat(7, minmax(64px, 1fr));
     border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--panel); box-shadow: var(--shadow); min-width: 780px; }
   .mx-corner, .mx-colhead { background: var(--bg); border-bottom: 2px solid var(--line); padding: 10px 6px; font-size: .72rem; font-weight: 700; color: var(--muted); }
   .mx-corner { display: flex; align-items: flex-end; }
@@ -219,14 +219,13 @@
     </label>
     <select class="filter" id="fTipoImpacto">
       <option value="">Tipo de impacto (cualquiera)</option>
-      <option value="Mejora microclimática">Microclima</option>
-      <option value="Reducción de la isla de calor urbano">Isla de calor</option>
-      <option value="Reducción de la radiación directa">Radiación directa</option>
-      <option value="Mejora del comportamiento térmico de los materiales">Materiales</option>
-      <option value="Ventilación y disipación del calor">Ventilación</option>
-      <option value="Mejora de las condiciones térmicas interiores">Interior</option>
-      <option value="Control y mejora del uso">Uso</option>
-      <option value="Diagnóstico, control y automatización">Control</option>
+      <option value="Mejora microclimática">Mejora microclimática</option>
+      <option value="Reducción de la radiación directa">Reducción de la radiación directa</option>
+      <option value="Mejora del comportamiento térmico de los materiales">Comportamiento térmico de los materiales</option>
+      <option value="Ventilación y disipación del calor">Ventilación y disipación del calor</option>
+      <option value="Mejora de las condiciones térmicas interiores">Condiciones térmicas interiores</option>
+      <option value="Control y mejora del uso">Control y mejora del uso</option>
+      <option value="Diagnóstico, control y automatización">Diagnóstico, control y automatización</option>
     </select>
     <select class="filter" id="fImpacto">
       <option value="">Impacto (cualquiera)</option>
@@ -320,7 +319,6 @@
   // Orden de los tipos de impacto (de exterior a interior, de pasivo a activo)
   var IMPACTO_ORDEN = [
     "Mejora microclimática",
-    "Reducción de la isla de calor urbano",
     "Reducción de la radiación directa",
     "Mejora del comportamiento térmico de los materiales",
     "Ventilación y disipación del calor",
@@ -338,7 +336,6 @@
   ];
   var IMPACTO_SHORT = {
     "Mejora microclimática": "Microclima",
-    "Reducción de la isla de calor urbano": "Isla de calor",
     "Reducción de la radiación directa": "Radiación directa",
     "Mejora del comportamiento térmico de los materiales": "Materiales",
     "Ventilación y disipación del calor": "Ventilación",

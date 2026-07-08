@@ -92,7 +92,6 @@ window.ESTRATEGIAS = [
     ],
     "tipos_impacto": [
       "Mejora microclimática",
-      "Reducción de la isla de calor urbano",
       "Reducción de la radiación directa"
     ],
     "nivel": 1,
@@ -140,7 +139,6 @@ window.ESTRATEGIAS = [
       "Baldosas y aglomerados de alta reflectancia (colores claros, SRI elevado)."
     ],
     "tipos_impacto": [
-      "Reducción de la isla de calor urbano",
       "Mejora microclimática"
     ],
     "nivel": 1,
@@ -188,7 +186,6 @@ window.ESTRATEGIAS = [
       "Membranas de cubierta de PVC/TPO de color claro con SRI certificado."
     ],
     "tipos_impacto": [
-      "Reducción de la isla de calor urbano",
       "Mejora microclimática"
     ],
     "nivel": 1,
@@ -288,8 +285,7 @@ window.ESTRATEGIAS = [
       "Depósitos y aljibes de recogida de pluviales para riego (tipo Graf, Remosa)."
     ],
     "tipos_impacto": [
-      "Mejora microclimática",
-      "Reducción de la isla de calor urbano"
+      "Mejora microclimática"
     ],
     "nivel": 1,
     "nivel_grupo": "Renaturalización y mejora microclimática"
@@ -526,7 +522,7 @@ window.ESTRATEGIAS = [
     ],
     "tipos_impacto": [
       "Mejora del comportamiento térmico de los materiales",
-      "Reducción de la isla de calor urbano"
+      "Mejora microclimática"
     ],
     "nivel": 1,
     "nivel_grupo": "Intervenciones en elementos construidos"
@@ -574,8 +570,7 @@ window.ESTRATEGIAS = [
     ],
     "tipos_impacto": [
       "Mejora del comportamiento térmico de los materiales",
-      "Mejora microclimática",
-      "Reducción de la isla de calor urbano"
+      "Mejora microclimática"
     ],
     "nivel": 1,
     "nivel_grupo": "Intervenciones en elementos construidos"
