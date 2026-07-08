@@ -1003,7 +1003,7 @@ window.ESTRATEGIAS = [
     "tipos_impacto": [
       "Ventilación y disipación del calor"
     ],
-    "nivel": 2,
+    "nivel": 4,
     "nivel_grupo": ""
   },
   {
@@ -1192,7 +1192,7 @@ window.ESTRATEGIAS = [
     "tipos_impacto": [
       "Diagnóstico, control y automatización"
     ],
-    "nivel": 2,
+    "nivel": 4,
     "nivel_grupo": ""
   }
 ];

@@ -15,8 +15,8 @@ También puede publicarse tal cual en **GitHub Pages** (Settings → Pages → r
 **Tres vistas** (conmutador arriba). En todas, el color de cada bubble indica su **tipo de medida** (A verde · B azul · C ámbar · D magenta):
 
 1. **Tipo de medida** — tablero de 4 columnas (Pasiva exterior · envolvente · interior · Activa).
-2. **Tipo de impacto** — secciones por efecto sobre el sobrecalentamiento (mejora microclimática, isla de calor, radiación directa, comportamiento de materiales, ventilación, condiciones interiores, uso, diagnóstico/control). Una estrategia puede aparecer en varios tipos.
-3. **Planificación** — línea de tiempo de 4 niveles de complejidad (diseño pasivo → sistemas sencillos → tratamiento del aire → climatización por planta). Dentro de cada nivel, ordenadas por coste. El Nivel 1 se divide en subgrupos.
+2. **Tipo de impacto** — **matriz** estrategia × tipo de impacto (8 tipos: microclima, isla de calor, radiación directa, materiales, ventilación, interior, uso, control). Cada celda marcada, del color del grupo, indica que la estrategia actúa sobre ese tipo. Clic en la fila → ficha.
+3. **Planificación** — **línea de tiempo** de 4 fases de complejidad (diseño pasivo → sistemas sencillos → tratamiento del aire → instalación a escala de edificio). El Nivel 1 se despliega en 3 columnas (subgrupos); dentro de cada columna, ordenadas por coste. Los iconos se comportan como en la vista 1 (clic = ficha básica, otro clic = ficha completa).
 
 Otras funciones:
 

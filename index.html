@@ -83,21 +83,41 @@
   .impact-head .n { font-size: .78rem; font-weight: 600; color: var(--muted); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; }
   .impact-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
 
-  /* ---------- Planificación / niveles (línea de tiempo) ---------- */
-  .timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: start; position: relative; }
+  /* ---------- Matriz "tipo de impacto" ---------- */
+  .matrix-wrap { overflow-x: auto; padding-bottom: 6px; }
+  .matrix { display: grid; grid-template-columns: minmax(210px, 1.5fr) repeat(8, minmax(58px, 1fr));
+    border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--panel); box-shadow: var(--shadow); min-width: 780px; }
+  .mx-corner, .mx-colhead { background: var(--bg); border-bottom: 2px solid var(--line); padding: 10px 6px; font-size: .72rem; font-weight: 700; color: var(--muted); }
+  .mx-corner { display: flex; align-items: flex-end; }
+  .mx-colhead { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 5px; text-align: center; line-height: 1.1; border-left: 1px solid var(--line); }
+  .mx-colhead svg { width: 22px; height: 22px; color: var(--ink); opacity: .7; }
+  .mx-row { display: contents; cursor: pointer; }
+  .mx-lab, .mx-cell { border-bottom: 1px solid var(--line); padding: 7px 8px; display: flex; align-items: center; }
+  .mx-cell { justify-content: center; border-left: 1px solid var(--line); }
+  .mx-row:last-child .mx-lab, .mx-row:last-child .mx-cell { border-bottom: 0; }
+  .mx-row:hover .mx-lab, .mx-row:hover .mx-cell { background: var(--bg); }
+  .mx-lab { gap: 9px; font-size: .82rem; line-height: 1.2; }
+  .mx-mini { width: 30px; height: 30px; border-radius: 7px; overflow: hidden; flex: none; background: var(--bg); border-left: 3px solid var(--c); }
+  .mx-mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .mx-code { font-weight: 800; font-size: .72rem; color: var(--c); }
+  .mx-cell.on::after { content: ""; width: 22px; height: 22px; border-radius: 6px; background: var(--c); box-shadow: 0 1px 2px rgba(0,0,0,.18); }
+  .mx-cell:not(.on)::after { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--line); }
+
+  /* ---------- Planificación (línea de tiempo, 6 columnas iguales) ---------- */
+  .tl-wrap { overflow-x: auto; padding-bottom: 6px; }
+  .timeline { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; align-items: start; min-width: 980px; }
+  .tl-axis { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; position: relative; margin-bottom: 4px; }
+  .tl-axis::before { content: ""; position: absolute; left: 7%; right: 7%; top: 19px; height: 3px; background: var(--line); z-index: 0; }
+  .tl-node { text-align: center; position: relative; z-index: 1; }
+  .tl-node.span3 { grid-column: span 3; }
+  .tl-dot { width: 40px; height: 40px; border-radius: 50%; background: var(--brand); color: #fff; font-weight: 800; font-size: 1rem; display: flex; align-items: center; justify-content: center; margin: 0 auto; box-shadow: 0 2px 5px rgba(15,110,90,.35); }
+  .tl-node .lab { font-size: .82rem; font-weight: 700; color: var(--ink); margin-top: 7px; line-height: 1.2; }
+  .tl-node .dsc { font-size: .72rem; color: var(--muted); margin-top: 3px; line-height: 1.25; }
   .lvl { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); display: flex; flex-direction: column; overflow: hidden; }
-  .lvl-head { padding: 13px 15px; background: var(--brand); color: #fff; }
-  .lvl-head .num { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; background: rgba(255,255,255,.25); font-weight: 800; font-size: .82rem; margin-right: 8px; }
-  .lvl-head h2 { margin: 6px 0 0; font-size: .96rem; line-height: 1.25; }
-  .lvl-head p { margin: 5px 0 0; font-size: .76rem; opacity: .9; line-height: 1.3; }
+  .lvl-head { padding: 9px 12px; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .lvl-head h3 { margin: 0; font-size: .78rem; font-weight: 700; color: var(--ink); line-height: 1.2; }
+  .lvl-head .n { font-size: .72rem; color: var(--muted); }
   .lvl-body { padding: 10px; display: flex; flex-direction: column; gap: 10px; }
-  .lvl-sub { font-size: .72rem; font-weight: 800; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); margin: 6px 2px 0; }
-  .lvl-sub:first-child { margin-top: 0; }
-  /* degradado de complejidad en las cabeceras de nivel */
-  .lvl.n1 .lvl-head { background: #2f8f74; }
-  .lvl.n2 .lvl-head { background: #b7791f; }
-  .lvl.n3 .lvl-head { background: #c26a3d; }
-  .lvl.n4 .lvl-head { background: #a04668; }
 
   /* ---------- Tablero de 4 columnas ---------- */
   .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: start; }
@@ -167,14 +187,14 @@
 
   footer.pg { max-width: 1180px; margin: 0 auto; padding: 0 22px 40px; color: var(--muted); font-size: .8rem; }
 
-  @media (max-width: 1080px) { .board, .timeline { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 1080px) { .board { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 720px) {
     .twocol { grid-template-columns: 1fr; }
     .modal .mhead { flex-direction: column; }
     .modal .mh-img { flex-basis: auto; width: 100%; aspect-ratio: 16 / 9; }
     .modal .mh-txt { padding: 18px 22px 22px; }
   }
-  @media (max-width: 560px) { .board, .timeline { grid-template-columns: 1fr; } .col-head { position: static; } }
+  @media (max-width: 560px) { .board { grid-template-columns: 1fr; } .col-head { position: static; } }
 </style>
 </head>
 <body>
@@ -308,13 +328,32 @@
   var NIVELES = [
     { n: 1, titulo: "Diseño pasivo y operación", desc: "Mejora de las condiciones actuales sin grandes modificaciones.",
       subs: ["Renaturalización y mejora microclimática", "Intervenciones en elementos construidos", "Gestión, uso y monitorización"] },
-    { n: 2, titulo: "Sistemas sencillos de apoyo", desc: "Equipos de bajo consumo que acompañan a las estrategias pasivas (p. ej. ventiladores de techo)." },
-    { n: 3, titulo: "Tratamiento del aire puntual", desc: "Equipos de climatización por zonas críticas (split / multisplit)." },
-    { n: 4, titulo: "Climatización a escala de planta", desc: "Instalación de climatización por planta/edificio y soporte renovable." }
+    { n: 2, titulo: "Sistemas sencillos de apoyo", desc: "Equipos de bajo consumo que acompañan a lo pasivo (ventiladores, extracción, ventilación híbrida)." },
+    { n: 3, titulo: "Tratamiento del aire puntual", desc: "Climatización por zonas críticas (split / multisplit)." },
+    { n: 4, titulo: "Instalación a escala de edificio", desc: "Climatización por planta, ventilación mecánica, control/automatización y soporte renovable." }
   ];
+  var IMPACTO_SHORT = {
+    "Mejora microclimática": "Microclima",
+    "Reducción de la isla de calor urbano": "Isla de calor",
+    "Reducción de la radiación directa": "Radiación directa",
+    "Mejora del comportamiento térmico de los materiales": "Materiales",
+    "Ventilación y disipación del calor": "Ventilación",
+    "Mejora de las condiciones térmicas interiores": "Interior",
+    "Control y mejora del uso": "Uso",
+    "Diagnóstico, control y automatización": "Control"
+  };
+  var GORDER = { A: 0, B: 1, C: 2, D: 3 };
+  function byGrupoCode(a, b) {
+    if (GORDER[a.grupo] !== GORDER[b.grupo]) return GORDER[a.grupo] - GORDER[b.grupo];
+    var na = codeNums(a.codigo), nb = codeNums(b.codigo);
+    for (var i = 0; i < Math.max(na.length, nb.length); i++) {
+      if ((na[i]||0) !== (nb[i]||0)) return (na[i]||0) - (nb[i]||0);
+    }
+    return 0;
+  }
   var HINTS = {
     medida: "Estrategias agrupadas por tipo de medida, de lo pasivo (A) a lo activo (D).",
-    impacto: "Estrategias agrupadas por el tipo de impacto sobre el sobrecalentamiento. Una misma estrategia puede aparecer en varios tipos. El color indica su tipo de medida (A/B/C/D).",
+    impacto: "Matriz de estrategias × tipo de impacto: cada celda marcada indica que la estrategia actúa sobre ese tipo (una estrategia puede tener varios). El color es su tipo de medida (A/B/C/D). Haz clic en una fila para abrir la ficha.",
     plan: "Orden sugerido de implementación por complejidad: probar primero lo pasivo y sencillo antes de escalar a climatización. Dentro de cada fase, ordenadas por coste. El color indica su tipo de medida (A/B/C/D)."
   };
   var COSTE_RANK = { "bajo": 0, "medio": 1, "alto": 2 };
@@ -381,43 +420,59 @@
     board.innerHTML = html;
   }
 
+  // Vista "tipo de impacto": matriz estrategia x tipo (celdas del color del grupo)
   function renderImpacto(list) {
-    board.className = "";
-    var html = "";
-    IMPACTO_ORDEN.forEach(function (tipo) {
-      var items = list.filter(function (d) { return (d.tipos_impacto||[]).indexOf(tipo) !== -1; });
-      if (!items.length) return;
-      html += '<section class="impact-sec"><div class="impact-head">'
-        + '<span class="bar"></span><h2>'+esc(tipo)+'</h2>'
-        + '<span class="n">'+items.length+'</span></div>'
-        + '<div class="impact-grid">' + items.map(bubbleHTML).join("") + '</div></section>';
+    board.className = "matrix-wrap";
+    if (!list.length) { board.innerHTML = '<div class="empty">No hay estrategias que coincidan con la búsqueda.</div>'; return; }
+    var items = list.slice().sort(byGrupoCode);
+    var html = '<div class="matrix"><div class="mx-corner">Estrategia</div>';
+    IMPACTO_ORDEN.forEach(function (t) { html += '<div class="mx-colhead">'+esc(IMPACTO_SHORT[t])+'</div>'; });
+    items.forEach(function (d) {
+      var col = gcolor(d.grupo);
+      var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
+      html += '<div class="mx-row" data-code="'+esc(d.codigo)+'" style="--c:'+col+'">'
+        + '<div class="mx-lab"><span class="mx-mini"><img src="'+img+'" alt="" loading="lazy" onerror="this.style.display=\'none\'"></span>'
+        + '<span><span class="mx-code">'+esc(d.codigo)+'</span> '+esc(d.titulo)+'</span></div>';
+      IMPACTO_ORDEN.forEach(function (t) {
+        var on = (d.tipos_impacto||[]).indexOf(t) !== -1;
+        html += '<div class="mx-cell'+(on ? ' on' : '')+'" title="'+esc(IMPACTO_SHORT[t])+'"></div>';
+      });
+      html += '</div>';
     });
-    board.innerHTML = html || '<div class="empty">No hay estrategias que coincidan con la búsqueda.</div>';
+    html += '</div>';
+    board.innerHTML = html;
+    board.querySelectorAll(".mx-row").forEach(function (r) {
+      r.addEventListener("click", function () { openModal(r.getAttribute("data-code")); });
+    });
   }
 
+  // Vista "planificación": línea de tiempo, 6 columnas iguales (nivel 1 en 3)
   function renderPlan(list) {
-    board.className = "timeline";
-    var html = "";
-    NIVELES.forEach(function (lv) {
-      var items = list.filter(function (d) { return d.nivel === lv.n; }).sort(byCosteThenCode);
-      html += '<section class="lvl n'+lv.n+'">'
-        + '<div class="lvl-head"><span class="num">'+lv.n+'</span>'
-        + '<span class="n" style="float:right;background:rgba(255,255,255,.25);border-radius:999px;padding:1px 9px;font-size:.76rem">'+items.length+'</span>'
-        + '<h2>'+esc(lv.titulo)+'</h2><p>'+esc(lv.desc)+'</p></div>'
-        + '<div class="lvl-body">';
-      if (!items.length) {
-        html += '<div class="col-empty">Sin estrategias que coincidan.</div>';
-      } else if (lv.subs) {
-        lv.subs.forEach(function (sub) {
-          var si = items.filter(function (d) { return d.nivel_grupo === sub; });
-          if (!si.length) return;
-          html += '<div class="lvl-sub">'+esc(sub)+'</div>' + si.map(bubbleHTML).join("");
-        });
-      } else {
-        html += items.map(bubbleHTML).join("");
-      }
-      html += '</div></section>';
+    board.className = "tl-wrap";
+    var cols = [
+      { head: NIVELES[0].subs[0], nivel: 1, grupo: NIVELES[0].subs[0] },
+      { head: NIVELES[0].subs[1], nivel: 1, grupo: NIVELES[0].subs[1] },
+      { head: NIVELES[0].subs[2], nivel: 1, grupo: NIVELES[0].subs[2] },
+      { head: NIVELES[1].desc, nivel: 2 },
+      { head: NIVELES[2].desc, nivel: 3 },
+      { head: NIVELES[3].desc, nivel: 4 }
+    ];
+    var html = '<div class="timeline"><div class="tl-axis">'
+      + '<div class="tl-node span3"><div class="tl-dot">1</div><div class="lab">'+esc(NIVELES[0].titulo)+'</div></div>'
+      + '<div class="tl-node"><div class="tl-dot">2</div><div class="lab">'+esc(NIVELES[1].titulo)+'</div></div>'
+      + '<div class="tl-node"><div class="tl-dot">3</div><div class="lab">'+esc(NIVELES[2].titulo)+'</div></div>'
+      + '<div class="tl-node"><div class="tl-dot">4</div><div class="lab">'+esc(NIVELES[3].titulo)+'</div></div>'
+      + '</div>';
+    cols.forEach(function (c) {
+      var items = list.filter(function (d) {
+        return d.nivel === c.nivel && (!c.grupo || d.nivel_grupo === c.grupo);
+      }).sort(byCosteThenCode);
+      html += '<section class="lvl"><div class="lvl-head"><h3>'+esc(c.head)+' <span class="n">('+items.length+')</span></h3></div>'
+        + '<div class="lvl-body">'
+        + (items.length ? items.map(bubbleHTML).join("") : '<div class="col-empty">—</div>')
+        + '</div></section>';
     });
+    html += '</div>';
     board.innerHTML = html;
   }
 
