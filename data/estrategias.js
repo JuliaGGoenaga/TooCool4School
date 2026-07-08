@@ -1050,13 +1050,60 @@ window.ESTRATEGIAS = [
     "nivel_grupo": ""
   },
   {
-    "codigo": "D.1.5",
+    "codigo": "D.2.1",
     "grupo": "D",
     "grupo_nombre": "Activa",
-    "subgrupo": "D.1",
-    "subgrupo_nombre": "Ventilación",
+    "subgrupo": "D.2",
+    "subgrupo_nombre": "Climatización",
+    "titulo": "Climatización puntual por zonas",
+    "imagen": "assets/img/D-2-1.svg",
+    "impacto": "Alto",
+    "coste": "Medio",
+    "plazo": "Corto-medio plazo",
+    "descripcion": "Instalación de splits, equipos autónomos o sistemas zonales solo en aulas o espacios con problema persistente: orientación oeste, bajo cubierta, biblioteca, comedor, aula de apoyo, sala de cuidados o espacios de alta vulnerabilidad. Debe plantearse como intervención selectiva, no como solución generalizada, y siempre tras reducir las ganancias solares.",
+    "beneficios": [
+      "Impacto alto en el espacio intervenido: garantiza confort en aulas o usos críticos.",
+      "Intervención selectiva que concentra la inversión donde las medidas pasivas no bastan.",
+      "Asegura la continuidad docente y protege a usuarios vulnerables.",
+      "Con equipos eficientes (bomba de calor) puede aportar también calefacción."
+    ],
+    "limitaciones": [
+      "Consumo eléctrico y coste de operación y mantenimiento (refrigerante, condensados).",
+      "Requiere potencia eléctrica, ubicación de unidades exteriores y control del ruido.",
+      "Riesgo de desigualdad entre aulas climatizadas y no climatizadas.",
+      "Pierde eficacia y desperdicia energía si se usa con ventanas abiertas o sin reducir antes las ganancias solares."
+    ],
+    "criterios": [
+      "Reservarla para espacios críticos donde las pasivas no bastan, con necesidad de continuidad docente o usuarios vulnerables.",
+      "Actuar siempre después de reducir ganancias solares (B.1) y mejorar ventilación (C.1, D.1).",
+      "Dimensionar equipos eficientes (bomba de calor inverter) y prever la ubicación de unidades exteriores.",
+      "Enlazar con control (D.4) para evitar uso simultáneo con ventanas abiertas y limitar consumos."
+    ],
+    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La inversión y, sobre todo, el consumo eléctrico y el mantenimiento son los principales condicionantes; por eso se plantea de forma selectiva.",
+    "referencias": [
+      "Oferta IDOM: las medidas activas se plantean solo si la necesidad es real tras proponer las pasivas.",
+      "Tendencia europea en refrigeración eficiente: reducir demanda con diseño pasivo y luego combinar sistemas eficientes y renovables."
+    ],
+    "ejemplos_mercado": [
+      "Splits y multisplit inverter con bomba de calor de alta eficiencia (Daikin, Mitsubishi Electric, Fujitsu).",
+      "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
+      "Aerotermia con unidades interiores en espacios críticos.",
+      "Termostatos y control zonal integrados con la gestión del centro."
+    ],
+    "tipos_impacto": [
+      "Mejora de las condiciones térmicas interiores"
+    ],
+    "nivel": 3,
+    "nivel_grupo": ""
+  },
+  {
+    "codigo": "D.2.2",
+    "grupo": "D",
+    "grupo_nombre": "Activa",
+    "subgrupo": "D.2",
+    "subgrupo_nombre": "Climatización",
     "titulo": "Instalación de climatización y tratamiento del aire interior",
-    "imagen": "assets/img/D-1-5.svg",
+    "imagen": "assets/img/D-2-2.svg",
     "impacto": "Alto",
     "coste": "Alto",
     "plazo": "Medio-largo plazo",
@@ -1105,53 +1152,6 @@ window.ESTRATEGIAS = [
     "nivel_grupo": ""
   },
   {
-    "codigo": "D.2",
-    "grupo": "D",
-    "grupo_nombre": "Activa",
-    "subgrupo": "D.2",
-    "subgrupo_nombre": "Climatización",
-    "titulo": "Climatización puntual por zonas",
-    "imagen": "assets/img/D-2.svg",
-    "impacto": "Alto",
-    "coste": "Medio",
-    "plazo": "Corto-medio plazo",
-    "descripcion": "Instalación de splits, equipos autónomos o sistemas zonales solo en aulas o espacios con problema persistente: orientación oeste, bajo cubierta, biblioteca, comedor, aula de apoyo, sala de cuidados o espacios de alta vulnerabilidad. Debe plantearse como intervención selectiva, no como solución generalizada, y siempre tras reducir las ganancias solares.",
-    "beneficios": [
-      "Impacto alto en el espacio intervenido: garantiza confort en aulas o usos críticos.",
-      "Intervención selectiva que concentra la inversión donde las medidas pasivas no bastan.",
-      "Asegura la continuidad docente y protege a usuarios vulnerables.",
-      "Con equipos eficientes (bomba de calor) puede aportar también calefacción."
-    ],
-    "limitaciones": [
-      "Consumo eléctrico y coste de operación y mantenimiento (refrigerante, condensados).",
-      "Requiere potencia eléctrica, ubicación de unidades exteriores y control del ruido.",
-      "Riesgo de desigualdad entre aulas climatizadas y no climatizadas.",
-      "Pierde eficacia y desperdicia energía si se usa con ventanas abiertas o sin reducir antes las ganancias solares."
-    ],
-    "criterios": [
-      "Reservarla para espacios críticos donde las pasivas no bastan, con necesidad de continuidad docente o usuarios vulnerables.",
-      "Actuar siempre después de reducir ganancias solares (B.1) y mejorar ventilación (C.1, D.1).",
-      "Dimensionar equipos eficientes (bomba de calor inverter) y prever la ubicación de unidades exteriores.",
-      "Enlazar con control (D.4) para evitar uso simultáneo con ventanas abiertas y limitar consumos."
-    ],
-    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La inversión y, sobre todo, el consumo eléctrico y el mantenimiento son los principales condicionantes; por eso se plantea de forma selectiva.",
-    "referencias": [
-      "Oferta IDOM: las medidas activas se plantean solo si la necesidad es real tras proponer las pasivas.",
-      "Tendencia europea en refrigeración eficiente: reducir demanda con diseño pasivo y luego combinar sistemas eficientes y renovables."
-    ],
-    "ejemplos_mercado": [
-      "Splits y multisplit inverter con bomba de calor de alta eficiencia (Daikin, Mitsubishi Electric, Fujitsu).",
-      "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
-      "Aerotermia con unidades interiores en espacios críticos.",
-      "Termostatos y control zonal integrados con la gestión del centro."
-    ],
-    "tipos_impacto": [
-      "Mejora de las condiciones térmicas interiores"
-    ],
-    "nivel": 3,
-    "nivel_grupo": ""
-  },
-  {
     "codigo": "D.3",
     "grupo": "D",
     "grupo_nombre": "Activa",
@@ -1179,7 +1179,7 @@ window.ESTRATEGIAS = [
       "Priorizar cubiertas disponibles y bien orientadas, espacios críticos y necesidad de electrificación eficiente.",
       "Dimensionar la instalación según el consumo simultáneo (climatización, ventilación, iluminación).",
       "Verificar la estructura, las sombras y la compatibilidad con cubierta fría o vegetal.",
-      "Combinar con climatización eficiente (D.2) y control (D.4) para maximizar el autoconsumo."
+      "Combinar con climatización eficiente (D.2.1) y control (D.4) para maximizar el autoconsumo."
     ],
     "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. La estructura, la conexión y la legalización condicionan la inversión; el retorno mejora con alto autoconsumo en horas solares.",
     "referencias": [
@@ -1226,7 +1226,7 @@ window.ESTRATEGIAS = [
       "Priorizar sistemas existentes sin control, uso irregular, quejas variables y necesidad de seguimiento.",
       "Buscar la solución más simple que resuelva el problema (control horario, por CO₂, por presencia).",
       "Diseñar una interfaz sencilla para el personal del centro y prever el mantenimiento.",
-      "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2) y protecciones solares."
+      "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2.1) y protecciones solares."
     ],
     "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Desde temporizadores y sondas sencillas hasta un BEMS completo; escalar según la complejidad del centro.",
     "referencias": [

@@ -26,7 +26,7 @@
     "Priorizar sistemas existentes sin control, uso irregular, quejas variables y necesidad de seguimiento.",
     "Buscar la solución más simple que resuelva el problema (control horario, por CO₂, por presencia).",
     "Diseñar una interfaz sencilla para el personal del centro y prever el mantenimiento.",
-    "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2) y protecciones solares."
+    "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2.1) y protecciones solares."
   ],
   "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Desde temporizadores y sondas sencillas hasta un BEMS completo; escalar según la complejidad del centro.",
   "referencias": [

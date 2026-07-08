@@ -358,7 +358,7 @@ M["D.1.4"] = (
     + '<circle cx="344" cy="158" r="13" fill="{d}"/>'
 )
 
-M["D.1.5"] = (
+M["D.2.2"] = (
     # red de conductos en planta con cambios de sección que llegan a la UTA (máquina)
     # tramo estrecho (izquierda) -> transición -> tramo ancho -> máquina (derecha)
     '<rect x="60" y="148" width="118" height="18" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
@@ -386,7 +386,7 @@ M["D.1.5"] = (
     '<path d="M420 102 v-18" stroke="{glass}" stroke-width="6" stroke-linecap="round"/>'
 )
 
-M["D.2"] = (
+M["D.2.1"] = (
     # split de climatización + aire frío (más grande, sin sol ni suelo)
     '<rect x="86" y="92" width="308" height="86" rx="18" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
     '<rect x="86" y="146" width="308" height="13" fill="{p}"/>'
