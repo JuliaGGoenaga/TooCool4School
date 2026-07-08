@@ -85,11 +85,11 @@
 
   /* ---------- Matriz "tipo de impacto" ---------- */
   .matrix-wrap { overflow-x: auto; padding-bottom: 6px; }
-  .matrix { display: grid; grid-template-columns: minmax(210px, 1.5fr) repeat(7, minmax(64px, 1fr));
-    border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--panel); box-shadow: var(--shadow); min-width: 780px; }
-  .mx-corner, .mx-colhead { background: var(--bg); border-bottom: 2px solid var(--line); padding: 10px 6px; font-size: .72rem; font-weight: 700; color: var(--muted); }
+  .matrix { display: grid; grid-template-columns: minmax(200px, 1.3fr) repeat(7, minmax(116px, 1fr));
+    border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--panel); box-shadow: var(--shadow); min-width: 1060px; }
+  .mx-corner, .mx-colhead { background: var(--bg); border-bottom: 2px solid var(--line); padding: 10px 8px; font-size: .73rem; font-weight: 700; color: var(--ink); }
   .mx-corner { display: flex; align-items: flex-end; }
-  .mx-colhead { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 5px; text-align: center; line-height: 1.1; border-left: 1px solid var(--line); }
+  .mx-colhead { display: flex; align-items: flex-end; justify-content: center; text-align: center; line-height: 1.2; border-left: 1px solid var(--line); }
   .mx-colhead svg { width: 22px; height: 22px; color: var(--ink); opacity: .7; }
   .mx-row { display: contents; cursor: pointer; }
   .mx-lab, .mx-cell { border-bottom: 1px solid var(--line); padding: 7px 8px; display: flex; align-items: center; }
@@ -221,9 +221,9 @@
       <option value="">Tipo de impacto (cualquiera)</option>
       <option value="Mejora microclimática">Mejora microclimática</option>
       <option value="Reducción de la radiación directa">Reducción de la radiación directa</option>
-      <option value="Mejora del comportamiento térmico de los materiales">Comportamiento térmico de los materiales</option>
+      <option value="Mejora del comportamiento térmico de los materiales">Mejora del comportamiento térmico de los materiales</option>
       <option value="Ventilación y disipación del calor">Ventilación y disipación del calor</option>
-      <option value="Mejora de las condiciones térmicas interiores">Condiciones térmicas interiores</option>
+      <option value="Mejora de las condiciones térmicas interiores">Mejora de las condiciones térmicas interiores</option>
       <option value="Control y mejora del uso">Control y mejora del uso</option>
       <option value="Diagnóstico, control y automatización">Diagnóstico, control y automatización</option>
     </select>
@@ -334,15 +334,6 @@
     { n: 3, titulo: "Tratamiento del aire puntual", desc: "Climatización por zonas críticas (split / multisplit)." },
     { n: 4, titulo: "Instalación a escala de edificio", desc: "Climatización por planta, ventilación mecánica, control/automatización y soporte renovable." }
   ];
-  var IMPACTO_SHORT = {
-    "Mejora microclimática": "Microclima",
-    "Reducción de la radiación directa": "Radiación directa",
-    "Mejora del comportamiento térmico de los materiales": "Materiales",
-    "Ventilación y disipación del calor": "Ventilación",
-    "Mejora de las condiciones térmicas interiores": "Interior",
-    "Control y mejora del uso": "Uso",
-    "Diagnóstico, control y automatización": "Control"
-  };
   var GORDER = { A: 0, B: 1, C: 2, D: 3 };
   function byGrupoCode(a, b) {
     if (GORDER[a.grupo] !== GORDER[b.grupo]) return GORDER[a.grupo] - GORDER[b.grupo];
@@ -426,7 +417,7 @@
     if (!list.length) { board.innerHTML = '<div class="empty">No hay estrategias que coincidan con la búsqueda.</div>'; return; }
     var items = list.slice().sort(byGrupoCode);
     var html = '<div class="matrix"><div class="mx-corner">Estrategia</div>';
-    IMPACTO_ORDEN.forEach(function (t) { html += '<div class="mx-colhead">'+esc(IMPACTO_SHORT[t])+'</div>'; });
+    IMPACTO_ORDEN.forEach(function (t) { html += '<div class="mx-colhead">'+esc(t)+'</div>'; });
     items.forEach(function (d) {
       var col = gcolor(d.grupo);
       var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
@@ -435,7 +426,7 @@
         + '<span><span class="mx-code">'+esc(d.codigo)+'</span> '+esc(d.titulo)+'</span></div>';
       IMPACTO_ORDEN.forEach(function (t) {
         var on = (d.tipos_impacto||[]).indexOf(t) !== -1;
-        html += '<div class="mx-cell'+(on ? ' on' : '')+'" title="'+esc(IMPACTO_SHORT[t])+'"></div>';
+        html += '<div class="mx-cell'+(on ? ' on' : '')+'" title="'+esc(t)+'"></div>';
       });
       html += '</div>';
     });
