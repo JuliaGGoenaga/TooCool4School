@@ -42,7 +42,7 @@
   header.top .wrap { max-width: 1180px; margin: 0 auto; }
   header.top h1 { margin: 0 0 6px; font-size: 1.45rem; letter-spacing: -.01em; }
   header.top p { margin: 0; color: rgba(255,255,255,.82); font-size: .93rem; max-width: 780px; }
-  .layout { max-width: 1340px; margin: 0 auto; padding: 20px 22px 60px; display: grid; grid-template-columns: 240px 1fr; gap: 26px; }
+  .wrap-main { max-width: 1340px; margin: 0 auto; padding: 20px 22px 60px; }
 
   /* ---------- Controls ---------- */
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
@@ -62,59 +62,38 @@
   }
   .count { color: var(--muted); font-size: .85rem; margin-left: auto; }
 
-  /* ---------- Sidebar ---------- */
-  aside { position: sticky; top: 16px; align-self: start; }
-  .nav { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px; box-shadow: var(--shadow); }
-  .nav-group + .nav-group { margin-top: 4px; }
-  .nav-group > button.grp {
-    width: 100%; text-align: left; border: 0; background: transparent; cursor: pointer;
-    display: flex; align-items: center; gap: 9px; padding: 9px 10px; border-radius: 9px;
-    font-weight: 650; font-size: .92rem; color: var(--ink);
-  }
-  .nav-group > button.grp:hover { background: var(--bg); }
-  .dot { width: 11px; height: 11px; border-radius: 3px; flex: none; }
-  .nav-group .letter { font-weight: 800; opacity: .6; font-size: .8rem; width: 14px; }
-  .sublist { list-style: none; margin: 0 0 4px; padding: 0 4px 4px 30px; }
-  .sublist li a {
-    display: block; text-decoration: none; color: var(--muted); font-size: .84rem;
-    padding: 5px 8px; border-radius: 7px; cursor: pointer;
-  }
-  .sublist li a:hover { background: var(--bg); color: var(--ink); }
+  /* ---------- Tablero de 4 columnas ---------- */
+  .board { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: start; }
+  .col { border: 1px solid var(--line); border-radius: var(--radius); background: var(--col-soft); box-shadow: var(--shadow); display: flex; flex-direction: column; overflow: hidden; }
+  .col-head { padding: 13px 15px; color: #fff; background: var(--col-color); position: sticky; top: 0; z-index: 2; }
+  .col-head .k { font-size: .74rem; font-weight: 800; opacity: .85; letter-spacing: .06em; }
+  .col-head h2 { margin: 1px 0 0; font-size: 1.05rem; line-height: 1.2; display: flex; align-items: baseline; gap: 8px; }
+  .col-head h2 .n { margin-left: auto; font-size: .78rem; font-weight: 600; opacity: .9; background: rgba(255,255,255,.2); border-radius: 999px; padding: 1px 9px; }
+  .col-body { padding: 10px; display: flex; flex-direction: column; gap: 10px; }
+  .col-empty { color: var(--muted); font-size: .82rem; text-align: center; padding: 22px 8px; }
 
-  /* ---------- Cards (4 columnas) ---------- */
-  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: start; }
-  .card {
-    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
-    cursor: pointer; box-shadow: var(--shadow); overflow: hidden;
-    transition: transform .12s ease, box-shadow .12s ease, border-color .12s;
-    display: flex; flex-direction: column; border-top: 3px solid var(--line);
+  /* ---------- Bubbles ---------- */
+  .bubble {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    cursor: pointer; transition: transform .12s ease, box-shadow .12s ease, border-color .12s;
+    border-left: 3px solid var(--col-color); overflow: hidden;
   }
-  .card:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(16,34,31,.08), 0 16px 34px rgba(16,34,31,.1); }
-  .card .thumb { position: relative; aspect-ratio: 8 / 5; background: var(--bg); overflow: hidden; }
-  .card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .card .badge { position: absolute; top: 8px; left: 8px; font-size: .68rem; font-weight: 800; letter-spacing: .03em; color: #fff; padding: 3px 8px; border-radius: 7px; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
-  .card .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 8px; }
-  .card .sub { font-size: .7rem; font-weight: 700; letter-spacing: .03em; color: var(--muted); text-transform: uppercase; }
-  .card h3 { margin: 0; font-size: .96rem; line-height: 1.28; }
-  .card p { margin: 0; font-size: .83rem; color: var(--muted);
-    max-height: 0; opacity: 0; overflow: hidden; transition: max-height .28s ease, opacity .2s ease, margin .2s; }
-  .card .chips { display: flex; flex-wrap: wrap; gap: 6px;
-    max-height: 0; opacity: 0; overflow: hidden; transition: max-height .28s ease, opacity .2s ease; }
-  .card .hint { font-size: .72rem; color: var(--muted); display: flex; align-items: center; gap: 5px;
-    max-height: 0; opacity: 0; overflow: hidden; transition: max-height .28s ease, opacity .2s ease; }
-  .card.expanded { box-shadow: 0 6px 14px rgba(16,34,31,.1), 0 20px 40px rgba(16,34,31,.12); }
-  .card.expanded p { max-height: 260px; opacity: 1; }
-  .card.expanded .chips { max-height: 90px; opacity: 1; }
-  .card.expanded .hint { max-height: 40px; opacity: 1; margin-top: 2px; }
+  .bubble:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(16,34,31,.1); }
+  .bubble .brow { display: flex; gap: 11px; align-items: center; padding: 9px 11px; }
+  .bubble .mini { width: 52px; height: 52px; border-radius: 10px; overflow: hidden; flex: none; background: var(--bg); }
+  .bubble .mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .bubble .t { min-width: 0; }
+  .bubble .t .code { font-size: .68rem; font-weight: 800; letter-spacing: .03em; color: var(--col-color); }
+  .bubble .t h3 { margin: 1px 0 0; font-size: .86rem; line-height: 1.25; }
+  .bubble .detail { max-height: 0; opacity: 0; overflow: hidden; transition: max-height .3s ease, opacity .2s ease; padding: 0 12px; }
+  .bubble .detail p { margin: 2px 0 10px; font-size: .82rem; color: var(--muted); }
+  .bubble .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .bubble .hint { font-size: .72rem; color: var(--muted); display: flex; align-items: center; gap: 5px; padding-bottom: 12px; }
+  .bubble.expanded { box-shadow: 0 6px 16px rgba(16,34,31,.12); }
+  .bubble.expanded .detail { max-height: 420px; opacity: 1; }
   .chip { font-size: .72rem; padding: 3px 9px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); white-space: nowrap; }
   .chip b { font-weight: 700; color: var(--ink); }
-
-  .grp-title { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; margin: 14px 2px 2px; }
-  .grp-title:first-child { margin-top: 0; }
-  .grp-title .bar { width: 4px; height: 22px; border-radius: 3px; }
-  .grp-title h2 { margin: 0; font-size: 1.05rem; }
-  .grp-title span.k { font-weight: 800; opacity: .55; }
-  .empty { grid-column: 1/-1; text-align: center; color: var(--muted); padding: 60px 0; }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
 
   /* ---------- Modal ---------- */
   .overlay { position: fixed; inset: 0; background: rgba(16,34,31,.5); backdrop-filter: blur(2px); display: none; align-items: flex-start; justify-content: center; padding: 30px 16px; z-index: 50; overflow-y: auto; }
@@ -149,17 +128,9 @@
 
   footer.pg { max-width: 1180px; margin: 0 auto; padding: 0 22px 40px; color: var(--muted); font-size: .8rem; }
 
-  @media (max-width: 1180px) { .grid { grid-template-columns: repeat(3, 1fr); } }
-  @media (max-width: 980px) {
-    .layout { grid-template-columns: 1fr; }
-    aside { position: static; }
-    .nav { display: flex; overflow-x: auto; gap: 4px; }
-    .nav-group { min-width: max-content; }
-    .sublist { display: none; }
-    .grid { grid-template-columns: repeat(3, 1fr); }
-  }
-  @media (max-width: 720px) { .grid { grid-template-columns: repeat(2, 1fr); } .twocol { grid-template-columns: 1fr; } }
-  @media (max-width: 440px) { .grid { grid-template-columns: 1fr; } }
+  @media (max-width: 1080px) { .board { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 720px) { .twocol { grid-template-columns: 1fr; } }
+  @media (max-width: 560px) { .board { grid-template-columns: 1fr; } .col-head { position: static; } }
 </style>
 </head>
 <body>
@@ -170,41 +141,35 @@
   </div>
 </header>
 
-<div class="layout">
-  <aside>
-    <nav class="nav" id="nav"></nav>
-  </aside>
-
-  <main>
-    <div class="toolbar">
-      <label class="search">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        <input id="q" type="search" placeholder="Buscar estrategia, material, criterio…" autocomplete="off">
-      </label>
-      <select class="filter" id="fGrupo">
-        <option value="">Todos los grupos</option>
-        <option value="A">A · Pasiva exterior</option>
-        <option value="B">B · Pasiva envolvente</option>
-        <option value="C">C · Pasiva interior</option>
-        <option value="D">D · Activa</option>
-      </select>
-      <select class="filter" id="fImpacto">
-        <option value="">Impacto (cualquiera)</option>
-        <option value="Alto">Impacto alto</option>
-        <option value="Medio">Impacto medio</option>
-        <option value="Bajo">Impacto bajo</option>
-      </select>
-      <select class="filter" id="fCoste">
-        <option value="">Coste (cualquiera)</option>
-        <option value="Bajo">Coste bajo</option>
-        <option value="Medio">Coste medio</option>
-        <option value="Alto">Coste alto</option>
-      </select>
-      <span class="count" id="count"></span>
-    </div>
-    <div class="grid" id="grid"></div>
-  </main>
-</div>
+<main class="wrap-main">
+  <div class="toolbar">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="Buscar estrategia, material, criterio…" autocomplete="off">
+    </label>
+    <select class="filter" id="fGrupo">
+      <option value="">Todos los grupos</option>
+      <option value="A">A · Pasiva exterior</option>
+      <option value="B">B · Pasiva envolvente</option>
+      <option value="C">C · Pasiva interior</option>
+      <option value="D">D · Activa</option>
+    </select>
+    <select class="filter" id="fImpacto">
+      <option value="">Impacto (cualquiera)</option>
+      <option value="Alto">Impacto alto</option>
+      <option value="Medio">Impacto medio</option>
+      <option value="Bajo">Impacto bajo</option>
+    </select>
+    <select class="filter" id="fCoste">
+      <option value="">Coste (cualquiera)</option>
+      <option value="Bajo">Coste bajo</option>
+      <option value="Medio">Coste medio</option>
+      <option value="Alto">Coste alto</option>
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="board" id="board"></div>
+</main>
 
 <footer class="pg">
   Datos de partida a partir del <em>Catálogo directo de estrategias tipo para mitigar el sobrecalentamiento en centros educativos de Bizkaia</em>. Fichas editables en <code>data/estrategias/</code>.
@@ -226,8 +191,7 @@
   };
   function gcolor(g){ return "var(--g"+g+")"; }
 
-  var grid = document.getElementById("grid");
-  var nav = document.getElementById("nav");
+  var board = document.getElementById("board");
   var count = document.getElementById("count");
   var overlay = document.getElementById("overlay");
   var modal = document.getElementById("modal");
@@ -242,47 +206,18 @@
     return norm(val).indexOf(norm(level)) !== -1;
   }
 
-  // -------- Sidebar --------
-  function buildNav() {
-    var html = "";
-    Object.keys(GRUPOS).forEach(function (g) {
-      var items = DATA.filter(function (d) { return d.grupo === g; });
-      if (!items.length) return;
-      html += '<div class="nav-group">';
-      html += '<button class="grp" data-grupo="'+g+'"><span class="dot" style="background:'+gcolor(g)+'"></span><span class="letter">'+g+'</span>'+esc(GRUPOS[g].nombre)+'</button>';
-      html += '<ul class="sublist">';
-      items.forEach(function (d) {
-        html += '<li><a data-code="'+esc(d.codigo)+'"><b style="color:'+gcolor(g)+'">'+esc(d.codigo)+'</b> · '+esc(d.titulo)+'</a></li>';
-      });
-      html += '</ul></div>';
-    });
-    nav.innerHTML = html;
-    nav.querySelectorAll("button.grp").forEach(function (b) {
-      b.addEventListener("click", function () {
-        fGrupo.value = b.getAttribute("data-grupo");
-        render();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-    });
-    nav.querySelectorAll("a[data-code]").forEach(function (a) {
-      a.addEventListener("click", function () { openModal(a.getAttribute("data-code")); });
-    });
-  }
-
-  // -------- Cards --------
+  // -------- Bubbles --------
   var CLICK_HINT = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M9 11.5V5.5a2 2 0 114 0v6m0-2a2 2 0 114 0v2m-4 0a2 2 0 114 0m-8 0v-1a2 2 0 10-4 0v3a7 7 0 007 7h1a7 7 0 007-7v-2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> Vuelve a hacer clic para ver la ficha completa';
-  function cardHTML(d) {
+  function bubbleHTML(d) {
     var col = gcolor(d.grupo);
     var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
-    return '<article class="card" data-code="'+esc(d.codigo)+'" style="border-top-color:'+col+'">'
-      + '<div class="thumb">'
-      +   '<span class="badge" style="background:'+col+'">'+esc(d.codigo)+'</span>'
-      +   '<img src="'+img+'" alt="'+esc(d.titulo)+'" loading="lazy" '
-      +        'onerror="this.style.display=\'none\';this.parentNode.style.background=\''+col+'\'">'
+    return '<article class="bubble" data-code="'+esc(d.codigo)+'" style="--col-color:'+col+'">'
+      + '<div class="brow">'
+      +   '<div class="mini"><img src="'+img+'" alt="'+esc(d.titulo)+'" loading="lazy" '
+      +        'onerror="this.style.display=\'none\';this.parentNode.style.background=\''+col+'\'"></div>'
+      +   '<div class="t"><div class="code">'+esc(d.codigo)+'</div><h3>'+esc(d.titulo)+'</h3></div>'
       + '</div>'
-      + '<div class="body">'
-      +   '<span class="sub">'+esc(d.subgrupo_nombre||"")+'</span>'
-      +   '<h3>'+esc(d.titulo)+'</h3>'
+      + '<div class="detail">'
       +   '<p>'+esc(d.descripcion)+'</p>'
       +   '<div class="chips">'
       +     '<span class="chip">Impacto <b>'+esc(d.impacto)+'</b></span>'
@@ -294,18 +229,17 @@
   }
 
   // clic 1 = expandir (foto + descripción); clic 2 = abrir modal
-  function onCardClick(card) {
-    var code = card.getAttribute("data-code");
-    if (card.classList.contains("expanded")) { openModal(code); return; }
-    grid.querySelectorAll(".card.expanded").forEach(function (c) { c.classList.remove("expanded"); });
-    card.classList.add("expanded");
+  function onBubbleClick(b) {
+    var code = b.getAttribute("data-code");
+    if (b.classList.contains("expanded")) { openModal(code); return; }
+    board.querySelectorAll(".bubble.expanded").forEach(function (o) { o.classList.remove("expanded"); });
+    b.classList.add("expanded");
   }
 
   function render() {
     var term = norm(q.value.trim());
     var g = fGrupo.value, imp = fImpacto.value, cost = fCoste.value;
-    var list = DATA.filter(function (d) {
-      if (g && d.grupo !== g) return false;
+    function pass(d) {
       if (imp && !matchLevel(d.impacto, imp)) return false;
       if (cost && !matchLevel(d.coste, cost)) return false;
       if (term) {
@@ -316,25 +250,30 @@
         if (hay.indexOf(term) === -1) return false;
       }
       return true;
-    });
+    }
 
-    count.textContent = list.length + " de " + DATA.length + " estrategias";
-
-    if (!list.length) { grid.innerHTML = '<div class="empty">No hay estrategias que coincidan con la búsqueda.</div>'; return; }
-
-    var html = "", lastG = null;
-    var grouped = !g; // muestra encabezados de grupo solo si no se filtra por grupo
-    list.forEach(function (d) {
-      if (grouped && d.grupo !== lastG) {
-        lastG = d.grupo;
-        html += '<div class="grp-title"><span class="bar" style="background:'+gcolor(d.grupo)+'"></span>'
-          + '<h2><span class="k">'+d.grupo+'.</span> '+esc(GRUPOS[d.grupo].nombre)+'</h2></div>';
+    var groups = g ? [g] : ["A", "B", "C", "D"];
+    var total = 0, html = "";
+    groups.forEach(function (gk) {
+      var items = DATA.filter(function (d) { return d.grupo === gk && pass(d); });
+      total += items.length;
+      var col = gcolor(gk);
+      html += '<section class="col" style="--col-color:'+col+';--col-soft:var(--g'+gk+'-soft)">'
+        + '<div class="col-head"><div class="k">'+gk+'</div>'
+        + '<h2>'+esc(GRUPOS[gk].nombre)+'<span class="n">'+items.length+'</span></h2></div>'
+        + '<div class="col-body">';
+      if (!items.length) {
+        html += '<div class="col-empty">Sin estrategias que coincidan.</div>';
+      } else {
+        items.forEach(function (d) { html += bubbleHTML(d); });
       }
-      html += cardHTML(d);
+      html += '</div></section>';
     });
-    grid.innerHTML = html;
-    grid.querySelectorAll(".card").forEach(function (c) {
-      c.addEventListener("click", function () { onCardClick(c); });
+
+    count.textContent = total + " de " + DATA.length + " estrategias";
+    board.innerHTML = html;
+    board.querySelectorAll(".bubble").forEach(function (b) {
+      b.addEventListener("click", function () { onBubbleClick(b); });
     });
   }
 
@@ -407,9 +346,8 @@
   });
 
   if (!DATA.length) {
-    grid.innerHTML = '<div class="empty">No se han podido cargar los datos.<br>Ejecuta <code>python3 build.py</code> para generar <code>data/estrategias.js</code>.</div>';
+    board.innerHTML = '<div class="empty">No se han podido cargar los datos.<br>Ejecuta <code>python3 build.py</code> para generar <code>data/estrategias.js</code>.</div>';
   } else {
-    buildNav();
     render();
     if (location.hash.length > 1) openModal(decodeURIComponent(location.hash.slice(1)));
   }
