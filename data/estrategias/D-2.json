@@ -6,7 +6,7 @@
   "subgrupo_nombre": "Climatización",
   "titulo": "Climatización puntual por zonas",
   "imagen": "assets/img/D-2.svg",
-  "impacto": "Alto (en el espacio intervenido)",
+  "impacto": "Alto",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
   "descripcion": "Instalación de splits, equipos autónomos o sistemas zonales solo en aulas o espacios con problema persistente: orientación oeste, bajo cubierta, biblioteca, comedor, aula de apoyo, sala de cuidados o espacios de alta vulnerabilidad. Debe plantearse como intervención selectiva, no como solución generalizada, y siempre tras reducir las ganancias solares.",

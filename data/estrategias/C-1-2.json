@@ -6,8 +6,8 @@
   "subgrupo_nombre": "Uso",
   "titulo": "Ventilación nocturna",
   "imagen": "assets/img/C-1-2.svg",
-  "impacto": "Medio-alto",
-  "coste": "Bajo-medio",
+  "impacto": "Alto",
+  "coste": "Bajo",
   "plazo": "Corto plazo",
   "descripcion": "Apertura controlada de huecos, compuertas o sistemas de ventilación para disipar el calor acumulado durante la noche o a primera hora. Es especialmente útil en edificios con cierta masa térmica, siempre que pueda garantizarse la seguridad y la protección frente a la lluvia. La literatura sobre adaptación en escuelas recoge la ventilación natural diurna y la refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
   "beneficios": [

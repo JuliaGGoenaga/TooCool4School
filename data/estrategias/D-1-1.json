@@ -6,8 +6,8 @@
   "subgrupo_nombre": "Ventilación",
   "titulo": "Ventiladores de apoyo",
   "imagen": "assets/img/D-1-1.svg",
-  "impacto": "Medio (sensación térmica)",
-  "coste": "Bajo-medio",
+  "impacto": "Medio",
+  "coste": "Bajo",
   "plazo": "Corto plazo",
   "descripcion": "Instalación de ventiladores de techo o de pared para aumentar la velocidad del aire y mejorar la sensación térmica sin reducir necesariamente la temperatura del aire. Son útiles como medida rápida en aulas donde la temperatura no es extrema pero la sensación de bochorno es elevada. Las soluciones de ventilación y movimiento de aire de bajo consumo se reconocen como parte de estrategias de refrigeración eficiente y asequible.",
   "beneficios": [

@@ -6,7 +6,7 @@
   "subgrupo_nombre": "Monitorización",
   "titulo": "Monitorización de Tª, HR y CO₂",
   "imagen": "assets/img/C-2.svg",
-  "impacto": "Indirecto (alto para diagnóstico)",
+  "impacto": "Bajo",
   "coste": "Bajo",
   "plazo": "Inmediato",
   "descripcion": "Colocar sensores portátiles o registradores en aulas representativas para confirmar los horarios críticos, la relación con la ventilación y la severidad real del problema. No enfría por sí misma, pero permite decidir mejor, evitar soluciones sobredimensionadas y comprobar si las medidas rápidas funcionan. BB101 se plantea como guía de ventilación, confort térmico y calidad de aire interior en escuelas, y el cuestionario IDOM ya prevé mediciones de Tª, HR y CO₂ en espacios representativos.",

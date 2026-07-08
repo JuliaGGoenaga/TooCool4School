@@ -6,8 +6,8 @@
   "subgrupo_nombre": "Control",
   "titulo": "Sensores y automatización",
   "imagen": "assets/img/D-4.svg",
-  "impacto": "Indirecto (medio-alto si gobierna sistemas)",
-  "coste": "Bajo-medio",
+  "impacto": "Medio",
+  "coste": "Bajo",
   "plazo": "Corto plazo",
   "descripcion": "Instalación de sondas de temperatura, humedad, CO₂, temporizadores, control horario, control por presencia o regulación básica de ventilación/climatización. Aporta consistencia operativa y evita que la eficacia dependa solo del uso manual. La literatura sobre escuelas en clima templado incluye sensores, automatización y BEMS como herramientas para localizar problemas y optimizar el confort y los sistemas.",
   "beneficios": [

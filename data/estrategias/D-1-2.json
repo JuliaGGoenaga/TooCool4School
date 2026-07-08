@@ -6,8 +6,8 @@
   "subgrupo_nombre": "Ventilación",
   "titulo": "Extracción forzada en aseos",
   "imagen": "assets/img/D-1-2.svg",
-  "impacto": "Bajo directo (medio si apoya purga)",
-  "coste": "Bajo-medio",
+  "impacto": "Bajo",
+  "coste": "Bajo",
   "plazo": "Corto plazo",
   "descripcion": "Mejora o instalación de extracción mecánica en aseos, vestuarios u otros espacios húmedos para garantizar la renovación de aire y evitar olores y humedad. Puede ayudar a crear recorridos de aire si existe entrada controlada desde zonas docentes, pero no debe presentarse como solución principal de enfriamiento de aulas salvo que forme parte de una estrategia de ventilación equilibrada.",
   "beneficios": [

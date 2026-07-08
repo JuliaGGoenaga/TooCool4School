@@ -6,8 +6,8 @@
   "subgrupo_nombre": "Ventilación",
   "titulo": "Mejora de ventilación mecánica existente",
   "imagen": "assets/img/D-1-3.svg",
-  "impacto": "Bajo-medio (alto en calidad de aire)",
-  "coste": "Bajo-medio",
+  "impacto": "Bajo",
+  "coste": "Bajo",
   "plazo": "Corto plazo",
   "descripcion": "Comprobación de equipos, caudales, horarios, filtros, extracción/impulsión y regulación de la ventilación mecánica existente. Puede resolver problemas de aire viciado y mejorar la disipación si el sistema está infrautilizado o mal ajustado. Es una medida lógica antes de instalar nuevos equipos.",
   "beneficios": [

@@ -6,8 +6,8 @@
   "subgrupo_nombre": "Energía",
   "titulo": "Instalación solar fotovoltaica en cubierta",
   "imagen": "assets/img/D-3.svg",
-  "impacto": "Alto (donde se climatiza); indirecto",
-  "coste": "Medio-alto",
+  "impacto": "Alto",
+  "coste": "Alto",
   "plazo": "Medio plazo",
   "descripcion": "Combinación de refrigeración zonal con generación fotovoltaica, especialmente cuando el uso principal se produce en horas solares. No elimina la necesidad de reducir la demanda, pero mejora la coherencia energética de una solución activa. La revisión sobre rehabilitación escolar identifica renovables, fotovoltaica, bombas de calor y sistemas activos como parte del abanico de medidas, aunque condicionadas por coste y contexto.",
   "beneficios": [
