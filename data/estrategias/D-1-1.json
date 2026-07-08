@@ -1,9 +1,11 @@
 {
   "codigo": "D.1.1",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.1",
   "subgrupo_nombre": "Ventilación",
   "titulo": "Ventiladores de apoyo",
+  "imagen": "assets/img/D-1-1.svg",
   "impacto": "Medio (sensación térmica)",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Ventiladores industriales HVLS de gran diámetro para gimnasios/comedores.",
     "Ventiladores de pared oscilantes de bajo nivel sonoro.",
     "Control de velocidad y temporización integrado."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

@@ -1,9 +1,11 @@
 {
   "codigo": "D.1.3",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.1",
   "subgrupo_nombre": "Ventilación",
   "titulo": "Mejora de ventilación mecánica existente",
+  "imagen": "assets/img/D-1-3.svg",
   "impacto": "Bajo-medio (alto en calidad de aire)",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Sondas de CO₂ y controladores para regulación por demanda.",
     "Filtros de recambio y kits de equilibrado de caudales.",
     "Servicios de comisionado y ajuste (retrocommissioning) de la instalación."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

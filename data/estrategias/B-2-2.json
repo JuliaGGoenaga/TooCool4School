@@ -1,9 +1,11 @@
 {
   "codigo": "B.2.2",
   "grupo": "B",
+  "grupo_nombre": "Pasiva envolvente",
   "subgrupo": "B.2",
   "subgrupo_nombre": "Cubierta",
   "titulo": "Cubierta vegetal / parterres",
+  "imagen": "assets/img/B-2-2.svg",
   "impacto": "Medio-alto",
   "coste": "Medio-alto",
   "plazo": "Medio plazo",
@@ -36,6 +38,5 @@
     "Sustratos ligeros y mantas de sedum precultivadas.",
     "Láminas antirraíces y capas drenantes/retenedoras de agua.",
     "Parterres y jardineras técnicas para ajardinamiento parcial de cubierta."
-  ],
-  "grupo_nombre": "Pasiva envolvente"
+  ]
 }

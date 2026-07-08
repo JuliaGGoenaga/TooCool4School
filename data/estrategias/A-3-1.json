@@ -1,9 +1,11 @@
 {
   "codigo": "A.3.1",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.3",
   "subgrupo_nombre": "Pavimentos",
   "titulo": "Sustitución de asfalto por pavimento permeable",
+  "imagen": "assets/img/A-3-1.svg",
   "impacto": "Medio-alto",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
@@ -36,6 +38,5 @@
     "Terrizos estabilizados con ligantes (Aripaq, Stabex y similares).",
     "Adoquines y celdas de césped/grava permeables (TTE, Ritter, adoquín ecológico).",
     "Baldosas y aglomerados de alta reflectancia (colores claros, SRI elevado)."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

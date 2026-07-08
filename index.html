@@ -42,7 +42,7 @@
   header.top .wrap { max-width: 1180px; margin: 0 auto; }
   header.top h1 { margin: 0 0 6px; font-size: 1.45rem; letter-spacing: -.01em; }
   header.top p { margin: 0; color: rgba(255,255,255,.82); font-size: .93rem; max-width: 780px; }
-  .layout { max-width: 1180px; margin: 0 auto; padding: 20px 22px 60px; display: grid; grid-template-columns: 268px 1fr; gap: 26px; }
+  .layout { max-width: 1340px; margin: 0 auto; padding: 20px 22px 60px; display: grid; grid-template-columns: 240px 1fr; gap: 26px; }
 
   /* ---------- Controls ---------- */
   .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
@@ -81,19 +81,31 @@
   }
   .sublist li a:hover { background: var(--bg); color: var(--ink); }
 
-  /* ---------- Cards ---------- */
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  /* ---------- Cards (4 columnas) ---------- */
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: start; }
   .card {
     background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
-    padding: 16px 16px 14px; cursor: pointer; box-shadow: var(--shadow);
+    cursor: pointer; box-shadow: var(--shadow); overflow: hidden;
     transition: transform .12s ease, box-shadow .12s ease, border-color .12s;
     display: flex; flex-direction: column; border-top: 3px solid var(--line);
   }
   .card:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(16,34,31,.08), 0 16px 34px rgba(16,34,31,.1); }
-  .card .code { font-size: .72rem; font-weight: 700; letter-spacing: .04em; color: var(--muted); }
-  .card h3 { margin: 4px 0 8px; font-size: 1.02rem; line-height: 1.3; }
-  .card p { margin: 0 0 12px; font-size: .86rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+  .card .thumb { position: relative; aspect-ratio: 8 / 5; background: var(--bg); overflow: hidden; }
+  .card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card .badge { position: absolute; top: 8px; left: 8px; font-size: .68rem; font-weight: 800; letter-spacing: .03em; color: #fff; padding: 3px 8px; border-radius: 7px; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  .card .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .card .sub { font-size: .7rem; font-weight: 700; letter-spacing: .03em; color: var(--muted); text-transform: uppercase; }
+  .card h3 { margin: 0; font-size: .96rem; line-height: 1.28; }
+  .card p { margin: 0; font-size: .83rem; color: var(--muted);
+    max-height: 0; opacity: 0; overflow: hidden; transition: max-height .28s ease, opacity .2s ease, margin .2s; }
+  .card .chips { display: flex; flex-wrap: wrap; gap: 6px;
+    max-height: 0; opacity: 0; overflow: hidden; transition: max-height .28s ease, opacity .2s ease; }
+  .card .hint { font-size: .72rem; color: var(--muted); display: flex; align-items: center; gap: 5px;
+    max-height: 0; opacity: 0; overflow: hidden; transition: max-height .28s ease, opacity .2s ease; }
+  .card.expanded { box-shadow: 0 6px 14px rgba(16,34,31,.1), 0 20px 40px rgba(16,34,31,.12); }
+  .card.expanded p { max-height: 260px; opacity: 1; }
+  .card.expanded .chips { max-height: 90px; opacity: 1; }
+  .card.expanded .hint { max-height: 40px; opacity: 1; margin-top: 2px; }
   .chip { font-size: .72rem; padding: 3px 9px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); white-space: nowrap; }
   .chip b { font-weight: 700; color: var(--ink); }
 
@@ -109,6 +121,8 @@
   .overlay.open { display: flex; }
   .modal { background: var(--panel); width: 100%; max-width: 760px; border-radius: 18px; box-shadow: 0 24px 70px rgba(0,0,0,.3); overflow: hidden; animation: pop .16s ease; }
   @keyframes pop { from { transform: translateY(8px) scale(.99); opacity: .6; } to { transform: none; opacity: 1; } }
+  .modal .mbanner { width: 100%; aspect-ratio: 24 / 7; background: var(--bg); overflow: hidden; }
+  .modal .mbanner img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .modal .mhead { padding: 22px 26px 18px; color: #fff; position: relative; }
   .modal .mhead .code { font-size: .78rem; font-weight: 700; opacity: .85; letter-spacing: .05em; }
   .modal .mhead h2 { margin: 4px 0 3px; font-size: 1.4rem; line-height: 1.25; }
@@ -135,14 +149,17 @@
 
   footer.pg { max-width: 1180px; margin: 0 auto; padding: 0 22px 40px; color: var(--muted); font-size: .8rem; }
 
-  @media (max-width: 860px) {
+  @media (max-width: 1180px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 980px) {
     .layout { grid-template-columns: 1fr; }
     aside { position: static; }
     .nav { display: flex; overflow-x: auto; gap: 4px; }
     .nav-group { min-width: max-content; }
     .sublist { display: none; }
-    .twocol { grid-template-columns: 1fr; }
+    .grid { grid-template-columns: repeat(3, 1fr); }
   }
+  @media (max-width: 720px) { .grid { grid-template-columns: repeat(2, 1fr); } .twocol { grid-template-columns: 1fr; } }
+  @media (max-width: 440px) { .grid { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -253,16 +270,35 @@
   }
 
   // -------- Cards --------
+  var CLICK_HINT = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M9 11.5V5.5a2 2 0 114 0v6m0-2a2 2 0 114 0v2m-4 0a2 2 0 114 0m-8 0v-1a2 2 0 10-4 0v3a7 7 0 007 7h1a7 7 0 007-7v-2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> Vuelve a hacer clic para ver la ficha completa';
   function cardHTML(d) {
-    return '<article class="card" data-code="'+esc(d.codigo)+'" style="border-top-color:'+gcolor(d.grupo)+'">'
-      + '<span class="code" style="color:'+gcolor(d.grupo)+'">'+esc(d.codigo)+' · '+esc(d.subgrupo_nombre||"")+'</span>'
-      + '<h3>'+esc(d.titulo)+'</h3>'
-      + '<p>'+esc(d.descripcion)+'</p>'
-      + '<div class="chips">'
-      +   '<span class="chip">Impacto <b>'+esc(d.impacto)+'</b></span>'
-      +   '<span class="chip">Coste <b>'+esc(d.coste)+'</b></span>'
-      +   '<span class="chip">Plazo <b>'+esc(d.plazo)+'</b></span>'
+    var col = gcolor(d.grupo);
+    var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
+    return '<article class="card" data-code="'+esc(d.codigo)+'" style="border-top-color:'+col+'">'
+      + '<div class="thumb">'
+      +   '<span class="badge" style="background:'+col+'">'+esc(d.codigo)+'</span>'
+      +   '<img src="'+img+'" alt="'+esc(d.titulo)+'" loading="lazy" '
+      +        'onerror="this.style.display=\'none\';this.parentNode.style.background=\''+col+'\'">'
+      + '</div>'
+      + '<div class="body">'
+      +   '<span class="sub">'+esc(d.subgrupo_nombre||"")+'</span>'
+      +   '<h3>'+esc(d.titulo)+'</h3>'
+      +   '<p>'+esc(d.descripcion)+'</p>'
+      +   '<div class="chips">'
+      +     '<span class="chip">Impacto <b>'+esc(d.impacto)+'</b></span>'
+      +     '<span class="chip">Coste <b>'+esc(d.coste)+'</b></span>'
+      +     '<span class="chip">Plazo <b>'+esc(d.plazo)+'</b></span>'
+      +   '</div>'
+      +   '<span class="hint">'+CLICK_HINT+'</span>'
       + '</div></article>';
+  }
+
+  // clic 1 = expandir (foto + descripción); clic 2 = abrir modal
+  function onCardClick(card) {
+    var code = card.getAttribute("data-code");
+    if (card.classList.contains("expanded")) { openModal(code); return; }
+    grid.querySelectorAll(".card.expanded").forEach(function (c) { c.classList.remove("expanded"); });
+    card.classList.add("expanded");
   }
 
   function render() {
@@ -298,7 +334,7 @@
     });
     grid.innerHTML = html;
     grid.querySelectorAll(".card").forEach(function (c) {
-      c.addEventListener("click", function () { openModal(c.getAttribute("data-code")); });
+      c.addEventListener("click", function () { onCardClick(c); });
     });
   }
 
@@ -322,8 +358,10 @@
     if (!d) return;
     var col = gcolor(d.grupo);
     var fname = "data/estrategias/" + d.codigo.replace(/\./g, "-") + ".json";
+    var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
     modal.innerHTML =
-      '<div class="mhead" style="background:linear-gradient(135deg,'+col+', color-mix(in srgb,'+col+' 78%, #000))">'
+      '<div class="mbanner" style="background:'+col+'"><img src="'+img+'" alt="'+esc(d.titulo)+'" onerror="this.style.display=\'none\'"></div>'
+      + '<div class="mhead" style="background:linear-gradient(135deg,'+col+', color-mix(in srgb,'+col+' 78%, #000))">'
       + '<button class="close" aria-label="Cerrar">&times;</button>'
       + '<div class="code">'+esc(d.grupo)+' · '+esc(GRUPOS[d.grupo].nombre)+'</div>'
       + '<h2>'+esc(d.codigo)+' · '+esc(d.titulo)+'</h2>'

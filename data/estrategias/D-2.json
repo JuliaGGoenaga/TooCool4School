@@ -1,9 +1,11 @@
 {
   "codigo": "D.2",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.2",
   "subgrupo_nombre": "Climatización",
   "titulo": "Climatización puntual por zonas",
+  "imagen": "assets/img/D-2.svg",
   "impacto": "Alto (en el espacio intervenido)",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
@@ -36,6 +38,5 @@
     "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
     "Aerotermia con unidades interiores en espacios críticos.",
     "Termostatos y control zonal integrados con la gestión del centro."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

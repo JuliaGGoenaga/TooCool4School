@@ -1,9 +1,11 @@
 {
   "codigo": "D.3",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.3",
   "subgrupo_nombre": "Energía",
   "titulo": "Instalación solar fotovoltaica en cubierta",
+  "imagen": "assets/img/D-3.svg",
   "impacto": "Alto (donde se climatiza); indirecto",
   "coste": "Medio-alto",
   "plazo": "Medio plazo",
@@ -36,6 +38,5 @@
     "Estructuras de cubierta coplanar o con inclinación (lastradas para cubierta plana).",
     "Sistemas de monitorización de producción y autoconsumo.",
     "Baterías de almacenamiento para desplazar consumo (opcional)."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

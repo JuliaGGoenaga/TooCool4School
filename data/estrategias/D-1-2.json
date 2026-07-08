@@ -1,9 +1,11 @@
 {
   "codigo": "D.1.2",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.1",
   "subgrupo_nombre": "Ventilación",
   "titulo": "Extracción forzada en aseos",
+  "imagen": "assets/img/D-1-2.svg",
   "impacto": "Bajo directo (medio si apoya purga)",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Cajas de extracción con control por humedad o presencia.",
     "Rejillas de transferencia para entrada de aire controlada.",
     "Sistemas de extracción con variador de caudal."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

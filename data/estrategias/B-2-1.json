@@ -1,9 +1,11 @@
 {
   "codigo": "B.2.1",
   "grupo": "B",
+  "grupo_nombre": "Pasiva envolvente",
   "subgrupo": "B.2",
   "subgrupo_nombre": "Cubierta",
   "titulo": "Cubierta fría / reflectante",
+  "imagen": "assets/img/B-2-1.svg",
   "impacto": "Medio-alto",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
@@ -36,6 +38,5 @@
     "Pinturas y revestimientos elastoméricos reflectantes 'cool roof'.",
     "Impermeabilizaciones líquidas de poliuretano con acabado claro.",
     "Áridos o láminas claras sobre cubiertas invertidas."
-  ],
-  "grupo_nombre": "Pasiva envolvente"
+  ]
 }

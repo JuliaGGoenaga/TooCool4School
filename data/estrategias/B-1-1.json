@@ -1,9 +1,11 @@
 {
   "codigo": "B.1.1",
   "grupo": "B",
+  "grupo_nombre": "Pasiva envolvente",
   "subgrupo": "B.1",
   "subgrupo_nombre": "Huecos",
   "titulo": "Protección solar exterior",
+  "imagen": "assets/img/B-1-1.svg",
   "impacto": "Alto",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Persianas exteriores tipo screen y venecianas exteriores (Warema, Llaza).",
     "Toldos verticales y estores exteriores con tejido técnico (Serge Ferrari Soltis).",
     "Celosías fijas de lamas, cerámica o materiales compuestos como parasol de fachada."
-  ],
-  "grupo_nombre": "Pasiva envolvente"
+  ]
 }

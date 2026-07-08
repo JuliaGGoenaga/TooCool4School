@@ -1,9 +1,11 @@
 {
   "codigo": "B.1.3",
   "grupo": "B",
+  "grupo_nombre": "Pasiva envolvente",
   "subgrupo": "B.1",
   "subgrupo_nombre": "Huecos",
   "titulo": "Mejora de carpinterías y vidrios",
+  "imagen": "assets/img/B-1-3.svg",
   "impacto": "Medio",
   "coste": "Medio-alto",
   "plazo": "Medio plazo",
@@ -36,6 +38,5 @@
     "Vidrios de control solar y baja emisividad (Guardian SunGuard, Saint-Gobain COOL-LITE, AGC Stopray).",
     "Sistemas oscilobatientes con limitadores de apertura para seguridad infantil.",
     "Aireadores/microventilación integrados en carpintería para renovación de aire."
-  ],
-  "grupo_nombre": "Pasiva envolvente"
+  ]
 }

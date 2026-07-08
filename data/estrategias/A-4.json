@@ -1,9 +1,11 @@
 {
   "codigo": "A.4",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.4",
   "subgrupo_nombre": "Refugios climáticos",
   "titulo": "Refugios climáticos exteriores",
+  "imagen": "assets/img/A-4.svg",
   "impacto": "Alto",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Fuentes de agua potable y micronebulización de bajo consumo.",
     "Combinación de velas de sombra (A.1) con jardineras y arbolado (A.2).",
     "Suelos frescos/permeables (A.3) y puntos de agua integrados."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

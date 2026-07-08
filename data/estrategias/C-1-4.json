@@ -1,9 +1,11 @@
 {
   "codigo": "C.1.4",
   "grupo": "C",
+  "grupo_nombre": "Pasiva interior",
   "subgrupo": "C.1",
   "subgrupo_nombre": "Uso",
   "titulo": "Gestión de protecciones solares y cargas internas controlables",
+  "imagen": "assets/img/C-1-4.svg",
   "impacto": "Bajo-medio",
   "coste": "Bajo",
   "plazo": "Inmediato",
@@ -36,6 +38,5 @@
     "Luminarias LED con regulación y sensor de luz natural (daylighting).",
     "Instrucciones/etiquetas de gestión de persianas y equipos.",
     "Enchufes inteligentes para desconexión de cargas en reposo."
-  ],
-  "grupo_nombre": "Pasiva interior"
+  ]
 }

@@ -4,9 +4,11 @@ window.ESTRATEGIAS = [
   {
     "codigo": "A.1",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.1",
     "subgrupo_nombre": "Sombra",
     "titulo": "Sombra ligera en patios",
+    "imagen": "assets/img/A-1.svg",
     "impacto": "Alto",
     "coste": "Bajo-medio",
     "plazo": "Inmediato",
@@ -39,15 +41,16 @@ window.ESTRATEGIAS = [
       "Toldos técnicos con lona acrílica solución teñida (Serge Ferrari Soltis, Sattler, Dickson Orchestra).",
       "Pérgolas ligeras de aluminio o madera con cubrición textil o lamas.",
       "Sistemas modulares desmontables tipo carpa/estructura efímera para sombra estacional."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "A.2",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.2",
     "subgrupo_nombre": "Vegetación",
     "titulo": "Renaturalización y arbolado",
+    "imagen": "assets/img/A-2.svg",
     "impacto": "Medio-alto",
     "coste": "Medio",
     "plazo": "Medio plazo",
@@ -80,15 +83,16 @@ window.ESTRATEGIAS = [
       "Jardineras y parterres de gran formato prefabricados (hormigón, corten, madera tratada).",
       "Sistemas de anclaje/entutorado y protectores de tronco para arbolado joven.",
       "Sustratos estructurales y celdas de aireación radicular tipo Silva Cell / Stratacell para arbolado en pavimento."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "A.3.1",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.3",
     "subgrupo_nombre": "Pavimentos",
     "titulo": "Sustitución de asfalto por pavimento permeable",
+    "imagen": "assets/img/A-3-1.svg",
     "impacto": "Medio-alto",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
@@ -121,15 +125,16 @@ window.ESTRATEGIAS = [
       "Terrizos estabilizados con ligantes (Aripaq, Stabex y similares).",
       "Adoquines y celdas de césped/grava permeables (TTE, Ritter, adoquín ecológico).",
       "Baldosas y aglomerados de alta reflectancia (colores claros, SRI elevado)."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "A.3.2",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.3",
     "subgrupo_nombre": "Pavimentos",
     "titulo": "Cambio de reflectancias de las superficies de patios y cubiertas",
+    "imagen": "assets/img/A-3-2.svg",
     "impacto": "Medio-alto",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -162,15 +167,16 @@ window.ESTRATEGIAS = [
       "Revestimientos acrílicos reflectantes para pavimento (colores claros de alto índice de reflectancia solar).",
       "Áridos y morteros claros para acabados de patio.",
       "Membranas de cubierta de PVC/TPO de color claro con SRI certificado."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "A.4",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.4",
     "subgrupo_nombre": "Refugios climáticos",
     "titulo": "Refugios climáticos exteriores",
+    "imagen": "assets/img/A-4.svg",
     "impacto": "Alto",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -203,15 +209,16 @@ window.ESTRATEGIAS = [
       "Fuentes de agua potable y micronebulización de bajo consumo.",
       "Combinación de velas de sombra (A.1) con jardineras y arbolado (A.2).",
       "Suelos frescos/permeables (A.3) y puntos de agua integrados."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "A.5.1",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.5",
     "subgrupo_nombre": "Agua",
     "titulo": "Drenaje verde",
+    "imagen": "assets/img/A-5-1.svg",
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
@@ -244,15 +251,16 @@ window.ESTRATEGIAS = [
       "Celdas de infiltración/retención enterradas (tipo Aquacell, Wavin Q-Bic).",
       "Pavimentos drenantes combinados con áreas vegetadas.",
       "Depósitos de laminación y recogida de pluviales para riego."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "A.5.2",
     "grupo": "A",
+    "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.5",
     "subgrupo_nombre": "Agua",
     "titulo": "Infraestructuras de agua",
+    "imagen": "assets/img/A-5-2.svg",
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
@@ -285,15 +293,16 @@ window.ESTRATEGIAS = [
       "Sistemas de micronebulización de baja presión de bajo consumo.",
       "Depósitos de recogida de pluviales y grupos de riego (tipo Graf, Remosa).",
       "Láminas de agua o juegos de agua de poca profundidad con recirculación controlada."
-    ],
-    "grupo_nombre": "Pasiva exterior"
+    ]
   },
   {
     "codigo": "B.1.1",
     "grupo": "B",
+    "grupo_nombre": "Pasiva envolvente",
     "subgrupo": "B.1",
     "subgrupo_nombre": "Huecos",
     "titulo": "Protección solar exterior",
+    "imagen": "assets/img/B-1-1.svg",
     "impacto": "Alto",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -326,15 +335,16 @@ window.ESTRATEGIAS = [
       "Persianas exteriores tipo screen y venecianas exteriores (Warema, Llaza).",
       "Toldos verticales y estores exteriores con tejido técnico (Serge Ferrari Soltis).",
       "Celosías fijas de lamas, cerámica o materiales compuestos como parasol de fachada."
-    ],
-    "grupo_nombre": "Pasiva envolvente"
+    ]
   },
   {
     "codigo": "B.1.2",
     "grupo": "B",
+    "grupo_nombre": "Pasiva envolvente",
     "subgrupo": "B.1",
     "subgrupo_nombre": "Huecos",
     "titulo": "Protección solar interior",
+    "imagen": "assets/img/B-1-2.svg",
     "impacto": "Bajo-medio",
     "coste": "Bajo",
     "plazo": "Inmediato",
@@ -367,15 +377,16 @@ window.ESTRATEGIAS = [
       "Cortinas técnicas y paneles japoneses de tejido solar.",
       "Films solares de control solar para vidrio (3M, Solar Gard, LLumar).",
       "Lamas interiores de aluminio orientables."
-    ],
-    "grupo_nombre": "Pasiva envolvente"
+    ]
   },
   {
     "codigo": "B.1.3",
     "grupo": "B",
+    "grupo_nombre": "Pasiva envolvente",
     "subgrupo": "B.1",
     "subgrupo_nombre": "Huecos",
     "titulo": "Mejora de carpinterías y vidrios",
+    "imagen": "assets/img/B-1-3.svg",
     "impacto": "Medio",
     "coste": "Medio-alto",
     "plazo": "Medio plazo",
@@ -408,15 +419,16 @@ window.ESTRATEGIAS = [
       "Vidrios de control solar y baja emisividad (Guardian SunGuard, Saint-Gobain COOL-LITE, AGC Stopray).",
       "Sistemas oscilobatientes con limitadores de apertura para seguridad infantil.",
       "Aireadores/microventilación integrados en carpintería para renovación de aire."
-    ],
-    "grupo_nombre": "Pasiva envolvente"
+    ]
   },
   {
     "codigo": "B.2.1",
     "grupo": "B",
+    "grupo_nombre": "Pasiva envolvente",
     "subgrupo": "B.2",
     "subgrupo_nombre": "Cubierta",
     "titulo": "Cubierta fría / reflectante",
+    "imagen": "assets/img/B-2-1.svg",
     "impacto": "Medio-alto",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
@@ -449,15 +461,16 @@ window.ESTRATEGIAS = [
       "Pinturas y revestimientos elastoméricos reflectantes 'cool roof'.",
       "Impermeabilizaciones líquidas de poliuretano con acabado claro.",
       "Áridos o láminas claras sobre cubiertas invertidas."
-    ],
-    "grupo_nombre": "Pasiva envolvente"
+    ]
   },
   {
     "codigo": "B.2.2",
     "grupo": "B",
+    "grupo_nombre": "Pasiva envolvente",
     "subgrupo": "B.2",
     "subgrupo_nombre": "Cubierta",
     "titulo": "Cubierta vegetal / parterres",
+    "imagen": "assets/img/B-2-2.svg",
     "impacto": "Medio-alto",
     "coste": "Medio-alto",
     "plazo": "Medio plazo",
@@ -490,15 +503,16 @@ window.ESTRATEGIAS = [
       "Sustratos ligeros y mantas de sedum precultivadas.",
       "Láminas antirraíces y capas drenantes/retenedoras de agua.",
       "Parterres y jardineras técnicas para ajardinamiento parcial de cubierta."
-    ],
-    "grupo_nombre": "Pasiva envolvente"
+    ]
   },
   {
     "codigo": "B.3",
     "grupo": "B",
+    "grupo_nombre": "Pasiva envolvente",
     "subgrupo": "B.3",
     "subgrupo_nombre": "Cerramientos",
     "titulo": "Aislamiento selectivo",
+    "imagen": "assets/img/B-3.svg",
     "impacto": "Medio-alto",
     "coste": "Medio",
     "plazo": "Medio plazo",
@@ -531,15 +545,16 @@ window.ESTRATEGIAS = [
       "Sistemas SATE de fachada (Sto, Baumit, Weber) con acabado claro.",
       "Fachadas ventiladas con cámara y aislamiento continuo.",
       "Insuflado de aislamiento en cámaras de fachada existentes."
-    ],
-    "grupo_nombre": "Pasiva envolvente"
+    ]
   },
   {
     "codigo": "C.1.1",
     "grupo": "C",
+    "grupo_nombre": "Pasiva interior",
     "subgrupo": "C.1",
     "subgrupo_nombre": "Uso",
     "titulo": "Protocolo de ventilación natural",
+    "imagen": "assets/img/C-1-1.svg",
     "impacto": "Medio-alto",
     "coste": "Bajo",
     "plazo": "Inmediato",
@@ -572,15 +587,16 @@ window.ESTRATEGIAS = [
       "Termómetros/indicadores de referencia en aula para decidir apertura.",
       "Limitadores de apertura y sistemas de seguridad en ventanas.",
       "Guías de operación para el personal del centro."
-    ],
-    "grupo_nombre": "Pasiva interior"
+    ]
   },
   {
     "codigo": "C.1.2",
     "grupo": "C",
+    "grupo_nombre": "Pasiva interior",
     "subgrupo": "C.1",
     "subgrupo_nombre": "Uso",
     "titulo": "Ventilación nocturna",
+    "imagen": "assets/img/C-1-2.svg",
     "impacto": "Medio-alto",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -613,15 +629,16 @@ window.ESTRATEGIAS = [
       "Rejillas de ventilación antiintrusión y seguras.",
       "Sensores de lluvia y viento para cierre automático.",
       "Sistemas de ventilación natural automatizada (NV) con actuadores."
-    ],
-    "grupo_nombre": "Pasiva interior"
+    ]
   },
   {
     "codigo": "C.1.3",
     "grupo": "C",
+    "grupo_nombre": "Pasiva interior",
     "subgrupo": "C.1",
     "subgrupo_nombre": "Uso",
     "titulo": "Redistribución de usos",
+    "imagen": "assets/img/C-1-3.svg",
     "impacto": "Medio",
     "coste": "Bajo",
     "plazo": "Inmediato",
@@ -653,15 +670,16 @@ window.ESTRATEGIAS = [
       "Protocolos y planes de contingencia por episodio de calor.",
       "Reasignación de horarios y espacios (biblioteca, gimnasio, aulas norte).",
       "Señalización de espacios refugio interior."
-    ],
-    "grupo_nombre": "Pasiva interior"
+    ]
   },
   {
     "codigo": "C.1.4",
     "grupo": "C",
+    "grupo_nombre": "Pasiva interior",
     "subgrupo": "C.1",
     "subgrupo_nombre": "Uso",
     "titulo": "Gestión de protecciones solares y cargas internas controlables",
+    "imagen": "assets/img/C-1-4.svg",
     "impacto": "Bajo-medio",
     "coste": "Bajo",
     "plazo": "Inmediato",
@@ -694,15 +712,16 @@ window.ESTRATEGIAS = [
       "Luminarias LED con regulación y sensor de luz natural (daylighting).",
       "Instrucciones/etiquetas de gestión de persianas y equipos.",
       "Enchufes inteligentes para desconexión de cargas en reposo."
-    ],
-    "grupo_nombre": "Pasiva interior"
+    ]
   },
   {
     "codigo": "C.2",
     "grupo": "C",
+    "grupo_nombre": "Pasiva interior",
     "subgrupo": "C.2",
     "subgrupo_nombre": "Monitorización",
     "titulo": "Monitorización de Tª, HR y CO₂",
+    "imagen": "assets/img/C-2.svg",
     "impacto": "Indirecto (alto para diagnóstico)",
     "coste": "Bajo",
     "plazo": "Inmediato",
@@ -735,15 +754,16 @@ window.ESTRATEGIAS = [
       "Medidores/semáforos de CO₂ de aula (Aranet4, Rotronic, Wöhler).",
       "Estaciones de calidad de aire interior con plataforma (uHoo, Airthings, Kaiterra).",
       "Sensores IoT con registro en la nube para seguimiento continuo."
-    ],
-    "grupo_nombre": "Pasiva interior"
+    ]
   },
   {
     "codigo": "D.1.1",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.1",
     "subgrupo_nombre": "Ventilación",
     "titulo": "Ventiladores de apoyo",
+    "imagen": "assets/img/D-1-1.svg",
     "impacto": "Medio (sensación térmica)",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -776,15 +796,16 @@ window.ESTRATEGIAS = [
       "Ventiladores industriales HVLS de gran diámetro para gimnasios/comedores.",
       "Ventiladores de pared oscilantes de bajo nivel sonoro.",
       "Control de velocidad y temporización integrado."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   },
   {
     "codigo": "D.1.2",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.1",
     "subgrupo_nombre": "Ventilación",
     "titulo": "Extracción forzada en aseos",
+    "imagen": "assets/img/D-1-2.svg",
     "impacto": "Bajo directo (medio si apoya purga)",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -817,15 +838,16 @@ window.ESTRATEGIAS = [
       "Cajas de extracción con control por humedad o presencia.",
       "Rejillas de transferencia para entrada de aire controlada.",
       "Sistemas de extracción con variador de caudal."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   },
   {
     "codigo": "D.1.3",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.1",
     "subgrupo_nombre": "Ventilación",
     "titulo": "Mejora de ventilación mecánica existente",
+    "imagen": "assets/img/D-1-3.svg",
     "impacto": "Bajo-medio (alto en calidad de aire)",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -858,15 +880,16 @@ window.ESTRATEGIAS = [
       "Sondas de CO₂ y controladores para regulación por demanda.",
       "Filtros de recambio y kits de equilibrado de caudales.",
       "Servicios de comisionado y ajuste (retrocommissioning) de la instalación."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   },
   {
     "codigo": "D.1.4",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.1",
     "subgrupo_nombre": "Ventilación",
     "titulo": "Ventilación híbrida",
+    "imagen": "assets/img/D-1-4.svg",
     "impacto": "Medio-alto",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
@@ -899,15 +922,16 @@ window.ESTRATEGIAS = [
       "Ventiladores de impulsión/extracción de bajo consumo integrados con aperturas naturales.",
       "Actuadores de ventana y sensores de CO₂/temperatura/lluvia.",
       "Controladores de ventilación natural automatizada (aNV)."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   },
   {
     "codigo": "D.2",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.2",
     "subgrupo_nombre": "Climatización",
     "titulo": "Climatización puntual por zonas",
+    "imagen": "assets/img/D-2.svg",
     "impacto": "Alto (en el espacio intervenido)",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
@@ -940,15 +964,16 @@ window.ESTRATEGIAS = [
       "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
       "Aerotermia con unidades interiores en espacios críticos.",
       "Termostatos y control zonal integrados con la gestión del centro."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   },
   {
     "codigo": "D.3",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.3",
     "subgrupo_nombre": "Energía",
     "titulo": "Instalación solar fotovoltaica en cubierta",
+    "imagen": "assets/img/D-3.svg",
     "impacto": "Alto (donde se climatiza); indirecto",
     "coste": "Medio-alto",
     "plazo": "Medio plazo",
@@ -981,15 +1006,16 @@ window.ESTRATEGIAS = [
       "Estructuras de cubierta coplanar o con inclinación (lastradas para cubierta plana).",
       "Sistemas de monitorización de producción y autoconsumo.",
       "Baterías de almacenamiento para desplazar consumo (opcional)."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   },
   {
     "codigo": "D.4",
     "grupo": "D",
+    "grupo_nombre": "Activa",
     "subgrupo": "D.4",
     "subgrupo_nombre": "Control",
     "titulo": "Sensores y automatización",
+    "imagen": "assets/img/D-4.svg",
     "impacto": "Indirecto (medio-alto si gobierna sistemas)",
     "coste": "Bajo-medio",
     "plazo": "Corto plazo",
@@ -1022,7 +1048,6 @@ window.ESTRATEGIAS = [
       "Controladores de ventilación y compuertas por CO₂/temperatura.",
       "Sistemas BEMS/BMS de gestión del edificio (KNX, Loxone, Siemens Desigo).",
       "Detectores de presencia y control horario para iluminación y equipos."
-    ],
-    "grupo_nombre": "Activa"
+    ]
   }
 ];

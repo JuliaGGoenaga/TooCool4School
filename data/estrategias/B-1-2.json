@@ -1,9 +1,11 @@
 {
   "codigo": "B.1.2",
   "grupo": "B",
+  "grupo_nombre": "Pasiva envolvente",
   "subgrupo": "B.1",
   "subgrupo_nombre": "Huecos",
   "titulo": "Protección solar interior",
+  "imagen": "assets/img/B-1-2.svg",
   "impacto": "Bajo-medio",
   "coste": "Bajo",
   "plazo": "Inmediato",
@@ -36,6 +38,5 @@
     "Cortinas técnicas y paneles japoneses de tejido solar.",
     "Films solares de control solar para vidrio (3M, Solar Gard, LLumar).",
     "Lamas interiores de aluminio orientables."
-  ],
-  "grupo_nombre": "Pasiva envolvente"
+  ]
 }

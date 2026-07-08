@@ -1,9 +1,11 @@
 {
   "codigo": "A.2",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.2",
   "subgrupo_nombre": "Vegetación",
   "titulo": "Renaturalización y arbolado",
+  "imagen": "assets/img/A-2.svg",
   "impacto": "Medio-alto",
   "coste": "Medio",
   "plazo": "Medio plazo",
@@ -36,6 +38,5 @@
     "Jardineras y parterres de gran formato prefabricados (hormigón, corten, madera tratada).",
     "Sistemas de anclaje/entutorado y protectores de tronco para arbolado joven.",
     "Sustratos estructurales y celdas de aireación radicular tipo Silva Cell / Stratacell para arbolado en pavimento."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

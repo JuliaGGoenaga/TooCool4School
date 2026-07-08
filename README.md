@@ -12,10 +12,14 @@ También puede publicarse tal cual en **GitHub Pages** (Settings → Pages → r
 
 ## Funciones de la app
 
+- **Rejilla de 4 columnas** con una **imagen por estrategia**, ordenada de lo general (A, pasivas exteriores) a lo particular (D, activas).
+- **Interacción en dos fases:**
+  - *1er clic* en una tarjeta → se expande y muestra **foto + descripción** y las etiquetas (impacto, coste, plazo).
+  - *2º clic* → abre el **modal con la ficha completa**.
 - **Buscador** por texto (título, descripción, materiales, criterios, referencias…).
 - **Filtros** por grupo (A/B/C/D), impacto y coste.
 - **Navegación lateral** por categorías y subcategorías.
-- **Ficha detallada** (modal) con todos los apartados. El enlace incluye el código (`index.html#B.2.1`) para compartir una estrategia concreta.
+- El enlace del modal incluye el código (`index.html#B.2.1`) para compartir una estrategia concreta.
 
 ## Estructura del catálogo
 
@@ -69,14 +73,34 @@ También puede publicarse tal cual en **GitHub Pages** (Settings → Pages → r
 ```
 
 > El campo `grupo_nombre` se rellena solo al construir; no hace falta escribirlo.
+> El campo `imagen` apunta a la ilustración de la estrategia (ver abajo).
+
+## Imágenes
+
+Cada estrategia tiene una ilustración en `assets/img/` (p. ej. `assets/img/B-2-1.svg`),
+generadas con `build_imagenes.py`. Son **SVG** ligeros y coloreados por grupo; sirven
+como imagen de partida sin problemas de licencia.
+
+### Poner una foto real en una estrategia
+
+1. Guarda tu foto en `assets/img/` (p. ej. `assets/img/B-2-1.jpg`).
+2. En la ficha `data/estrategias/B-2-1.json`, cambia el campo `imagen`:
+   ```json
+   "imagen": "assets/img/B-2-1.jpg"
+   ```
+3. Ejecuta `python3 build.py` y recarga la app.
+
+Si una imagen no carga, la tarjeta muestra un fondo del color del grupo (no rompe la app).
 
 ## Archivos del proyecto
 
 ```
 index.html              La app (HTML + CSS + JS, sin dependencias)
 build.py                Genera data/estrategias.js a partir de las fichas
+build_imagenes.py       Genera las ilustraciones SVG de assets/img/
 data/estrategias/*.json Una ficha editable por estrategia (fuente de la verdad)
 data/estrategias.js     Bundle generado que carga la app (no editar a mano)
+assets/img/*.svg        Una ilustración por estrategia (sustituible por fotos)
 ```
 
 ## Nota sobre el contenido

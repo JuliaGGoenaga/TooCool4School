@@ -1,9 +1,11 @@
 {
   "codigo": "A.3.2",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.3",
   "subgrupo_nombre": "Pavimentos",
   "titulo": "Cambio de reflectancias de las superficies de patios y cubiertas",
+  "imagen": "assets/img/A-3-2.svg",
   "impacto": "Medio-alto",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Revestimientos acrílicos reflectantes para pavimento (colores claros de alto índice de reflectancia solar).",
     "Áridos y morteros claros para acabados de patio.",
     "Membranas de cubierta de PVC/TPO de color claro con SRI certificado."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

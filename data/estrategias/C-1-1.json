@@ -1,9 +1,11 @@
 {
   "codigo": "C.1.1",
   "grupo": "C",
+  "grupo_nombre": "Pasiva interior",
   "subgrupo": "C.1",
   "subgrupo_nombre": "Uso",
   "titulo": "Protocolo de ventilación natural",
+  "imagen": "assets/img/C-1-1.svg",
   "impacto": "Medio-alto",
   "coste": "Bajo",
   "plazo": "Inmediato",
@@ -36,6 +38,5 @@
     "Termómetros/indicadores de referencia en aula para decidir apertura.",
     "Limitadores de apertura y sistemas de seguridad en ventanas.",
     "Guías de operación para el personal del centro."
-  ],
-  "grupo_nombre": "Pasiva interior"
+  ]
 }

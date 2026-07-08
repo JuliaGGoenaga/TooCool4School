@@ -1,9 +1,11 @@
 {
   "codigo": "A.1",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.1",
   "subgrupo_nombre": "Sombra",
   "titulo": "Sombra ligera en patios",
+  "imagen": "assets/img/A-1.svg",
   "impacto": "Alto",
   "coste": "Bajo-medio",
   "plazo": "Inmediato",
@@ -36,6 +38,5 @@
     "Toldos técnicos con lona acrílica solución teñida (Serge Ferrari Soltis, Sattler, Dickson Orchestra).",
     "Pérgolas ligeras de aluminio o madera con cubrición textil o lamas.",
     "Sistemas modulares desmontables tipo carpa/estructura efímera para sombra estacional."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

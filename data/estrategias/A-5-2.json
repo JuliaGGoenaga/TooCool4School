@@ -1,9 +1,11 @@
 {
   "codigo": "A.5.2",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.5",
   "subgrupo_nombre": "Agua",
   "titulo": "Infraestructuras de agua",
+  "imagen": "assets/img/A-5-2.svg",
   "impacto": "Medio",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
@@ -36,6 +38,5 @@
     "Sistemas de micronebulización de baja presión de bajo consumo.",
     "Depósitos de recogida de pluviales y grupos de riego (tipo Graf, Remosa).",
     "Láminas de agua o juegos de agua de poca profundidad con recirculación controlada."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

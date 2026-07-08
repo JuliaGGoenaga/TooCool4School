@@ -1,9 +1,11 @@
 {
   "codigo": "D.1.4",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.1",
   "subgrupo_nombre": "Ventilación",
   "titulo": "Ventilación híbrida",
+  "imagen": "assets/img/D-1-4.svg",
   "impacto": "Medio-alto",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
@@ -36,6 +38,5 @@
     "Ventiladores de impulsión/extracción de bajo consumo integrados con aperturas naturales.",
     "Actuadores de ventana y sensores de CO₂/temperatura/lluvia.",
     "Controladores de ventilación natural automatizada (aNV)."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

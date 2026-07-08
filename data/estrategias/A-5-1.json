@@ -1,9 +1,11 @@
 {
   "codigo": "A.5.1",
   "grupo": "A",
+  "grupo_nombre": "Pasiva exterior",
   "subgrupo": "A.5",
   "subgrupo_nombre": "Agua",
   "titulo": "Drenaje verde",
+  "imagen": "assets/img/A-5-1.svg",
   "impacto": "Medio",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
@@ -36,6 +38,5 @@
     "Celdas de infiltración/retención enterradas (tipo Aquacell, Wavin Q-Bic).",
     "Pavimentos drenantes combinados con áreas vegetadas.",
     "Depósitos de laminación y recogida de pluviales para riego."
-  ],
-  "grupo_nombre": "Pasiva exterior"
+  ]
 }

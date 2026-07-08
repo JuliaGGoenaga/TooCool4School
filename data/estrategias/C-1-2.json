@@ -1,9 +1,11 @@
 {
   "codigo": "C.1.2",
   "grupo": "C",
+  "grupo_nombre": "Pasiva interior",
   "subgrupo": "C.1",
   "subgrupo_nombre": "Uso",
   "titulo": "Ventilación nocturna",
+  "imagen": "assets/img/C-1-2.svg",
   "impacto": "Medio-alto",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Rejillas de ventilación antiintrusión y seguras.",
     "Sensores de lluvia y viento para cierre automático.",
     "Sistemas de ventilación natural automatizada (NV) con actuadores."
-  ],
-  "grupo_nombre": "Pasiva interior"
+  ]
 }

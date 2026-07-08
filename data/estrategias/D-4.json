@@ -1,9 +1,11 @@
 {
   "codigo": "D.4",
   "grupo": "D",
+  "grupo_nombre": "Activa",
   "subgrupo": "D.4",
   "subgrupo_nombre": "Control",
   "titulo": "Sensores y automatización",
+  "imagen": "assets/img/D-4.svg",
   "impacto": "Indirecto (medio-alto si gobierna sistemas)",
   "coste": "Bajo-medio",
   "plazo": "Corto plazo",
@@ -36,6 +38,5 @@
     "Controladores de ventilación y compuertas por CO₂/temperatura.",
     "Sistemas BEMS/BMS de gestión del edificio (KNX, Loxone, Siemens Desigo).",
     "Detectores de presencia y control horario para iluminación y equipos."
-  ],
-  "grupo_nombre": "Activa"
+  ]
 }

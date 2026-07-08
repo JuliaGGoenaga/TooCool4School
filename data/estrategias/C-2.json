@@ -1,9 +1,11 @@
 {
   "codigo": "C.2",
   "grupo": "C",
+  "grupo_nombre": "Pasiva interior",
   "subgrupo": "C.2",
   "subgrupo_nombre": "Monitorización",
   "titulo": "Monitorización de Tª, HR y CO₂",
+  "imagen": "assets/img/C-2.svg",
   "impacto": "Indirecto (alto para diagnóstico)",
   "coste": "Bajo",
   "plazo": "Inmediato",
@@ -36,6 +38,5 @@
     "Medidores/semáforos de CO₂ de aula (Aranet4, Rotronic, Wöhler).",
     "Estaciones de calidad de aire interior con plataforma (uHoo, Airthings, Kaiterra).",
     "Sensores IoT con registro en la nube para seguimiento continuo."
-  ],
-  "grupo_nombre": "Pasiva interior"
+  ]
 }

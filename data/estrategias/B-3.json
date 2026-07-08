@@ -1,9 +1,11 @@
 {
   "codigo": "B.3",
   "grupo": "B",
+  "grupo_nombre": "Pasiva envolvente",
   "subgrupo": "B.3",
   "subgrupo_nombre": "Cerramientos",
   "titulo": "Aislamiento selectivo",
+  "imagen": "assets/img/B-3.svg",
   "impacto": "Medio-alto",
   "coste": "Medio",
   "plazo": "Medio plazo",
@@ -36,6 +38,5 @@
     "Sistemas SATE de fachada (Sto, Baumit, Weber) con acabado claro.",
     "Fachadas ventiladas con cámara y aislamiento continuo.",
     "Insuflado de aislamiento en cámaras de fachada existentes."
-  ],
-  "grupo_nombre": "Pasiva envolvente"
+  ]
 }
