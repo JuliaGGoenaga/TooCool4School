@@ -247,10 +247,9 @@ M["C.1.1"] = sun(60, 58) + ground() + (
     '<path d="M132 143 l14 7 l-14 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round"/>'
     '<path d="M60 185 q40 -14 80 0" stroke="{d}" stroke-width="5" fill="none"/>'
     '<path d="M132 178 l14 7 l-14 7" fill="none" stroke="{d}" stroke-width="5" stroke-linecap="round"/>'
-    '<circle cx="400" cy="150" r="30" fill="{p}" stroke="{d}" stroke-width="4"/>'
-    '<line x1="400" y1="150" x2="400" y2="131" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>'
-    '<line x1="400" y1="150" x2="415" y2="159" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>'
-    '<circle cx="400" cy="150" r="3.5" fill="#ffffff"/>'
+    '<circle cx="400" cy="150" r="30" fill="#ffffff" stroke="{d}" stroke-width="4"/>'
+    '<line x1="400" y1="150" x2="400" y2="132" stroke="{d}" stroke-width="4" stroke-linecap="round"/>'
+    '<line x1="400" y1="150" x2="414" y2="158" stroke="{d}" stroke-width="4" stroke-linecap="round"/>'
 )
 
 M["C.1.2"] = (
@@ -262,9 +261,12 @@ M["C.1.2"] = (
     # luna creciente (círculo claro tallado por otro del color del cielo)
     + '<circle cx="402" cy="64" r="30" fill="#eef0dc"/>'
     '<circle cx="390" cy="56" r="27" fill="#1e2c40"/>'
-    # ventana abierta con flujo de aire (purga nocturna)
+    # resplandor cálido de la ventana iluminada (acento del grupo C, naranja)
+    + '<rect x="126" y="72" width="150" height="184" rx="20" fill="{p}" opacity=".28"/>'
+    # ventana abierta con luz interior cálida y flujo de aire (purga nocturna)
     + '<rect x="150" y="96" width="180" height="140" rx="8" fill="#f4f7fb" stroke="#0d1420" stroke-width="4"/>'
-    '<rect x="163" y="109" width="70" height="114" fill="{glass}"/>'
+    '<rect x="163" y="109" width="70" height="114" fill="{p}"/>'
+    '<rect x="163" y="109" width="70" height="114" fill="#ffffff" opacity=".18"/>'
     '<rect x="247" y="109" width="70" height="114" fill="{glass}" opacity=".5"/>'
     '<path d="M247 166 l70 -16 l0 74 l-70 -16z" fill="#cfe0ee"/>'
     # flechas de aire saliendo (claras para verse sobre el cielo)
