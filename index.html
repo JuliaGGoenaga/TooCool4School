@@ -217,12 +217,16 @@
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input id="q" type="search" placeholder="Buscar estrategia, material, criterio…" autocomplete="off">
     </label>
-    <select class="filter" id="fGrupo">
-      <option value="">Todos los grupos</option>
-      <option value="A">A · Pasiva exterior</option>
-      <option value="B">B · Pasiva envolvente</option>
-      <option value="C">C · Pasiva interior</option>
-      <option value="D">D · Activa</option>
+    <select class="filter" id="fTipoImpacto">
+      <option value="">Tipo de impacto (cualquiera)</option>
+      <option value="Mejora microclimática">Microclima</option>
+      <option value="Reducción de la isla de calor urbano">Isla de calor</option>
+      <option value="Reducción de la radiación directa">Radiación directa</option>
+      <option value="Mejora del comportamiento térmico de los materiales">Materiales</option>
+      <option value="Ventilación y disipación del calor">Ventilación</option>
+      <option value="Mejora de las condiciones térmicas interiores">Interior</option>
+      <option value="Control y mejora del uso">Uso</option>
+      <option value="Diagnóstico, control y automatización">Control</option>
     </select>
     <select class="filter" id="fImpacto">
       <option value="">Impacto (cualquiera)</option>
@@ -273,7 +277,7 @@
   var overlay = document.getElementById("overlay");
   var modal = document.getElementById("modal");
   var q = document.getElementById("q");
-  var fGrupo = document.getElementById("fGrupo");
+  var fTipoImpacto = document.getElementById("fTipoImpacto");
   var fImpacto = document.getElementById("fImpacto");
   var fCoste = document.getElementById("fCoste");
 
@@ -372,9 +376,9 @@
 
   function makePass() {
     var term = norm(q.value.trim());
-    var g = fGrupo.value, imp = fImpacto.value, cost = fCoste.value;
+    var tipo = fTipoImpacto.value, imp = fImpacto.value, cost = fCoste.value;
     return function (d) {
-      if (g && d.grupo !== g) return false;
+      if (tipo && (d.tipos_impacto||[]).indexOf(tipo) === -1) return false;
       if (imp && !matchLevel(d.impacto, imp)) return false;
       if (cost && !matchLevel(d.coste, cost)) return false;
       if (term) {
@@ -403,8 +407,7 @@
 
   function renderMedida(pass) {
     board.className = "board";
-    var g = fGrupo.value;
-    var groups = g ? [g] : ["A", "B", "C", "D"];
+    var groups = ["A", "B", "C", "D"];
     var html = "";
     groups.forEach(function (gk) {
       var items = DATA.filter(function (d) { return d.grupo === gk && pass(d); });
@@ -554,9 +557,15 @@
     b.addEventListener("click", function () { setMode(b.getAttribute("data-view")); });
   });
 
-  [q, fGrupo, fImpacto, fCoste].forEach(function (el) {
+  [q, fTipoImpacto, fImpacto, fCoste].forEach(function (el) {
     el.addEventListener("input", render);
     el.addEventListener("change", render);
+  });
+
+  // Un clic fuera de las tarjetas colapsa cualquier tarjeta expandida (sin abrir nada)
+  document.addEventListener("click", function (e) {
+    if (e.target.closest(".bubble")) return;
+    board.querySelectorAll(".bubble.expanded").forEach(function (b) { b.classList.remove("expanded"); });
   });
 
   if (!DATA.length) {
