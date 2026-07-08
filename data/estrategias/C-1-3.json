@@ -37,5 +37,10 @@
     "Protocolos y planes de contingencia por episodio de calor.",
     "Reasignación de horarios y espacios (biblioteca, gimnasio, aulas norte).",
     "Señalización de espacios refugio interior."
-  ]
+  ],
+  "tipos_impacto": [
+    "Control y mejora del uso"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización"
 }

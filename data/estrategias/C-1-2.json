@@ -38,5 +38,11 @@
     "Rejillas de ventilación antiintrusión y seguras.",
     "Sensores de lluvia y viento para cierre automático.",
     "Sistemas de ventilación natural automatizada (NV) con actuadores."
-  ]
+  ],
+  "tipos_impacto": [
+    "Ventilación y disipación del calor",
+    "Control y mejora del uso"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización"
 }

@@ -38,5 +38,10 @@
     "Medidores/semáforos de CO₂ de aula (Aranet4, Rotronic, Wöhler).",
     "Estaciones de calidad de aire interior con plataforma (uHoo, Airthings, Kaiterra).",
     "Sensores IoT con registro en la nube para seguimiento continuo."
-  ]
+  ],
+  "tipos_impacto": [
+    "Diagnóstico, control y automatización"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización"
 }

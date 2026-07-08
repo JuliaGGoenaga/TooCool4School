@@ -38,5 +38,10 @@
     "Sistemas SATE de fachada (Sto, Baumit, Weber) con acabado claro.",
     "Fachadas ventiladas con cámara y aislamiento continuo.",
     "Insuflado de aislamiento en cámaras de fachada existentes."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora del comportamiento térmico de los materiales"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Intervenciones en elementos construidos"
 }

@@ -38,5 +38,11 @@
     "Luminarias LED con regulación y sensor de luz natural (daylighting).",
     "Instrucciones/etiquetas de gestión de persianas y equipos.",
     "Enchufes inteligentes para desconexión de cargas en reposo."
-  ]
+  ],
+  "tipos_impacto": [
+    "Control y mejora del uso",
+    "Reducción de la radiación directa"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización"
 }

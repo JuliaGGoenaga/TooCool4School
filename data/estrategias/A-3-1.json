@@ -38,5 +38,11 @@
     "Terrizos estabilizados con ligantes (Aripaq, Stabex y similares).",
     "Adoquines y celdas de césped/grava permeables (TTE, Ritter, adoquín ecológico).",
     "Baldosas y aglomerados de alta reflectancia (colores claros, SRI elevado)."
-  ]
+  ],
+  "tipos_impacto": [
+    "Reducción de la isla de calor urbano",
+    "Mejora microclimática"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática"
 }

@@ -38,5 +38,11 @@
     "Fuentes de agua potable y micronebulización de bajo consumo.",
     "Combinación de velas de sombra (A.1) con jardineras y arbolado (A.2).",
     "Suelos frescos/permeables (A.3) y puntos de agua integrados."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora microclimática",
+    "Reducción de la radiación directa"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática"
 }

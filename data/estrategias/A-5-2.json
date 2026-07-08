@@ -38,5 +38,10 @@
     "Sistemas de micronebulización de baja presión de bajo consumo.",
     "Depósitos de recogida de pluviales y grupos de riego (tipo Graf, Remosa).",
     "Láminas de agua o juegos de agua de poca profundidad con recirculación controlada."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora microclimática"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática"
 }

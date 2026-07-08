@@ -42,5 +42,11 @@
     "Cunetas verdes (bioswales) para la conducción vegetada del agua.",
     "Celdas de infiltración/laminación enterradas (tipo Aquacell, Wavin Q-Bic).",
     "Depósitos y aljibes de recogida de pluviales para riego (tipo Graf, Remosa)."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora microclimática",
+    "Reducción de la isla de calor urbano"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática"
 }

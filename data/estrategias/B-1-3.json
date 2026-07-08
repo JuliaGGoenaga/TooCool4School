@@ -38,5 +38,11 @@
     "Vidrios de control solar y baja emisividad (Guardian SunGuard, Saint-Gobain COOL-LITE, AGC Stopray).",
     "Sistemas oscilobatientes con limitadores de apertura para seguridad infantil.",
     "Aireadores/microventilación integrados en carpintería para renovación de aire."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora del comportamiento térmico de los materiales",
+    "Reducción de la radiación directa"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Intervenciones en elementos construidos"
 }

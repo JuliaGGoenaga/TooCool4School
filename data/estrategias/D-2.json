@@ -38,5 +38,10 @@
     "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
     "Aerotermia con unidades interiores en espacios críticos.",
     "Termostatos y control zonal integrados con la gestión del centro."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora de las condiciones térmicas interiores"
+  ],
+  "nivel": 3,
+  "nivel_grupo": ""
 }

@@ -12,7 +12,14 @@ También puede publicarse tal cual en **GitHub Pages** (Settings → Pages → r
 
 ## Funciones de la app
 
-- **Tablero de 4 columnas** (una por grupo: Pasiva exterior · Pasiva envolvente · Pasiva interior · Activa), de lo general a lo particular.
+**Tres vistas** (conmutador arriba). En todas, el color de cada bubble indica su **tipo de medida** (A verde · B azul · C ámbar · D magenta):
+
+1. **Tipo de medida** — tablero de 4 columnas (Pasiva exterior · envolvente · interior · Activa).
+2. **Tipo de impacto** — secciones por efecto sobre el sobrecalentamiento (mejora microclimática, isla de calor, radiación directa, comportamiento de materiales, ventilación, condiciones interiores, uso, diagnóstico/control). Una estrategia puede aparecer en varios tipos.
+3. **Planificación** — línea de tiempo de 4 niveles de complejidad (diseño pasivo → sistemas sencillos → tratamiento del aire → climatización por planta). Dentro de cada nivel, ordenadas por coste. El Nivel 1 se divide en subgrupos.
+
+Otras funciones:
+
 - Dentro de cada columna, las estrategias aparecen como **bubbles** con su ilustración en pequeño y su título.
 - **Interacción en dos fases:**
   - *1er clic* en una bubble → se expande y muestra **descripción + etiquetas** (impacto, coste, plazo).
@@ -68,9 +75,16 @@ También puede publicarse tal cual en **GitHub Pages** (Settings → Pages → r
   "criterios":    ["…", "…"],    // criterios de aplicación y recomendaciones de diseño
   "coste_detalle": "Texto sobre coste y rapidez…",
   "referencias":  ["…", "…"],    // referencias o casos de estudio
-  "ejemplos_mercado": ["…", "…"] // materiales, sistemas o productos del mercado
+  "ejemplos_mercado": ["…", "…"],// materiales, sistemas o productos del mercado
+  "tipos_impacto": ["…", "…"],   // vista "Tipo de impacto" (puede tener varios)
+  "nivel": 1,                    // vista "Planificación": 1..4 (complejidad)
+  "nivel_grupo": "…"             // subgrupo dentro del nivel 1 (vacío en 2..4)
 }
 ```
+
+> **`tipos_impacto`** debe usar exactamente las etiquetas de la vista de impacto
+> (ver `IMPACTO_ORDEN` en `index.html`). **`nivel`** es 1–4 y ordena la línea de
+> tiempo; dentro de cada nivel las estrategias se ordenan por coste.
 
 > El campo `grupo_nombre` se rellena solo al construir; no hace falta escribirlo.
 > El campo `imagen` apunta a la ilustración de la estrategia (ver abajo).

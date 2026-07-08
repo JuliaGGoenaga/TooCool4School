@@ -38,5 +38,11 @@
     "Termómetros/indicadores de referencia en aula para decidir apertura.",
     "Limitadores de apertura y sistemas de seguridad en ventanas.",
     "Guías de operación para el personal del centro."
-  ]
+  ],
+  "tipos_impacto": [
+    "Ventilación y disipación del calor",
+    "Control y mejora del uso"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización"
 }

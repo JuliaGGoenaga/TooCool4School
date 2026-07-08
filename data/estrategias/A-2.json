@@ -38,5 +38,12 @@
     "Jardineras y parterres de gran formato prefabricados (hormigón, corten, madera tratada).",
     "Sistemas de anclaje/entutorado y protectores de tronco para arbolado joven.",
     "Sustratos estructurales y celdas de aireación radicular tipo Silva Cell / Stratacell para arbolado en pavimento."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora microclimática",
+    "Reducción de la isla de calor urbano",
+    "Reducción de la radiación directa"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática"
 }

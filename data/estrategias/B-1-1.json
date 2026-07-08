@@ -38,5 +38,10 @@
     "Persianas exteriores tipo screen y venecianas exteriores (Warema, Llaza).",
     "Toldos verticales y estores exteriores con tejido técnico (Serge Ferrari Soltis).",
     "Celosías fijas de lamas, cerámica o materiales compuestos como parasol de fachada."
-  ]
+  ],
+  "tipos_impacto": [
+    "Reducción de la radiación directa"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Intervenciones en elementos construidos"
 }

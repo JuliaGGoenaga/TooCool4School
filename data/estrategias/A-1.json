@@ -38,5 +38,11 @@
     "Toldos técnicos con lona acrílica solución teñida (Serge Ferrari Soltis, Sattler, Dickson Orchestra).",
     "Pérgolas ligeras de aluminio o madera con cubrición textil o lamas.",
     "Sistemas modulares desmontables tipo carpa/estructura efímera para sombra estacional."
-  ]
+  ],
+  "tipos_impacto": [
+    "Reducción de la radiación directa",
+    "Mejora microclimática"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática"
 }

@@ -38,5 +38,11 @@
     "Ventiladores industriales HVLS de gran diámetro para gimnasios/comedores.",
     "Ventiladores de pared oscilantes de bajo nivel sonoro.",
     "Control de velocidad y temporización integrado."
-  ]
+  ],
+  "tipos_impacto": [
+    "Ventilación y disipación del calor",
+    "Mejora de las condiciones térmicas interiores"
+  ],
+  "nivel": 2,
+  "nivel_grupo": ""
 }

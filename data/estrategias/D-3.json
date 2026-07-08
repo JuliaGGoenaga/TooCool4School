@@ -38,5 +38,10 @@
     "Estructuras de cubierta coplanar o con inclinación (lastradas para cubierta plana).",
     "Sistemas de monitorización de producción y autoconsumo.",
     "Baterías de almacenamiento para desplazar consumo (opcional)."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora de las condiciones térmicas interiores"
+  ],
+  "nivel": 4,
+  "nivel_grupo": ""
 }

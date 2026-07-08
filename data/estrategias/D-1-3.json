@@ -38,5 +38,10 @@
     "Sondas de CO₂ y controladores para regulación por demanda.",
     "Filtros de recambio y kits de equilibrado de caudales.",
     "Servicios de comisionado y ajuste (retrocommissioning) de la instalación."
-  ]
+  ],
+  "tipos_impacto": [
+    "Ventilación y disipación del calor"
+  ],
+  "nivel": 2,
+  "nivel_grupo": ""
 }

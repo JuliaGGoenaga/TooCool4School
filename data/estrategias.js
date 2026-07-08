@@ -41,7 +41,13 @@ window.ESTRATEGIAS = [
       "Toldos técnicos con lona acrílica solución teñida (Serge Ferrari Soltis, Sattler, Dickson Orchestra).",
       "Pérgolas ligeras de aluminio o madera con cubrición textil o lamas.",
       "Sistemas modulares desmontables tipo carpa/estructura efímera para sombra estacional."
-    ]
+    ],
+    "tipos_impacto": [
+      "Reducción de la radiación directa",
+      "Mejora microclimática"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "A.2",
@@ -83,7 +89,14 @@ window.ESTRATEGIAS = [
       "Jardineras y parterres de gran formato prefabricados (hormigón, corten, madera tratada).",
       "Sistemas de anclaje/entutorado y protectores de tronco para arbolado joven.",
       "Sustratos estructurales y celdas de aireación radicular tipo Silva Cell / Stratacell para arbolado en pavimento."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora microclimática",
+      "Reducción de la isla de calor urbano",
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "A.3.1",
@@ -125,7 +138,13 @@ window.ESTRATEGIAS = [
       "Terrizos estabilizados con ligantes (Aripaq, Stabex y similares).",
       "Adoquines y celdas de césped/grava permeables (TTE, Ritter, adoquín ecológico).",
       "Baldosas y aglomerados de alta reflectancia (colores claros, SRI elevado)."
-    ]
+    ],
+    "tipos_impacto": [
+      "Reducción de la isla de calor urbano",
+      "Mejora microclimática"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "A.3.2",
@@ -167,7 +186,13 @@ window.ESTRATEGIAS = [
       "Revestimientos acrílicos reflectantes para pavimento (colores claros de alto índice de reflectancia solar).",
       "Áridos y morteros claros para acabados de patio.",
       "Membranas de cubierta de PVC/TPO de color claro con SRI certificado."
-    ]
+    ],
+    "tipos_impacto": [
+      "Reducción de la isla de calor urbano",
+      "Mejora microclimática"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "A.4",
@@ -209,7 +234,13 @@ window.ESTRATEGIAS = [
       "Fuentes de agua potable y micronebulización de bajo consumo.",
       "Combinación de velas de sombra (A.1) con jardineras y arbolado (A.2).",
       "Suelos frescos/permeables (A.3) y puntos de agua integrados."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora microclimática",
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "A.5.1",
@@ -255,7 +286,13 @@ window.ESTRATEGIAS = [
       "Cunetas verdes (bioswales) para la conducción vegetada del agua.",
       "Celdas de infiltración/laminación enterradas (tipo Aquacell, Wavin Q-Bic).",
       "Depósitos y aljibes de recogida de pluviales para riego (tipo Graf, Remosa)."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora microclimática",
+      "Reducción de la isla de calor urbano"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "A.5.2",
@@ -297,7 +334,12 @@ window.ESTRATEGIAS = [
       "Sistemas de micronebulización de baja presión de bajo consumo.",
       "Depósitos de recogida de pluviales y grupos de riego (tipo Graf, Remosa).",
       "Láminas de agua o juegos de agua de poca profundidad con recirculación controlada."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora microclimática"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
     "codigo": "B.1.1",
@@ -339,7 +381,12 @@ window.ESTRATEGIAS = [
       "Persianas exteriores tipo screen y venecianas exteriores (Warema, Llaza).",
       "Toldos verticales y estores exteriores con tejido técnico (Serge Ferrari Soltis).",
       "Celosías fijas de lamas, cerámica o materiales compuestos como parasol de fachada."
-    ]
+    ],
+    "tipos_impacto": [
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
     "codigo": "B.1.2",
@@ -381,7 +428,12 @@ window.ESTRATEGIAS = [
       "Cortinas técnicas y paneles japoneses de tejido solar.",
       "Films solares de control solar para vidrio (3M, Solar Gard, LLumar).",
       "Lamas interiores de aluminio orientables."
-    ]
+    ],
+    "tipos_impacto": [
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
     "codigo": "B.1.3",
@@ -423,7 +475,13 @@ window.ESTRATEGIAS = [
       "Vidrios de control solar y baja emisividad (Guardian SunGuard, Saint-Gobain COOL-LITE, AGC Stopray).",
       "Sistemas oscilobatientes con limitadores de apertura para seguridad infantil.",
       "Aireadores/microventilación integrados en carpintería para renovación de aire."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora del comportamiento térmico de los materiales",
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
     "codigo": "B.2.1",
@@ -465,7 +523,13 @@ window.ESTRATEGIAS = [
       "Pinturas y revestimientos elastoméricos reflectantes 'cool roof'.",
       "Impermeabilizaciones líquidas de poliuretano con acabado claro.",
       "Áridos o láminas claras sobre cubiertas invertidas."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora del comportamiento térmico de los materiales",
+      "Reducción de la isla de calor urbano"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
     "codigo": "B.2.2",
@@ -507,7 +571,14 @@ window.ESTRATEGIAS = [
       "Sustratos ligeros y mantas de sedum precultivadas.",
       "Láminas antirraíces y capas drenantes/retenedoras de agua.",
       "Parterres y jardineras técnicas para ajardinamiento parcial de cubierta."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora del comportamiento térmico de los materiales",
+      "Mejora microclimática",
+      "Reducción de la isla de calor urbano"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
     "codigo": "B.3",
@@ -549,7 +620,12 @@ window.ESTRATEGIAS = [
       "Sistemas SATE de fachada (Sto, Baumit, Weber) con acabado claro.",
       "Fachadas ventiladas con cámara y aislamiento continuo.",
       "Insuflado de aislamiento en cámaras de fachada existentes."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora del comportamiento térmico de los materiales"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
     "codigo": "C.1.1",
@@ -591,7 +667,13 @@ window.ESTRATEGIAS = [
       "Termómetros/indicadores de referencia en aula para decidir apertura.",
       "Limitadores de apertura y sistemas de seguridad en ventanas.",
       "Guías de operación para el personal del centro."
-    ]
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor",
+      "Control y mejora del uso"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización"
   },
   {
     "codigo": "C.1.2",
@@ -633,7 +715,13 @@ window.ESTRATEGIAS = [
       "Rejillas de ventilación antiintrusión y seguras.",
       "Sensores de lluvia y viento para cierre automático.",
       "Sistemas de ventilación natural automatizada (NV) con actuadores."
-    ]
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor",
+      "Control y mejora del uso"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización"
   },
   {
     "codigo": "C.1.3",
@@ -674,7 +762,12 @@ window.ESTRATEGIAS = [
       "Protocolos y planes de contingencia por episodio de calor.",
       "Reasignación de horarios y espacios (biblioteca, gimnasio, aulas norte).",
       "Señalización de espacios refugio interior."
-    ]
+    ],
+    "tipos_impacto": [
+      "Control y mejora del uso"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización"
   },
   {
     "codigo": "C.1.4",
@@ -716,7 +809,13 @@ window.ESTRATEGIAS = [
       "Luminarias LED con regulación y sensor de luz natural (daylighting).",
       "Instrucciones/etiquetas de gestión de persianas y equipos.",
       "Enchufes inteligentes para desconexión de cargas en reposo."
-    ]
+    ],
+    "tipos_impacto": [
+      "Control y mejora del uso",
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización"
   },
   {
     "codigo": "C.2",
@@ -758,7 +857,12 @@ window.ESTRATEGIAS = [
       "Medidores/semáforos de CO₂ de aula (Aranet4, Rotronic, Wöhler).",
       "Estaciones de calidad de aire interior con plataforma (uHoo, Airthings, Kaiterra).",
       "Sensores IoT con registro en la nube para seguimiento continuo."
-    ]
+    ],
+    "tipos_impacto": [
+      "Diagnóstico, control y automatización"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización"
   },
   {
     "codigo": "D.1.1",
@@ -800,7 +904,13 @@ window.ESTRATEGIAS = [
       "Ventiladores industriales HVLS de gran diámetro para gimnasios/comedores.",
       "Ventiladores de pared oscilantes de bajo nivel sonoro.",
       "Control de velocidad y temporización integrado."
-    ]
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor",
+      "Mejora de las condiciones térmicas interiores"
+    ],
+    "nivel": 2,
+    "nivel_grupo": ""
   },
   {
     "codigo": "D.1.2",
@@ -842,7 +952,12 @@ window.ESTRATEGIAS = [
       "Cajas de extracción con control por humedad o presencia.",
       "Rejillas de transferencia para entrada de aire controlada.",
       "Sistemas de extracción con variador de caudal."
-    ]
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor"
+    ],
+    "nivel": 2,
+    "nivel_grupo": ""
   },
   {
     "codigo": "D.1.3",
@@ -884,7 +999,12 @@ window.ESTRATEGIAS = [
       "Sondas de CO₂ y controladores para regulación por demanda.",
       "Filtros de recambio y kits de equilibrado de caudales.",
       "Servicios de comisionado y ajuste (retrocommissioning) de la instalación."
-    ]
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor"
+    ],
+    "nivel": 2,
+    "nivel_grupo": ""
   },
   {
     "codigo": "D.1.4",
@@ -926,7 +1046,13 @@ window.ESTRATEGIAS = [
       "Ventiladores de impulsión/extracción de bajo consumo integrados con aperturas naturales.",
       "Actuadores de ventana y sensores de CO₂/temperatura/lluvia.",
       "Controladores de ventilación natural automatizada (aNV)."
-    ]
+    ],
+    "tipos_impacto": [
+      "Ventilación y disipación del calor",
+      "Diagnóstico, control y automatización"
+    ],
+    "nivel": 2,
+    "nivel_grupo": ""
   },
   {
     "codigo": "D.2",
@@ -968,7 +1094,12 @@ window.ESTRATEGIAS = [
       "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
       "Aerotermia con unidades interiores en espacios críticos.",
       "Termostatos y control zonal integrados con la gestión del centro."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora de las condiciones térmicas interiores"
+    ],
+    "nivel": 3,
+    "nivel_grupo": ""
   },
   {
     "codigo": "D.3",
@@ -1010,7 +1141,12 @@ window.ESTRATEGIAS = [
       "Estructuras de cubierta coplanar o con inclinación (lastradas para cubierta plana).",
       "Sistemas de monitorización de producción y autoconsumo.",
       "Baterías de almacenamiento para desplazar consumo (opcional)."
-    ]
+    ],
+    "tipos_impacto": [
+      "Mejora de las condiciones térmicas interiores"
+    ],
+    "nivel": 4,
+    "nivel_grupo": ""
   },
   {
     "codigo": "D.4",
@@ -1052,6 +1188,11 @@ window.ESTRATEGIAS = [
       "Controladores de ventilación y compuertas por CO₂/temperatura.",
       "Sistemas BEMS/BMS de gestión del edificio (KNX, Loxone, Siemens Desigo).",
       "Detectores de presencia y control horario para iluminación y equipos."
-    ]
+    ],
+    "tipos_impacto": [
+      "Diagnóstico, control y automatización"
+    ],
+    "nivel": 2,
+    "nivel_grupo": ""
   }
 ];

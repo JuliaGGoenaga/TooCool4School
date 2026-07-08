@@ -38,5 +38,10 @@
     "Controladores de ventilación y compuertas por CO₂/temperatura.",
     "Sistemas BEMS/BMS de gestión del edificio (KNX, Loxone, Siemens Desigo).",
     "Detectores de presencia y control horario para iluminación y equipos."
-  ]
+  ],
+  "tipos_impacto": [
+    "Diagnóstico, control y automatización"
+  ],
+  "nivel": 2,
+  "nivel_grupo": ""
 }

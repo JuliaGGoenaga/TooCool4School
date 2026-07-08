@@ -38,5 +38,11 @@
     "Ventiladores de impulsión/extracción de bajo consumo integrados con aperturas naturales.",
     "Actuadores de ventana y sensores de CO₂/temperatura/lluvia.",
     "Controladores de ventilación natural automatizada (aNV)."
-  ]
+  ],
+  "tipos_impacto": [
+    "Ventilación y disipación del calor",
+    "Diagnóstico, control y automatización"
+  ],
+  "nivel": 2,
+  "nivel_grupo": ""
 }

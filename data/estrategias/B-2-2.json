@@ -38,5 +38,12 @@
     "Sustratos ligeros y mantas de sedum precultivadas.",
     "Láminas antirraíces y capas drenantes/retenedoras de agua.",
     "Parterres y jardineras técnicas para ajardinamiento parcial de cubierta."
-  ]
+  ],
+  "tipos_impacto": [
+    "Mejora del comportamiento térmico de los materiales",
+    "Mejora microclimática",
+    "Reducción de la isla de calor urbano"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Intervenciones en elementos construidos"
 }
