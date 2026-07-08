@@ -2,7 +2,7 @@
 
 App web interactiva con un catálogo de estrategias para **mitigar el sobrecalentamiento en centros educativos**, organizado de lo pasivo a lo activo. Cada estrategia tiene su **ficha editable** en el repositorio.
 
-Los datos de partida provienen del documento *«Catálogo directo de estrategias tipo para mitigar el sobrecalentamiento en centros educativos de Bizkaia»*.
+Los datos de partida se han desarrollado....
 
 ## Cómo verla
 
