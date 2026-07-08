@@ -1,0 +1,41 @@
+{
+  "codigo": "C.1.1",
+  "grupo": "C",
+  "subgrupo": "C.1",
+  "subgrupo_nombre": "Uso",
+  "titulo": "Protocolo de ventilación natural",
+  "impacto": "Medio-alto",
+  "coste": "Bajo",
+  "plazo": "Inmediato",
+  "descripcion": "Definir instrucciones simples: ventilar intensivamente a primera hora, cerrar huecos y protecciones cuando entre radiación o aire más caliente, y reabrir cuando las condiciones exteriores sean favorables. Evita que cada aula actúe de forma improvisada y permite aprovechar el clima de Bizkaia cuando las mañanas son más frescas.",
+  "beneficios": [
+    "Impacto medio, que se hace alto cuando existe ventilación cruzada real.",
+    "Coste muy bajo y aplicación inmediata: no requiere obra.",
+    "Aprovecha el clima oceánico (mañanas frescas) para arrancar el día con las aulas ventiladas.",
+    "Homogeneiza el comportamiento entre aulas y evita decisiones improvisadas."
+  ],
+  "limitaciones": [
+    "Depende del comportamiento manual de docentes y personal.",
+    "Condicionado por seguridad, ruido exterior, lluvia y contaminación.",
+    "Requiere definir responsabilidades de apertura/cierre y coordinación con limpieza y mantenimiento.",
+    "Su eficacia es limitada si no hay ventilación cruzada posible."
+  ],
+  "criterios": [
+    "Priorizar centros con ventanas operables, quejas en franjas concretas y falta de protocolo.",
+    "Redactar instrucciones simples y visuales por aula (cuándo abrir, cuándo cerrar, qué protecciones bajar).",
+    "Aprovechar las horas frescas para ventilación intensiva y cerrar en las horas de mayor radiación.",
+    "Apoyarse en la monitorización (C.2) para ajustar el protocolo y en la gestión de protecciones (C.1.4)."
+  ],
+  "coste_detalle": "Coste bajo. Aplicación inmediata. Es una de las medidas más coste-eficaces: el gasto es de coordinación y difusión del protocolo.",
+  "referencias": [
+    "Cuestionario IDOM: la visita técnica contempla percepción de usuarios, horarios críticos y operación del centro.",
+    "BB101 (Building Bulletin 101): guía de ventilación, confort térmico y calidad de aire interior en escuelas."
+  ],
+  "ejemplos_mercado": [
+    "Carteles e infografías de protocolo por aula.",
+    "Termómetros/indicadores de referencia en aula para decidir apertura.",
+    "Limitadores de apertura y sistemas de seguridad en ventanas.",
+    "Guías de operación para el personal del centro."
+  ],
+  "grupo_nombre": "Pasiva interior"
+}

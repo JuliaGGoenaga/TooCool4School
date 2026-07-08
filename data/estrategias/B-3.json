@@ -1,0 +1,41 @@
+{
+  "codigo": "B.3",
+  "grupo": "B",
+  "subgrupo": "B.3",
+  "subgrupo_nombre": "Cerramientos",
+  "titulo": "Aislamiento selectivo",
+  "impacto": "Medio-alto",
+  "coste": "Medio",
+  "plazo": "Medio plazo",
+  "descripcion": "Mejora localizada del aislamiento en zonas críticas: cubierta sobre aulas problemáticas, fachadas muy expuestas o cerramientos con baja prestación. No debe plantearse de forma automática: en clima templado con riesgo de calor, el aislamiento debe combinarse con ventilación y control solar para evitar retener el calor interior. Mejorar la envolvente sin ajustar la ventilación puede deteriorar el confort, la calidad de aire, la temperatura o la humedad.",
+  "beneficios": [
+    "Impacto medio-alto cuando el problema es la transmisión de calor por cubierta o fachada.",
+    "Mejora el confort térmico en invierno y verano y reduce la demanda energética.",
+    "Actuación localizada en las zonas realmente críticas, optimizando la inversión.",
+    "Compatible con la mejora de la envolvente global del centro."
+  ],
+  "limitaciones": [
+    "Impacto bajo si el problema principal es la radiación solar por los huecos.",
+    "Sin ventilación y control solar puede retener calor y empeorar el confort estival.",
+    "Riesgo de condensaciones y puentes térmicos si el diseño es deficiente.",
+    "Obra invasiva, con coste y posibles condicionantes patrimoniales."
+  ],
+  "criterios": [
+    "Priorizar aulas bajo cubierta, cerramientos ligeros, fachadas con alta transmitancia y reformas previstas.",
+    "No plantearlo de forma automática: combinar siempre con ventilación (C.1) y control solar (B.1).",
+    "Cuidar la continuidad del aislamiento para evitar puentes térmicos y condensaciones.",
+    "Aprovechar reformas ya previstas para minimizar el impacto sobre el periodo lectivo."
+  ],
+  "coste_detalle": "Coste medio. Ejecución a medio plazo. Priorizar cubiertas y fachadas de aulas críticas frente a una intervención generalizada.",
+  "referencias": [
+    "Revisión sobre escuelas en clima templado: mejorar envolvente sin ajustar ventilación puede deteriorar confort, calidad de aire, temperatura o humedad.",
+    "Guías de rehabilitación energética con enfoque de confort de verano en clima oceánico."
+  ],
+  "ejemplos_mercado": [
+    "Aislamiento de cubierta (lana mineral, XPS, PIR) bajo o sobre soporte.",
+    "Sistemas SATE de fachada (Sto, Baumit, Weber) con acabado claro.",
+    "Fachadas ventiladas con cámara y aislamiento continuo.",
+    "Insuflado de aislamiento en cámaras de fachada existentes."
+  ],
+  "grupo_nombre": "Pasiva envolvente"
+}

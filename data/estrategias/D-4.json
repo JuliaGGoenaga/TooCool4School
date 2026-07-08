@@ -1,0 +1,41 @@
+{
+  "codigo": "D.4",
+  "grupo": "D",
+  "subgrupo": "D.4",
+  "subgrupo_nombre": "Control",
+  "titulo": "Sensores y automatización",
+  "impacto": "Indirecto (medio-alto si gobierna sistemas)",
+  "coste": "Bajo-medio",
+  "plazo": "Corto plazo",
+  "descripcion": "Instalación de sondas de temperatura, humedad, CO₂, temporizadores, control horario, control por presencia o regulación básica de ventilación/climatización. Aporta consistencia operativa y evita que la eficacia dependa solo del uso manual. La literatura sobre escuelas en clima templado incluye sensores, automatización y BEMS como herramientas para localizar problemas y optimizar el confort y los sistemas.",
+  "beneficios": [
+    "Aporta consistencia operativa: los sistemas funcionan sin depender solo del uso manual.",
+    "Impacto medio-alto cuando gobierna la ventilación o la climatización.",
+    "Optimiza el confort y el consumo (activar apoyo solo cuando hace falta).",
+    "Permite localizar problemas y hacer seguimiento (enlaza con monitorización, C.2)."
+  ],
+  "limitaciones": [
+    "Riesgo de complejidad excesiva y de falsas expectativas.",
+    "Requiere mantenimiento y una interfaz simple para el centro.",
+    "Su eficacia depende de una configuración y puesta en marcha correctas.",
+    "Sin mantenimiento, los sistemas de control pueden quedar desatendidos."
+  ],
+  "criterios": [
+    "Priorizar sistemas existentes sin control, uso irregular, quejas variables y necesidad de seguimiento.",
+    "Buscar la solución más simple que resuelva el problema (control horario, por CO₂, por presencia).",
+    "Diseñar una interfaz sencilla para el personal del centro y prever el mantenimiento.",
+    "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2) y protecciones solares."
+  ],
+  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Desde temporizadores y sondas sencillas hasta un BEMS completo; escalar según la complejidad del centro.",
+  "referencias": [
+    "Literatura de escuelas en clima templado: sensores, automatización y BEMS para localizar problemas y optimizar confort y sistemas.",
+    "Guías de control y regulación de instalaciones (RITE) en edificios docentes."
+  ],
+  "ejemplos_mercado": [
+    "Sondas de Tª/HR/CO₂ y termostatos programables.",
+    "Controladores de ventilación y compuertas por CO₂/temperatura.",
+    "Sistemas BEMS/BMS de gestión del edificio (KNX, Loxone, Siemens Desigo).",
+    "Detectores de presencia y control horario para iluminación y equipos."
+  ],
+  "grupo_nombre": "Activa"
+}

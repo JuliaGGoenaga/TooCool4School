@@ -1,0 +1,41 @@
+{
+  "codigo": "D.1.4",
+  "grupo": "D",
+  "subgrupo": "D.1",
+  "subgrupo_nombre": "Ventilación",
+  "titulo": "Ventilación híbrida",
+  "impacto": "Medio-alto",
+  "coste": "Medio",
+  "plazo": "Corto-medio plazo",
+  "descripcion": "Combinación de ventilación natural con apoyo mecánico puntual, compuertas, ventiladores de extracción/impulsión o control por CO₂/temperatura. Permite aprovechar las condiciones exteriores favorables y activar el apoyo cuando la ventilación natural no alcanza. La literatura sobre escuelas identifica la ventilación híbrida, la automatización y el control en tiempo real como soluciones con interés para confort y calidad ambiental.",
+  "beneficios": [
+    "Impacto medio y alto si permite una purga efectiva y el control de CO₂.",
+    "Aprovecha las condiciones exteriores favorables y activa el apoyo solo cuando hace falta.",
+    "Menor consumo que la climatización, manteniendo calidad de aire y confort.",
+    "Compatible con ventilación nocturna (C.1.2) y control por sensores (D.4)."
+  ],
+  "limitaciones": [
+    "Puede generar ruido y requiere huecos de fachada/cubierta o conductos.",
+    "Necesita mantenimiento, regulación y coordinación con las protecciones solares.",
+    "Coste medio y mayor complejidad de operación que la ventilación natural.",
+    "Requiere un buen diseño del control para ser eficaz."
+  ],
+  "criterios": [
+    "Priorizar aulas sin ventilación cruzada, con CO₂ elevado, ventanas limitadas o necesidad de control sin climatizar.",
+    "Combinar aperturas naturales con apoyo mecánico puntual gobernado por CO₂/temperatura.",
+    "Coordinar el sistema con las protecciones solares (B.1) y la ventilación nocturna (C.1.2).",
+    "Diseñar el control (D.4) para activar el apoyo solo cuando la ventilación natural no alcanza."
+  ],
+  "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. El coste depende de los actuadores, compuertas y del sistema de control asociado.",
+  "referencias": [
+    "Literatura escolar: ventilación híbrida, automatización y control en tiempo real como soluciones de interés para confort y calidad ambiental.",
+    "BB101: estrategias mixtas de ventilación en escuelas."
+  ],
+  "ejemplos_mercado": [
+    "Sistemas de ventilación híbrida con compuertas motorizadas y control por CO₂ (WindowMaster, Zehnder).",
+    "Ventiladores de impulsión/extracción de bajo consumo integrados con aperturas naturales.",
+    "Actuadores de ventana y sensores de CO₂/temperatura/lluvia.",
+    "Controladores de ventilación natural automatizada (aNV)."
+  ],
+  "grupo_nombre": "Activa"
+}

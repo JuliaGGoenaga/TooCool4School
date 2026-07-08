@@ -1,0 +1,41 @@
+{
+  "codigo": "B.2.2",
+  "grupo": "B",
+  "subgrupo": "B.2",
+  "subgrupo_nombre": "Cubierta",
+  "titulo": "Cubierta vegetal / parterres",
+  "impacto": "Medio-alto",
+  "coste": "Medio-alto",
+  "plazo": "Medio plazo",
+  "descripcion": "Transformación total o parcial de la cubierta en sistema vegetal extensivo o semi-intensivo. Aporta amortiguación térmica, retención de agua, biodiversidad y mejora ambiental. Su interés aumenta cuando la cubierta tiene capacidad portante, accesibilidad de mantenimiento y oportunidad de combinar adaptación climática con gestión de lluvia.",
+  "beneficios": [
+    "Amortiguación térmica de la cubierta, con impacto alto en aulas bajo cubierta si se diseña correctamente.",
+    "Retención de agua de lluvia y reducción de la escorrentía.",
+    "Aumento de la biodiversidad y mejora ambiental y paisajística.",
+    "Potencial valor pedagógico y de uso (cubierta accesible/huerto)."
+  ],
+  "limitaciones": [
+    "Carga estructural elevada: requiere capacidad portante suficiente.",
+    "Necesita impermeabilización antirraíces, drenaje y mantenimiento especializado.",
+    "Coste inicial medio-alto y plazo de medio plazo.",
+    "Seguridad de acceso para el mantenimiento."
+  ],
+  "criterios": [
+    "Priorizar cubiertas planas con capacidad estructural y necesidad de retención de lluvia.",
+    "Optar por sistemas extensivos (bajo mantenimiento) salvo que haya uso previsto y capacidad portante para semi-intensivo.",
+    "Diseñar la impermeabilización antirraíces, el drenaje y los recorridos de mantenimiento seguros.",
+    "Combinar con la gestión de pluviales (A.5) y valorar la compatibilidad con fotovoltaica (D.3)."
+  ],
+  "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. El refuerzo estructural, la impermeabilización antirraíces y el mantenimiento son los principales condicionantes económicos.",
+  "referencias": [
+    "C40 Cities: cubiertas y muros verdes dentro del enfriamiento pasivo en escuelas.",
+    "Guías técnicas de cubiertas vegetales (p. ej. norma alemana FLL) aplicadas a edificios docentes."
+  ],
+  "ejemplos_mercado": [
+    "Sistemas de cubierta vegetal extensiva (ZinCo, Optigreen, Urbanscape, Sempergreen).",
+    "Sustratos ligeros y mantas de sedum precultivadas.",
+    "Láminas antirraíces y capas drenantes/retenedoras de agua.",
+    "Parterres y jardineras técnicas para ajardinamiento parcial de cubierta."
+  ],
+  "grupo_nombre": "Pasiva envolvente"
+}

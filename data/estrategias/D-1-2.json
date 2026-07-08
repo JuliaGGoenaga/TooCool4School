@@ -1,0 +1,41 @@
+{
+  "codigo": "D.1.2",
+  "grupo": "D",
+  "subgrupo": "D.1",
+  "subgrupo_nombre": "Ventilación",
+  "titulo": "Extracción forzada en aseos",
+  "impacto": "Bajo directo (medio si apoya purga)",
+  "coste": "Bajo-medio",
+  "plazo": "Corto plazo",
+  "descripcion": "Mejora o instalación de extracción mecánica en aseos, vestuarios u otros espacios húmedos para garantizar la renovación de aire y evitar olores y humedad. Puede ayudar a crear recorridos de aire si existe entrada controlada desde zonas docentes, pero no debe presentarse como solución principal de enfriamiento de aulas salvo que forme parte de una estrategia de ventilación equilibrada.",
+  "beneficios": [
+    "Garantiza la renovación de aire y elimina olores y humedad en aseos y vestuarios.",
+    "Puede contribuir a recorridos de aire (purga) si hay entrada controlada desde zonas docentes.",
+    "Coste bajo-medio y ejecución a corto plazo.",
+    "Mejora la calidad de aire y la salubridad del centro."
+  ],
+  "limitaciones": [
+    "Impacto directo bajo sobre el sobrecalentamiento de las aulas.",
+    "Riesgo de depresión excesiva y paso de aire desde zonas no deseadas.",
+    "Ruido y consumo de los extractores; necesidad de cumplimiento acústico.",
+    "No es una solución principal de enfriamiento salvo dentro de una ventilación equilibrada."
+  ],
+  "criterios": [
+    "Priorizar aseos sin extracción, con olores o humedad y ventilación deficiente.",
+    "Aprovechar conductos existentes y dimensionar el caudal evitando depresiones excesivas.",
+    "Integrarlo en una estrategia de ventilación equilibrada (con entrada de aire controlada).",
+    "Cuidar el nivel sonoro, el mantenimiento y el consumo de los equipos."
+  ],
+  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. El coste depende de si existen conductos y del alcance de la instalación.",
+  "referencias": [
+    "Estrategias de ventilación equilibrada en edificios docentes.",
+    "Normativa de ventilación y calidad de aire interior (RITE) para espacios húmedos."
+  ],
+  "ejemplos_mercado": [
+    "Extractores de conducto y en línea de bajo nivel sonoro (S&P, Soler & Palau, Vortice).",
+    "Cajas de extracción con control por humedad o presencia.",
+    "Rejillas de transferencia para entrada de aire controlada.",
+    "Sistemas de extracción con variador de caudal."
+  ],
+  "grupo_nombre": "Activa"
+}

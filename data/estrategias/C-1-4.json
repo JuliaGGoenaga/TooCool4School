@@ -1,0 +1,41 @@
+{
+  "codigo": "C.1.4",
+  "grupo": "C",
+  "subgrupo": "C.1",
+  "subgrupo_nombre": "Uso",
+  "titulo": "Gestión de protecciones solares y cargas internas controlables",
+  "impacto": "Bajo-medio",
+  "coste": "Bajo",
+  "plazo": "Inmediato",
+  "descripcion": "Uso coordinado de persianas y cortinas, apagado de equipos no necesarios, reducción de la iluminación artificial cuando hay luz natural suficiente y revisión de cargas internas. Es una medida sencilla que evita sumar calor interno al problema solar. En rehabilitación escolar, las intervenciones operativas y de comportamiento se reconocen como parte del conjunto de medidas para mejorar confort y eficiencia.",
+  "beneficios": [
+    "Evita sumar calor interno (equipos, iluminación) al problema solar.",
+    "Coste muy bajo y aplicación inmediata.",
+    "Mayor impacto en aulas con muchos equipos o mala gestión solar.",
+    "Mejora también la eficiencia energética y el confort visual."
+  ],
+  "limitaciones": [
+    "Impacto térmico bajo-medio: complementa, no sustituye, a las medidas físicas.",
+    "Puede provocar pérdida de luz natural si las protecciones se gestionan mal.",
+    "Depende de los hábitos de uso del personal y del alumnado.",
+    "Requiere instrucciones muy simples y constantes para ser efectiva."
+  ],
+  "criterios": [
+    "Priorizar aulas con proyectores, equipos, iluminación encendida innecesariamente o persianas mal gestionadas.",
+    "Coordinar la bajada de protecciones con las horas de radiación (junto al protocolo C.1.1).",
+    "Fomentar el apagado de equipos en reposo y el uso de luz natural cuando sea suficiente.",
+    "Dar instrucciones simples y visuales para docentes y alumnado."
+  ],
+  "coste_detalle": "Coste bajo. Aplicación inmediata. El coste es de coordinación; puede apoyarse en sensores/temporizadores de bajo coste (D.4) para automatizar apagados.",
+  "referencias": [
+    "Rehabilitación escolar: las intervenciones operativas y de comportamiento como parte del conjunto de medidas para confort y eficiencia.",
+    "Guías de gestión energética y de cargas internas en aulas."
+  ],
+  "ejemplos_mercado": [
+    "Regletas con temporizador y detectores de presencia para apagado de equipos.",
+    "Luminarias LED con regulación y sensor de luz natural (daylighting).",
+    "Instrucciones/etiquetas de gestión de persianas y equipos.",
+    "Enchufes inteligentes para desconexión de cargas en reposo."
+  ],
+  "grupo_nombre": "Pasiva interior"
+}

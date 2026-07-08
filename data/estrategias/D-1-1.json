@@ -1,0 +1,41 @@
+{
+  "codigo": "D.1.1",
+  "grupo": "D",
+  "subgrupo": "D.1",
+  "subgrupo_nombre": "Ventilación",
+  "titulo": "Ventiladores de apoyo",
+  "impacto": "Medio (sensación térmica)",
+  "coste": "Bajo-medio",
+  "plazo": "Corto plazo",
+  "descripcion": "Instalación de ventiladores de techo o de pared para aumentar la velocidad del aire y mejorar la sensación térmica sin reducir necesariamente la temperatura del aire. Son útiles como medida rápida en aulas donde la temperatura no es extrema pero la sensación de bochorno es elevada. Las soluciones de ventilación y movimiento de aire de bajo consumo se reconocen como parte de estrategias de refrigeración eficiente y asequible.",
+  "beneficios": [
+    "Mejora la sensación térmica mediante el aumento de la velocidad del aire.",
+    "Medida rápida, de bajo consumo y coste contenido.",
+    "Útil en aulas con temperaturas moderadas pero sensación de bochorno.",
+    "Complementa la ventilación natural y retrasa o evita la climatización activa."
+  ],
+  "limitaciones": [
+    "No reduce la temperatura real del aire: solo la sensación térmica.",
+    "Condicionado por la altura libre y la seguridad de la instalación.",
+    "Puede generar ruido, deslumbramiento por sombras y necesitar instalación eléctrica.",
+    "Requiere aceptación de los usuarios y un uso adecuado."
+  ],
+  "criterios": [
+    "Priorizar aulas con temperaturas moderadamente altas, baja velocidad de aire e imposibilidad de climatización inmediata.",
+    "Elegir ventiladores de techo de bajo consumo (motor DC) y bajo nivel sonoro.",
+    "Verificar la altura libre y la seguridad de anclaje sobre las zonas de ocupación.",
+    "Combinar con protocolo de ventilación (C.1.1) y control solar (B.1) para maximizar el efecto."
+  ],
+  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Los ventiladores de techo DC son muy eficientes; el coste principal es la instalación eléctrica y el anclaje.",
+  "referencias": [
+    "Estrategias de refrigeración eficiente y asequible: el movimiento de aire de bajo consumo como medida previa a la climatización.",
+    "Guías de confort adaptativo que incorporan velocidad de aire para ampliar el rango de confort."
+  ],
+  "ejemplos_mercado": [
+    "Ventiladores de techo de bajo consumo con motor DC (Hunter, Faro, CasaFan, Big Ass Fans para grandes espacios).",
+    "Ventiladores industriales HVLS de gran diámetro para gimnasios/comedores.",
+    "Ventiladores de pared oscilantes de bajo nivel sonoro.",
+    "Control de velocidad y temporización integrado."
+  ],
+  "grupo_nombre": "Activa"
+}

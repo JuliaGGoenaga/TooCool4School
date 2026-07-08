@@ -1,0 +1,41 @@
+{
+  "codigo": "A.1",
+  "grupo": "A",
+  "subgrupo": "A.1",
+  "subgrupo_nombre": "Sombra",
+  "titulo": "Sombra ligera en patios",
+  "impacto": "Alto",
+  "coste": "Bajo-medio",
+  "plazo": "Inmediato",
+  "descripcion": "Instalación de velas tensadas, toldos, pérgolas ligeras o elementos desmontables para crear sombra en patios, zonas de espera, accesos y recorridos de mayor uso. Es una medida rápida que reduce la exposición solar directa y permite recuperar espacios exteriores que en episodios cálidos quedan infrautilizados. También puede proteger parcialmente fachadas o huecos cercanos si se ubica estratégicamente.",
+  "beneficios": [
+    "Reduce de forma inmediata la radiación solar directa sobre las zonas de uso del patio.",
+    "Impacto alto en confort exterior y medio-alto si además protege fachadas o huecos próximos.",
+    "Permite recuperar espacios exteriores infrautilizados durante episodios cálidos (recreos, entradas y salidas).",
+    "Solución reversible y desmontable, con puesta en obra rápida y bajo impacto constructivo."
+  ],
+  "limitaciones": [
+    "Requiere anclajes seguros y resistencia al viento; riesgo estructural si el diseño es deficiente.",
+    "Debe respetar recorridos de evacuación y no interferir con el uso deportivo del patio.",
+    "Mantenimiento periódico, retirada estacional y exposición a vandalismo.",
+    "No modifica la temperatura del aire ni la inercia del patio: actúa solo sobre la radiación."
+  ],
+  "criterios": [
+    "Priorizar patios sin sombra, accesos soleados, zonas de espera y aulas con huecos próximos a patios expuestos.",
+    "Orientar y dimensionar los elementos para cubrir las horas críticas (mediodía y tarde) en orientaciones sur y oeste.",
+    "Combinar con vegetación (A.2) para sombra estable a medio plazo y con puntos de agua (A.5) para refugios climáticos (A.4).",
+    "Prever sistema de tensado y anclaje calculado a viento, con posibilidad de plegado o retirada en temporada fría."
+  ],
+  "coste_detalle": "Coste bajo-medio. Puesta en marcha inmediata o a corto plazo. Las velas y toldos textiles son la opción más económica; las pérgolas fijas suben el coste pero aportan durabilidad.",
+  "referencias": [
+    "C40 Cities — Cool schools / enfriamiento pasivo en escuelas: sombra, cubiertas frías, ventilación y soluciones basadas en la naturaleza, empezando por pilotos escalables.",
+    "Catálogos de patios climáticamente resilientes: la sombra aparece como intervención recurrente junto al desasfaltado y las superficies frescas."
+  ],
+  "ejemplos_mercado": [
+    "Velas de sombra tensadas en tejido HDPE microperforado (p. ej. gamas tipo Iasoshade, Kaaita, Sunsquare).",
+    "Toldos técnicos con lona acrílica solución teñida (Serge Ferrari Soltis, Sattler, Dickson Orchestra).",
+    "Pérgolas ligeras de aluminio o madera con cubrición textil o lamas.",
+    "Sistemas modulares desmontables tipo carpa/estructura efímera para sombra estacional."
+  ],
+  "grupo_nombre": "Pasiva exterior"
+}

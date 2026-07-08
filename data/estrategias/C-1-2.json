@@ -1,0 +1,41 @@
+{
+  "codigo": "C.1.2",
+  "grupo": "C",
+  "subgrupo": "C.1",
+  "subgrupo_nombre": "Uso",
+  "titulo": "Ventilación nocturna",
+  "impacto": "Medio-alto",
+  "coste": "Bajo-medio",
+  "plazo": "Corto plazo",
+  "descripcion": "Apertura controlada de huecos, compuertas o sistemas de ventilación para disipar el calor acumulado durante la noche o a primera hora. Es especialmente útil en edificios con cierta masa térmica, siempre que pueda garantizarse la seguridad y la protección frente a la lluvia. La literatura sobre adaptación en escuelas recoge la ventilación natural diurna y la refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
+  "beneficios": [
+    "Impacto medio-alto en edificios con inercia térmica: disipa el calor acumulado antes de empezar la jornada.",
+    "Permite arrancar el día con las aulas más frescas.",
+    "Coste bajo-medio si existen condiciones de seguridad.",
+    "Complementa el aislamiento (B.3) y la cubierta fría (B.2.1) en aulas de última planta."
+  ],
+  "limitaciones": [
+    "Riesgo de intrusión, lluvia y viento con las aperturas nocturnas.",
+    "Puede activar alarmas y exige definir la responsabilidad operativa.",
+    "Necesita rejillas seguras o automatización para funcionar sin vigilancia.",
+    "Eficacia limitada en edificios ligeros con poca masa térmica."
+  ],
+  "criterios": [
+    "Priorizar aulas que arrancan el día ya calientes, última planta y edificios pesados con inercia.",
+    "Resolver la seguridad con rejillas antiintrusión, compuertas motorizadas o ventilación automatizada.",
+    "Proteger frente a lluvia (huecos abrigados, sensores de lluvia) y coordinar con las alarmas.",
+    "Combinar con ventilación híbrida (D.1.4) y control/automatización (D.4) para operarla sin vigilancia."
+  ],
+  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo si existen condiciones de seguridad. La automatización de compuertas y las rejillas seguras elevan el coste.",
+  "referencias": [
+    "Literatura de adaptación en escuelas: ventilación natural diurna y refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
+    "Guías de free-cooling y night purge en edificios de uso docente."
+  ],
+  "ejemplos_mercado": [
+    "Compuertas y ventanas motorizadas con control horario (WindowMaster, D+H, Aumüller).",
+    "Rejillas de ventilación antiintrusión y seguras.",
+    "Sensores de lluvia y viento para cierre automático.",
+    "Sistemas de ventilación natural automatizada (NV) con actuadores."
+  ],
+  "grupo_nombre": "Pasiva interior"
+}

@@ -1,0 +1,41 @@
+{
+  "codigo": "C.2",
+  "grupo": "C",
+  "subgrupo": "C.2",
+  "subgrupo_nombre": "Monitorización",
+  "titulo": "Monitorización de Tª, HR y CO₂",
+  "impacto": "Indirecto (alto para diagnóstico)",
+  "coste": "Bajo",
+  "plazo": "Inmediato",
+  "descripcion": "Colocar sensores portátiles o registradores en aulas representativas para confirmar los horarios críticos, la relación con la ventilación y la severidad real del problema. No enfría por sí misma, pero permite decidir mejor, evitar soluciones sobredimensionadas y comprobar si las medidas rápidas funcionan. BB101 se plantea como guía de ventilación, confort térmico y calidad de aire interior en escuelas, y el cuestionario IDOM ya prevé mediciones de Tª, HR y CO₂ en espacios representativos.",
+  "beneficios": [
+    "Diagnóstico objetivo: confirma horarios críticos, severidad y relación con la ventilación.",
+    "Evita soluciones sobredimensionadas y ayuda a justificar las medidas.",
+    "Permite comprobar si las medidas rápidas (protocolos, protecciones) funcionan.",
+    "Coste bajo y despliegue inmediato."
+  ],
+  "limitaciones": [
+    "No enfría por sí misma: es una herramienta de diagnóstico y seguimiento.",
+    "Sensible a la ubicación del sensor y a la interpretación de los datos.",
+    "Requiere proteger el equipo frente a manipulación o robo.",
+    "Riesgo de convertir datos parciales en un diagnóstico definitivo."
+  ],
+  "criterios": [
+    "Aplicar cuando hay dudas sobre la causa principal o discrepancia entre percepción y datos.",
+    "Situar los sensores en aulas representativas de cada situación (orientación, planta, ocupación).",
+    "Registrar Tª, HR y CO₂ en periodos significativos, incluyendo horas críticas.",
+    "Usar los datos para priorizar medidas y verificar su eficacia; enlazar con control y automatización (D.4)."
+  ],
+  "coste_detalle": "Coste bajo. Despliegue inmediato. Los registradores portátiles son muy asequibles; los sistemas fijos con plataforma de datos elevan el coste.",
+  "referencias": [
+    "BB101 (Building Bulletin 101): ventilación, confort térmico y calidad de aire interior en escuelas.",
+    "Cuestionario IDOM: mediciones de Tª, HR y CO₂ en espacios representativos como parte de la auditoría."
+  ],
+  "ejemplos_mercado": [
+    "Registradores de datos (dataloggers) de Tª y HR (HOBO Onset, Testo).",
+    "Medidores/semáforos de CO₂ de aula (Aranet4, Rotronic, Wöhler).",
+    "Estaciones de calidad de aire interior con plataforma (uHoo, Airthings, Kaiterra).",
+    "Sensores IoT con registro en la nube para seguimiento continuo."
+  ],
+  "grupo_nombre": "Pasiva interior"
+}

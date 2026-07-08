@@ -1,0 +1,41 @@
+{
+  "codigo": "B.2.1",
+  "grupo": "B",
+  "subgrupo": "B.2",
+  "subgrupo_nombre": "Cubierta",
+  "titulo": "Cubierta fría / reflectante",
+  "impacto": "Medio-alto",
+  "coste": "Medio",
+  "plazo": "Corto-medio plazo",
+  "descripcion": "Aplicación de acabado claro, pintura reflectante o solución de cubierta con mayor reflectancia solar en cubiertas expuestas. Reduce la absorción de radiación y puede ser especialmente relevante en aulas de última planta o bajo cubierta. En estudios de adaptación escolar, el 'cool roof' aparece como medida adicional necesaria en escenarios climáticos futuros junto con aleros exteriores y sombreamiento móvil.",
+  "beneficios": [
+    "Impacto medio-alto en aulas de última planta y bajo cubierta.",
+    "Reduce la absorción de radiación y la temperatura de la cubierta.",
+    "Ejecución relativamente rápida y de bajo impacto sobre la cubierta existente.",
+    "Compatible con instalación fotovoltaica y otras actuaciones en cubierta."
+  ],
+  "limitaciones": [
+    "Depende del estado previo de la impermeabilización y de las garantías del sistema.",
+    "El acabado claro se ensucia y pierde reflectancia: requiere mantenimiento y limpieza.",
+    "Su eficacia baja si falta aislamiento; conviene valorarlo junto al aislamiento selectivo (B.3).",
+    "Debe ser compatible con la fotovoltaica (D.3) o futuras actuaciones."
+  ],
+  "criterios": [
+    "Priorizar cubiertas oscuras, aulas bajo cubierta, alta radiación y ausencia de aislamiento suficiente.",
+    "Seleccionar membranas o pinturas con SRI alto y garantía de durabilidad.",
+    "Verificar y, si procede, renovar la impermeabilización antes o durante la actuación.",
+    "Combinar con ventilación nocturna (C.1.2) y aislamiento selectivo (B.3) en aulas de última planta."
+  ],
+  "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La pintura reflectante es más económica; las membranas de cubierta fría con impermeabilización nueva elevan el coste.",
+  "referencias": [
+    "Estudios de adaptación escolar: el 'cool roof' como medida necesaria en escenarios climáticos futuros junto a aleros y sombreamiento móvil.",
+    "Guías de cubiertas frías y reflectancia solar (SRI) en edificios de uso docente."
+  ],
+  "ejemplos_mercado": [
+    "Membranas de PVC/TPO de color claro con SRI certificado (Sika Sarnafil, Renolit Alkorplan, Firestone UltraPly).",
+    "Pinturas y revestimientos elastoméricos reflectantes 'cool roof'.",
+    "Impermeabilizaciones líquidas de poliuretano con acabado claro.",
+    "Áridos o láminas claras sobre cubiertas invertidas."
+  ],
+  "grupo_nombre": "Pasiva envolvente"
+}

@@ -1,0 +1,41 @@
+{
+  "codigo": "A.5.2",
+  "grupo": "A",
+  "subgrupo": "A.5",
+  "subgrupo_nombre": "Agua",
+  "titulo": "Infraestructuras de agua",
+  "impacto": "Medio",
+  "coste": "Medio",
+  "plazo": "Corto-medio plazo",
+  "descripcion": "Incorporación de fuentes de agua potable, láminas o puntos de agua, micronebulización y pequeñas infraestructuras de recogida y reutilización de pluviales para riego. El agua aporta enfriamiento evaporativo puntual, mejora el confort de los refugios climáticos exteriores y refuerza la resiliencia hídrica del centro frente a episodios cálidos.",
+  "beneficios": [
+    "Enfriamiento evaporativo puntual que mejora el confort en zonas de estancia y refugios climáticos (A.4).",
+    "Puntos de hidratación accesibles durante los episodios de calor.",
+    "La recogida de pluviales permite garantizar el riego de la vegetación (A.2) en periodos secos.",
+    "Refuerza la resiliencia hídrica y el valor pedagógico del centro."
+  ],
+  "limitaciones": [
+    "Consumo de agua y mantenimiento de fuentes, nebulizadores y depósitos.",
+    "Riesgo sanitario (legionella) en sistemas de nebulización mal mantenidos.",
+    "Seguridad infantil en láminas o puntos de agua.",
+    "Coste de instalación y conexión al saneamiento y a la red de riego."
+  ],
+  "criterios": [
+    "Integrar los puntos de agua en los refugios climáticos exteriores (A.4) y recorridos de mayor uso.",
+    "Priorizar micronebulización de bajo consumo con control de mantenimiento sanitario.",
+    "Aprovechar la recogida de pluviales del drenaje verde (A.5.1) para riego y limpieza.",
+    "Prever fuentes de agua potable accesibles y seguras para el uso escolar."
+  ],
+  "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. Las fuentes y la micronebulización son asequibles; los depósitos de reutilización de pluviales elevan la inversión inicial.",
+  "referencias": [
+    "Evidencia sobre espacios exteriores escolares: los puntos de agua se asocian a mejoras de confort térmico en episodios cálidos.",
+    "Guías de refugios climáticos que incorporan agua como elemento de enfriamiento evaporativo."
+  ],
+  "ejemplos_mercado": [
+    "Fuentes de agua potable exteriores y bebederos escolares.",
+    "Sistemas de micronebulización de baja presión de bajo consumo.",
+    "Depósitos de recogida de pluviales y grupos de riego (tipo Graf, Remosa).",
+    "Láminas de agua o juegos de agua de poca profundidad con recirculación controlada."
+  ],
+  "grupo_nombre": "Pasiva exterior"
+}

@@ -1,0 +1,41 @@
+{
+  "codigo": "B.1.1",
+  "grupo": "B",
+  "subgrupo": "B.1",
+  "subgrupo_nombre": "Huecos",
+  "titulo": "Protección solar exterior",
+  "impacto": "Alto",
+  "coste": "Bajo-medio",
+  "plazo": "Corto plazo",
+  "descripcion": "Colocación de toldos, lamas, persianas exteriores, celosías, estores exteriores o elementos equivalentes para bloquear la radiación antes de que atraviese el vidrio. Es una de las medidas más directas para aulas con radiación solar, especialmente en orientaciones sur, oeste o suroeste. Aporta reducción de ganancias solares, mejora del confort visual y menor dependencia de soluciones activas.",
+  "beneficios": [
+    "Impacto alto en aulas con sol directo: bloquea la radiación antes de que entre por el vidrio.",
+    "Reduce ganancias solares y la necesidad de climatización activa.",
+    "Mejora el confort visual y reduce el deslumbramiento.",
+    "Coste contenido y ejecución a corto plazo."
+  ],
+  "limitaciones": [
+    "Exposición al viento y necesidad de mantenimiento y accionamiento de los elementos móviles.",
+    "Consideraciones de seguridad e imagen de fachada, especialmente en edificios protegidos.",
+    "Debe ser compatible con la apertura de ventanas y la ventilación.",
+    "Limpieza y conservación de lamas, toldos o persianas exteriores."
+  ],
+  "criterios": [
+    "Priorizar aulas con radiación directa, deslumbramiento, vidrio sin protección y quejas en horas de tarde.",
+    "Elegir el sistema según orientación: lamas horizontales al sur, verticales o móviles al este/oeste.",
+    "Preferir protecciones móviles/regulables para no penalizar la iluminación natural en invierno.",
+    "Coordinar con la ventilación natural (C.1) para no bloquear la apertura de huecos."
+  ],
+  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Los toldos y estores exteriores son la opción más económica; las lamas orientables y celosías fijas suben el coste.",
+  "referencias": [
+    "Literatura de adaptación en escuelas: el control solar exterior es una de las estrategias más relevantes frente al sobrecalentamiento.",
+    "Estudios que combinan protección solar exterior con aleros y sombreamiento móvil en escenarios climáticos futuros."
+  ],
+  "ejemplos_mercado": [
+    "Lamas orientables de aluminio (Griesser, Warema, Gradhermetic).",
+    "Persianas exteriores tipo screen y venecianas exteriores (Warema, Llaza).",
+    "Toldos verticales y estores exteriores con tejido técnico (Serge Ferrari Soltis).",
+    "Celosías fijas de lamas, cerámica o materiales compuestos como parasol de fachada."
+  ],
+  "grupo_nombre": "Pasiva envolvente"
+}

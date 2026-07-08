@@ -1,0 +1,41 @@
+{
+  "codigo": "A.2",
+  "grupo": "A",
+  "subgrupo": "A.2",
+  "subgrupo_nombre": "Vegetación",
+  "titulo": "Renaturalización y arbolado",
+  "impacto": "Medio-alto",
+  "coste": "Medio",
+  "plazo": "Medio plazo",
+  "descripcion": "Introducción de árboles, vegetación arbustiva, parterres, jardineras de gran formato o franjas verdes en patios y bordes del edificio. Aporta sombra futura, evapotranspiración, mejora microclimática, biodiversidad y mayor calidad de estancia. Es especialmente útil cuando el patio funciona como acumulador de calor por exceso de pavimento mineral.",
+  "beneficios": [
+    "Sombra natural creciente y enfriamiento por evapotranspiración del arbolado.",
+    "Mejora microclimática, aumento de biodiversidad y mayor calidad de estancia y juego.",
+    "Impacto medio a alto, que crece con el porte del árbol y la continuidad de la sombra.",
+    "Reduce el efecto de acumulación de calor de los patios muy mineralizados."
+  ],
+  "limitaciones": [
+    "Efecto pleno a medio plazo por el tiempo de crecimiento del arbolado.",
+    "Requiere selección de especies adaptadas, riego inicial y mantenimiento continuado.",
+    "Raíces, alergias y caída de hojas o frutos pueden generar conflictos de uso o mantenimiento.",
+    "Necesita protección frente al uso intensivo del patio escolar."
+  ],
+  "criterios": [
+    "Priorizar patios muy mineralizados, con falta de sombra y posibilidad de riego/mantenimiento.",
+    "Elegir especies autóctonas, de bajo consumo hídrico y adecuadas al clima oceánico y al uso escolar.",
+    "Situar el arbolado para sombrear zonas de estancia, juego y fachadas orientadas al sur/oeste.",
+    "Combinar con desasfaltado (A.3.1) y drenaje verde (A.5.1) para maximizar el efecto y garantizar el riego natural."
+  ],
+  "coste_detalle": "Coste medio. Implantación a corto plazo, pero el efecto de sombra pleno se alcanza a medio plazo conforme crece el arbolado. El riego y el mantenimiento son costes recurrentes a considerar.",
+  "referencias": [
+    "Evidencia comparada sobre espacios exteriores escolares: la plantación de arbolado y la renaturalización son medidas recurrentes asociadas a mejoras de confort térmico y biodiversidad.",
+    "C40 Cities: promoción de soluciones basadas en la naturaleza en centros educativos."
+  ],
+  "ejemplos_mercado": [
+    "Especies de sombra adaptadas a clima templado/oceánico (fresno, arce, tilo, roble; arbustos autóctonos).",
+    "Jardineras y parterres de gran formato prefabricados (hormigón, corten, madera tratada).",
+    "Sistemas de anclaje/entutorado y protectores de tronco para arbolado joven.",
+    "Sustratos estructurales y celdas de aireación radicular tipo Silva Cell / Stratacell para arbolado en pavimento."
+  ],
+  "grupo_nombre": "Pasiva exterior"
+}

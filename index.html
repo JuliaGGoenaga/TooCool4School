@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de estrategias contra el sobrecalentamiento en colegios</title>
+<style>
+  :root {
+    --bg: #f4f6f5;
+    --panel: #ffffff;
+    --ink: #16221f;
+    --muted: #5c6b66;
+    --line: #e2e7e4;
+    --brand: #0f6e5a;
+    --brand-soft: #e4f1ec;
+    --accent: #e8863b;
+    --shadow: 0 1px 2px rgba(16,34,31,.06), 0 8px 24px rgba(16,34,31,.06);
+    /* colores por grupo */
+    --gA: #1f8f6f; --gA-soft:#e3f2eb;
+    --gB: #2b6cb0; --gB-soft:#e4eef8;
+    --gC: #b7791f; --gC-soft:#f7edd8;
+    --gD: #a04668; --gD-soft:#f6e6ec;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+
+  /* ---------- Header ---------- */
+  header.top {
+    background: linear-gradient(135deg, #0f6e5a 0%, #14876c 60%, #1f8f6f 100%);
+    color: #fff;
+    padding: 26px 22px 22px;
+  }
+  header.top .wrap { max-width: 1180px; margin: 0 auto; }
+  header.top h1 { margin: 0 0 6px; font-size: 1.45rem; letter-spacing: -.01em; }
+  header.top p { margin: 0; color: rgba(255,255,255,.82); font-size: .93rem; max-width: 780px; }
+  .layout { max-width: 1180px; margin: 0 auto; padding: 20px 22px 60px; display: grid; grid-template-columns: 268px 1fr; gap: 26px; }
+
+  /* ---------- Controls ---------- */
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
+  .search {
+    flex: 1 1 260px; display: flex; align-items: center; gap: 8px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 9px 12px; box-shadow: var(--shadow);
+  }
+  .search input { border: 0; outline: 0; width: 100%; font-size: .95rem; background: transparent; color: var(--ink); }
+  .search svg { flex: none; opacity: .5; }
+  select.filter {
+    appearance: none; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 10px; padding: 9px 30px 9px 12px; font-size: .9rem; color: var(--ink);
+    box-shadow: var(--shadow); cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%235c6b66' stroke-width='1.6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 11px center;
+  }
+  .count { color: var(--muted); font-size: .85rem; margin-left: auto; }
+
+  /* ---------- Sidebar ---------- */
+  aside { position: sticky; top: 16px; align-self: start; }
+  .nav { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px; box-shadow: var(--shadow); }
+  .nav-group + .nav-group { margin-top: 4px; }
+  .nav-group > button.grp {
+    width: 100%; text-align: left; border: 0; background: transparent; cursor: pointer;
+    display: flex; align-items: center; gap: 9px; padding: 9px 10px; border-radius: 9px;
+    font-weight: 650; font-size: .92rem; color: var(--ink);
+  }
+  .nav-group > button.grp:hover { background: var(--bg); }
+  .dot { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+  .nav-group .letter { font-weight: 800; opacity: .6; font-size: .8rem; width: 14px; }
+  .sublist { list-style: none; margin: 0 0 4px; padding: 0 4px 4px 30px; }
+  .sublist li a {
+    display: block; text-decoration: none; color: var(--muted); font-size: .84rem;
+    padding: 5px 8px; border-radius: 7px; cursor: pointer;
+  }
+  .sublist li a:hover { background: var(--bg); color: var(--ink); }
+
+  /* ---------- Cards ---------- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 16px 16px 14px; cursor: pointer; box-shadow: var(--shadow);
+    transition: transform .12s ease, box-shadow .12s ease, border-color .12s;
+    display: flex; flex-direction: column; border-top: 3px solid var(--line);
+  }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(16,34,31,.08), 0 16px 34px rgba(16,34,31,.1); }
+  .card .code { font-size: .72rem; font-weight: 700; letter-spacing: .04em; color: var(--muted); }
+  .card h3 { margin: 4px 0 8px; font-size: 1.02rem; line-height: 1.3; }
+  .card p { margin: 0 0 12px; font-size: .86rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+  .chip { font-size: .72rem; padding: 3px 9px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); white-space: nowrap; }
+  .chip b { font-weight: 700; color: var(--ink); }
+
+  .grp-title { grid-column: 1 / -1; display: flex; align-items: center; gap: 10px; margin: 14px 2px 2px; }
+  .grp-title:first-child { margin-top: 0; }
+  .grp-title .bar { width: 4px; height: 22px; border-radius: 3px; }
+  .grp-title h2 { margin: 0; font-size: 1.05rem; }
+  .grp-title span.k { font-weight: 800; opacity: .55; }
+  .empty { grid-column: 1/-1; text-align: center; color: var(--muted); padding: 60px 0; }
+
+  /* ---------- Modal ---------- */
+  .overlay { position: fixed; inset: 0; background: rgba(16,34,31,.5); backdrop-filter: blur(2px); display: none; align-items: flex-start; justify-content: center; padding: 30px 16px; z-index: 50; overflow-y: auto; }
+  .overlay.open { display: flex; }
+  .modal { background: var(--panel); width: 100%; max-width: 760px; border-radius: 18px; box-shadow: 0 24px 70px rgba(0,0,0,.3); overflow: hidden; animation: pop .16s ease; }
+  @keyframes pop { from { transform: translateY(8px) scale(.99); opacity: .6; } to { transform: none; opacity: 1; } }
+  .modal .mhead { padding: 22px 26px 18px; color: #fff; position: relative; }
+  .modal .mhead .code { font-size: .78rem; font-weight: 700; opacity: .85; letter-spacing: .05em; }
+  .modal .mhead h2 { margin: 4px 0 3px; font-size: 1.4rem; line-height: 1.25; }
+  .modal .mhead .path { font-size: .82rem; opacity: .88; }
+  .modal .close { position: absolute; top: 16px; right: 16px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgba(255,255,255,.2); color: #fff; font-size: 1.2rem; cursor: pointer; line-height: 1; }
+  .modal .close:hover { background: rgba(255,255,255,.32); }
+  .mbadges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .mbadge { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.28); color: #fff; font-size: .76rem; padding: 4px 11px; border-radius: 999px; }
+  .mbadge b { font-weight: 700; }
+  .mbody { padding: 20px 26px 30px; }
+  .lead { font-size: .98rem; color: var(--ink); margin: 0 0 20px; }
+  .sect { margin-bottom: 20px; }
+  .sect h4 { margin: 0 0 9px; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--brand); display: flex; align-items: center; gap: 8px; }
+  .sect h4 .ic { width: 18px; height: 18px; }
+  .sect ul { margin: 0; padding-left: 2px; list-style: none; }
+  .sect ul li { position: relative; padding: 4px 0 4px 22px; font-size: .9rem; color: #2b3a35; }
+  .sect ul li::before { content: ""; position: absolute; left: 4px; top: 12px; width: 6px; height: 6px; border-radius: 50%; background: var(--brand); }
+  .sect.lim h4 { color: var(--accent); }
+  .sect.lim ul li::before { background: var(--accent); }
+  .sect.cost p { margin: 0; font-size: .9rem; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .twocol { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .mfoot { border-top: 1px solid var(--line); padding: 12px 26px; font-size: .78rem; color: var(--muted); background: var(--bg); }
+  .mfoot code { background: #fff; border: 1px solid var(--line); border-radius: 5px; padding: 1px 6px; font-size: .74rem; }
+
+  footer.pg { max-width: 1180px; margin: 0 auto; padding: 0 22px 40px; color: var(--muted); font-size: .8rem; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    aside { position: static; }
+    .nav { display: flex; overflow-x: auto; gap: 4px; }
+    .nav-group { min-width: max-content; }
+    .sublist { display: none; }
+    .twocol { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Catálogo de estrategias contra el sobrecalentamiento en colegios</h1>
+    <p>Medidas para mitigar el sobrecalentamiento en centros educativos, organizadas de lo pasivo a lo activo. Cada ficha recoge descripción, beneficios, limitaciones, criterios de aplicación, coste, referencias y ejemplos de mercado.</p>
+  </div>
+</header>
+
+<div class="layout">
+  <aside>
+    <nav class="nav" id="nav"></nav>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <label class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="Buscar estrategia, material, criterio…" autocomplete="off">
+      </label>
+      <select class="filter" id="fGrupo">
+        <option value="">Todos los grupos</option>
+        <option value="A">A · Pasiva exterior</option>
+        <option value="B">B · Pasiva envolvente</option>
+        <option value="C">C · Pasiva interior</option>
+        <option value="D">D · Activa</option>
+      </select>
+      <select class="filter" id="fImpacto">
+        <option value="">Impacto (cualquiera)</option>
+        <option value="Alto">Impacto alto</option>
+        <option value="Medio">Impacto medio</option>
+        <option value="Bajo">Impacto bajo</option>
+      </select>
+      <select class="filter" id="fCoste">
+        <option value="">Coste (cualquiera)</option>
+        <option value="Bajo">Coste bajo</option>
+        <option value="Medio">Coste medio</option>
+        <option value="Alto">Coste alto</option>
+      </select>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+
+<footer class="pg">
+  Datos de partida a partir del <em>Catálogo directo de estrategias tipo para mitigar el sobrecalentamiento en centros educativos de Bizkaia</em>. Fichas editables en <code>data/estrategias/</code>.
+</footer>
+
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true"></div>
+</div>
+
+<script src="data/estrategias.js"></script>
+<script>
+(function () {
+  var DATA = window.ESTRATEGIAS || [];
+  var GRUPOS = {
+    A: { nombre: "Pasiva exterior", color: "var(--gA)", soft: "var(--gA-soft)" },
+    B: { nombre: "Pasiva envolvente", color: "var(--gB)", soft: "var(--gB-soft)" },
+    C: { nombre: "Pasiva interior", color: "var(--gC)", soft: "var(--gC-soft)" },
+    D: { nombre: "Activa", color: "var(--gD)", soft: "var(--gD-soft)" }
+  };
+  function gcolor(g){ return "var(--g"+g+")"; }
+
+  var grid = document.getElementById("grid");
+  var nav = document.getElementById("nav");
+  var count = document.getElementById("count");
+  var overlay = document.getElementById("overlay");
+  var modal = document.getElementById("modal");
+  var q = document.getElementById("q");
+  var fGrupo = document.getElementById("fGrupo");
+  var fImpacto = document.getElementById("fImpacto");
+  var fCoste = document.getElementById("fCoste");
+
+  function esc(s){ return (s==null?"":String(s)).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function norm(s){ return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+  function matchLevel(val, level){ // val like "Bajo-medio"; level "Bajo"
+    return norm(val).indexOf(norm(level)) !== -1;
+  }
+
+  // -------- Sidebar --------
+  function buildNav() {
+    var html = "";
+    Object.keys(GRUPOS).forEach(function (g) {
+      var items = DATA.filter(function (d) { return d.grupo === g; });
+      if (!items.length) return;
+      html += '<div class="nav-group">';
+      html += '<button class="grp" data-grupo="'+g+'"><span class="dot" style="background:'+gcolor(g)+'"></span><span class="letter">'+g+'</span>'+esc(GRUPOS[g].nombre)+'</button>';
+      html += '<ul class="sublist">';
+      items.forEach(function (d) {
+        html += '<li><a data-code="'+esc(d.codigo)+'"><b style="color:'+gcolor(g)+'">'+esc(d.codigo)+'</b> · '+esc(d.titulo)+'</a></li>';
+      });
+      html += '</ul></div>';
+    });
+    nav.innerHTML = html;
+    nav.querySelectorAll("button.grp").forEach(function (b) {
+      b.addEventListener("click", function () {
+        fGrupo.value = b.getAttribute("data-grupo");
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    });
+    nav.querySelectorAll("a[data-code]").forEach(function (a) {
+      a.addEventListener("click", function () { openModal(a.getAttribute("data-code")); });
+    });
+  }
+
+  // -------- Cards --------
+  function cardHTML(d) {
+    return '<article class="card" data-code="'+esc(d.codigo)+'" style="border-top-color:'+gcolor(d.grupo)+'">'
+      + '<span class="code" style="color:'+gcolor(d.grupo)+'">'+esc(d.codigo)+' · '+esc(d.subgrupo_nombre||"")+'</span>'
+      + '<h3>'+esc(d.titulo)+'</h3>'
+      + '<p>'+esc(d.descripcion)+'</p>'
+      + '<div class="chips">'
+      +   '<span class="chip">Impacto <b>'+esc(d.impacto)+'</b></span>'
+      +   '<span class="chip">Coste <b>'+esc(d.coste)+'</b></span>'
+      +   '<span class="chip">Plazo <b>'+esc(d.plazo)+'</b></span>'
+      + '</div></article>';
+  }
+
+  function render() {
+    var term = norm(q.value.trim());
+    var g = fGrupo.value, imp = fImpacto.value, cost = fCoste.value;
+    var list = DATA.filter(function (d) {
+      if (g && d.grupo !== g) return false;
+      if (imp && !matchLevel(d.impacto, imp)) return false;
+      if (cost && !matchLevel(d.coste, cost)) return false;
+      if (term) {
+        var hay = norm([d.codigo, d.titulo, d.descripcion, d.subgrupo_nombre,
+          (d.beneficios||[]).join(" "), (d.limitaciones||[]).join(" "),
+          (d.criterios||[]).join(" "), (d.ejemplos_mercado||[]).join(" "),
+          (d.referencias||[]).join(" ")].join(" "));
+        if (hay.indexOf(term) === -1) return false;
+      }
+      return true;
+    });
+
+    count.textContent = list.length + " de " + DATA.length + " estrategias";
+
+    if (!list.length) { grid.innerHTML = '<div class="empty">No hay estrategias que coincidan con la búsqueda.</div>'; return; }
+
+    var html = "", lastG = null;
+    var grouped = !g; // muestra encabezados de grupo solo si no se filtra por grupo
+    list.forEach(function (d) {
+      if (grouped && d.grupo !== lastG) {
+        lastG = d.grupo;
+        html += '<div class="grp-title"><span class="bar" style="background:'+gcolor(d.grupo)+'"></span>'
+          + '<h2><span class="k">'+d.grupo+'.</span> '+esc(GRUPOS[d.grupo].nombre)+'</h2></div>';
+      }
+      html += cardHTML(d);
+    });
+    grid.innerHTML = html;
+    grid.querySelectorAll(".card").forEach(function (c) {
+      c.addEventListener("click", function () { openModal(c.getAttribute("data-code")); });
+    });
+  }
+
+  // -------- Modal --------
+  function listSection(title, items, cls, icon) {
+    if (!items || !items.length) return "";
+    var li = items.map(function (x) { return '<li>'+esc(x)+'</li>'; }).join("");
+    return '<div class="sect '+(cls||"")+'"><h4>'+icon+esc(title)+'</h4><ul>'+li+'</ul></div>';
+  }
+  var IC = {
+    ben: '<svg class="ic" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    lim: '<svg class="ic" viewBox="0 0 24 24" fill="none"><path d="M12 9v4m0 4h.01M10.3 3.9l-8 13.86A2 2 0 004 21h16a2 2 0 001.7-3.24l-8-13.86a2 2 0 00-3.4 0z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    cri: '<svg class="ic" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    cost:'<svg class="ic" viewBox="0 0 24 24" fill="none"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    ref: '<svg class="ic" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    mkt: '<svg class="ic" viewBox="0 0 24 24" fill="none"><path d="M3 9l1-5h16l1 5M4 9v11a1 1 0 001 1h14a1 1 0 001-1V9M3 9h18M9 21v-6h6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+  };
+
+  function openModal(code) {
+    var d = DATA.filter(function (x) { return x.codigo === code; })[0];
+    if (!d) return;
+    var col = gcolor(d.grupo);
+    var fname = "data/estrategias/" + d.codigo.replace(/\./g, "-") + ".json";
+    modal.innerHTML =
+      '<div class="mhead" style="background:linear-gradient(135deg,'+col+', color-mix(in srgb,'+col+' 78%, #000))">'
+      + '<button class="close" aria-label="Cerrar">&times;</button>'
+      + '<div class="code">'+esc(d.grupo)+' · '+esc(GRUPOS[d.grupo].nombre)+'</div>'
+      + '<h2>'+esc(d.codigo)+' · '+esc(d.titulo)+'</h2>'
+      + '<div class="path">'+esc(d.subgrupo_nombre||"")+'</div>'
+      + '<div class="mbadges">'
+      +   '<span class="mbadge">Impacto: <b>'+esc(d.impacto)+'</b></span>'
+      +   '<span class="mbadge">Coste: <b>'+esc(d.coste)+'</b></span>'
+      +   '<span class="mbadge">Plazo: <b>'+esc(d.plazo)+'</b></span>'
+      + '</div></div>'
+      + '<div class="mbody">'
+      +   '<p class="lead">'+esc(d.descripcion)+'</p>'
+      +   '<div class="twocol">'
+      +     listSection("Beneficios", d.beneficios, "ben", IC.ben)
+      +     listSection("Limitaciones", d.limitaciones, "lim", IC.lim)
+      +   '</div>'
+      +   listSection("Criterios de aplicación y recomendaciones de diseño", d.criterios, "cri", IC.cri)
+      +   '<div class="sect cost"><h4>'+IC.cost+'Coste</h4><p>'+esc(d.coste_detalle||"")+'</p></div>'
+      +   listSection("Referencias y casos de estudio", d.referencias, "ref", IC.ref)
+      +   listSection("Ejemplos de materiales, sistemas o productos", d.ejemplos_mercado, "mkt", IC.mkt)
+      + '</div>'
+      + '<div class="mfoot">Ficha editable: <code>'+esc(fname)+'</code></div>';
+    // recolorea acentos de secciones al color del grupo
+    modal.querySelectorAll('.sect:not(.lim) h4').forEach(function(h){ h.style.color = col; });
+    modal.querySelectorAll('.sect:not(.lim) ul li::before');
+    modal.style.setProperty('--brand', col);
+    overlay.classList.add("open");
+    document.body.style.overflow = "hidden";
+    modal.querySelector(".close").addEventListener("click", closeModal);
+    if (location.hash.slice(1) !== code) history.replaceState(null, "", "#" + code);
+  }
+  function closeModal() {
+    overlay.classList.remove("open");
+    document.body.style.overflow = "";
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+  }
+  overlay.addEventListener("click", function (e) { if (e.target === overlay) closeModal(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeModal(); });
+
+  // -------- Init --------
+  [q, fGrupo, fImpacto, fCoste].forEach(function (el) {
+    el.addEventListener("input", render);
+    el.addEventListener("change", render);
+  });
+
+  if (!DATA.length) {
+    grid.innerHTML = '<div class="empty">No se han podido cargar los datos.<br>Ejecuta <code>python3 build.py</code> para generar <code>data/estrategias.js</code>.</div>';
+  } else {
+    buildNav();
+    render();
+    if (location.hash.length > 1) openModal(decodeURIComponent(location.hash.slice(1)));
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "codigo": "A.5.1",
+  "grupo": "A",
+  "subgrupo": "A.5",
+  "subgrupo_nombre": "Agua",
+  "titulo": "Drenaje verde",
+  "impacto": "Medio",
+  "coste": "Medio",
+  "plazo": "Corto-medio plazo",
+  "descripcion": "Incorporación de jardines de lluvia, cunetas verdes, zonas deprimidas vegetadas, pavimentos drenantes o recogida superficial controlada. Además de mejorar la gestión de la lluvia, permite introducir vegetación y reducir la dureza ambiental del patio. El drenaje basado en naturaleza aparece junto con desasfaltado, sombra y superficies permeables como intervención recurrente.",
+  "beneficios": [
+    "Mejora la gestión de la lluvia y reduce la escorrentía superficial.",
+    "Introduce vegetación y suelo vivo, reduciendo la dureza ambiental del patio.",
+    "Impacto medio en sobrecalentamiento, mayor cuando se combina con vegetación y sombra.",
+    "Aporta biodiversidad y valor pedagógico (ciclo del agua)."
+  ],
+  "limitaciones": [
+    "Requiere control de pendientes y diseño cuidadoso para evitar encharcamientos.",
+    "Debe garantizar la seguridad infantil en zonas deprimidas o con agua.",
+    "Mantenimiento de la vegetación y limpieza de sumideros y filtros.",
+    "Compatibilidad con el saneamiento existente del centro."
+  ],
+  "criterios": [
+    "Priorizar patios impermeables, con problemas de escorrentía y oportunidades de renaturalización.",
+    "Dimensionar los jardines de lluvia y cunetas verdes según la superficie de captación y la pluviometría local.",
+    "Diseñar pendientes suaves, rebosaderos y protección infantil en las zonas deprimidas.",
+    "Combinar con desasfaltado (A.3.1) y arbolado (A.2) para el riego natural y el efecto microclimático."
+  ],
+  "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. El coste depende del movimiento de tierras, la impermeabilización y la vegetación asociada.",
+  "referencias": [
+    "Catálogo de patios climáticamente resilientes: el drenaje basado en naturaleza junto con desasfaltado, sombra y superficies permeables.",
+    "Guías de Sistemas de Drenaje Urbano Sostenible (SuDS) aplicadas a entornos escolares."
+  ],
+  "ejemplos_mercado": [
+    "Jardines de lluvia y cunetas verdes (bioswales) con sustrato filtrante y vegetación de humedal.",
+    "Celdas de infiltración/retención enterradas (tipo Aquacell, Wavin Q-Bic).",
+    "Pavimentos drenantes combinados con áreas vegetadas.",
+    "Depósitos de laminación y recogida de pluviales para riego."
+  ],
+  "grupo_nombre": "Pasiva exterior"
+}

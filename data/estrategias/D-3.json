@@ -1,0 +1,41 @@
+{
+  "codigo": "D.3",
+  "grupo": "D",
+  "subgrupo": "D.3",
+  "subgrupo_nombre": "Energía",
+  "titulo": "Instalación solar fotovoltaica en cubierta",
+  "impacto": "Alto (donde se climatiza); indirecto",
+  "coste": "Medio-alto",
+  "plazo": "Medio plazo",
+  "descripcion": "Combinación de refrigeración zonal con generación fotovoltaica, especialmente cuando el uso principal se produce en horas solares. No elimina la necesidad de reducir la demanda, pero mejora la coherencia energética de una solución activa. La revisión sobre rehabilitación escolar identifica renovables, fotovoltaica, bombas de calor y sistemas activos como parte del abanico de medidas, aunque condicionadas por coste y contexto.",
+  "beneficios": [
+    "Aporta coherencia energética a la climatización: la producción coincide con las horas de mayor demanda solar.",
+    "Reduce el consumo de red y las emisiones asociadas.",
+    "Aprovecha cubiertas disponibles y refuerza la electrificación eficiente del centro.",
+    "Compatible con cubierta fría (B.2.1) y con la mejora de instalaciones."
+  ],
+  "limitaciones": [
+    "No elimina la necesidad de reducir la demanda con medidas pasivas.",
+    "Requiere estructura portante, ausencia de sombras y conexión/legalización eléctrica.",
+    "Coste medio-alto y plazo de medio plazo.",
+    "Necesita simultaneidad entre producción y uso para ser eficiente (o almacenamiento)."
+  ],
+  "criterios": [
+    "Priorizar cubiertas disponibles y bien orientadas, espacios críticos y necesidad de electrificación eficiente.",
+    "Dimensionar la instalación según el consumo simultáneo (climatización, ventilación, iluminación).",
+    "Verificar la estructura, las sombras y la compatibilidad con cubierta fría o vegetal.",
+    "Combinar con climatización eficiente (D.2) y control (D.4) para maximizar el autoconsumo."
+  ],
+  "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. La estructura, la conexión y la legalización condicionan la inversión; el retorno mejora con alto autoconsumo en horas solares.",
+  "referencias": [
+    "Revisión de rehabilitación escolar: renovables, fotovoltaica, bombas de calor y sistemas activos, condicionados por coste y contexto.",
+    "Programas de autoconsumo y comunidades energéticas en centros educativos."
+  ],
+  "ejemplos_mercado": [
+    "Módulos fotovoltaicos e inversores de autoconsumo (SunPower, JA Solar, Huawei, SMA, Fronius).",
+    "Estructuras de cubierta coplanar o con inclinación (lastradas para cubierta plana).",
+    "Sistemas de monitorización de producción y autoconsumo.",
+    "Baterías de almacenamiento para desplazar consumo (opcional)."
+  ],
+  "grupo_nombre": "Activa"
+}

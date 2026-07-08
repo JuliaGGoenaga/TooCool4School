@@ -1,0 +1,41 @@
+{
+  "codigo": "A.3.1",
+  "grupo": "A",
+  "subgrupo": "A.3",
+  "subgrupo_nombre": "Pavimentos",
+  "titulo": "Sustitución de asfalto por pavimento permeable",
+  "impacto": "Medio-alto",
+  "coste": "Medio",
+  "plazo": "Corto-medio plazo",
+  "descripcion": "Reducción progresiva de superficies oscuras e impermeables mediante pavimentos drenantes, terrizos estabilizados, áridos compactados, superficies claras o soluciones mixtas con vegetación. Disminuye la temperatura superficial y mejora el comportamiento del patio frente a la lluvia, especialmente si se combina con sombra y drenaje verde.",
+  "beneficios": [
+    "Reduce la temperatura superficial del patio al eliminar asfalto oscuro y superficies impermeables.",
+    "Mejora el comportamiento frente a la lluvia y la gestión del agua de escorrentía.",
+    "Impacto medio-alto en el patio e indirecto sobre las aulas próximas.",
+    "Se potencia al combinarse con sombra (A.1), vegetación (A.2) y drenaje verde (A.5.1)."
+  ],
+  "limitaciones": [
+    "Durabilidad y mantenimiento condicionados por el tipo de superficie y el uso deportivo.",
+    "Debe garantizar accesibilidad universal y limpieza sin acumulación de finos.",
+    "Compatibilidad limitada con juegos/deporte de uso duro en algunas superficies.",
+    "Requiere fases de obra y coordinación con el drenaje existente."
+  ],
+  "criterios": [
+    "Priorizar grandes superficies de asfalto, patios sin vegetación y zonas no imprescindibles para deporte duro.",
+    "Optar por superficies claras (alta reflectancia) y permeables en las zonas de estancia y recorridos.",
+    "Reservar pavimento continuo resistente en pistas deportivas y combinar con áreas terrizas o vegetadas.",
+    "Diseñar pendientes y capas drenantes coordinadas con el saneamiento y el drenaje verde."
+  ],
+  "coste_detalle": "Coste medio. Ejecución a corto o medio plazo según superficie y fases de obra. Los terrizos estabilizados son más económicos que los pavimentos drenantes técnicos.",
+  "referencias": [
+    "Catálogo de patios climáticamente resilientes: desasfaltado, superficies permeables/frescas y drenaje basado en naturaleza como repertorio recurrente.",
+    "Evidencia sobre patios escolares: el desasfaltado se asocia a mejoras de confort térmico y gestión del agua."
+  ],
+  "ejemplos_mercado": [
+    "Pavimentos drenantes de hormigón poroso o resina con árido (tipo Sttepstone, Terr, hormigón desactivado claro).",
+    "Terrizos estabilizados con ligantes (Aripaq, Stabex y similares).",
+    "Adoquines y celdas de césped/grava permeables (TTE, Ritter, adoquín ecológico).",
+    "Baldosas y aglomerados de alta reflectancia (colores claros, SRI elevado)."
+  ],
+  "grupo_nombre": "Pasiva exterior"
+}
