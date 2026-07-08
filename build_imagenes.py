@@ -306,58 +306,62 @@ M["C.2"] = ground() + (
 )
 
 # ---- D. Activa ----
-M["D.1.1"] = ground() + (
-    # ventilador de techo
-    '<line x1="240" y1="70" x2="240" y2="110" stroke="{d}" stroke-width="6"/>'
-    '<circle cx="240" cy="120" r="16" fill="{d}"/>'
-    '<ellipse cx="175" cy="120" rx="70" ry="18" fill="{p}"/>'
-    '<ellipse cx="305" cy="120" rx="70" ry="18" fill="{p}" opacity=".8"/>'
-    '<circle cx="240" cy="120" r="9" fill="{sun}"/>'
-    '<path d="M150 175 q90 40 180 0" stroke="{p}" stroke-width="4" fill="none" stroke-dasharray="2 8" stroke-linecap="round"/>'
-    '<path d="M170 205 q70 34 140 0" stroke="{p}" stroke-width="4" fill="none" stroke-dasharray="2 8" stroke-linecap="round"/>'
+M["D.1.1"] = (
+    # ventilador de techo (más grande, sin sol ni suelo)
+    '<rect x="206" y="30" width="68" height="13" rx="4" fill="{d}"/>'
+    '<line x1="240" y1="40" x2="240" y2="104" stroke="{d}" stroke-width="8"/>'
+    '<ellipse cx="146" cy="116" rx="98" ry="25" fill="{p}"/>'
+    '<ellipse cx="334" cy="116" rx="98" ry="25" fill="{p}" opacity=".8"/>'
+    '<circle cx="240" cy="116" r="22" fill="{d}"/>'
+    '<circle cx="240" cy="116" r="9" fill="{glass}"/>'
+    '<path d="M146 178 q94 46 188 0" stroke="{p}" stroke-width="5" fill="none" stroke-dasharray="2 9" stroke-linecap="round"/>'
+    '<path d="M172 214 q68 40 136 0" stroke="{p}" stroke-width="5" fill="none" stroke-dasharray="2 9" stroke-linecap="round"/>'
 )
 
-M["D.1.2"] = ground() + sun(410, 56) + (
-    # extractor / conducto
-    '<rect x="130" y="110" width="120" height="120" rx="10" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
-    '<circle cx="190" cy="170" r="42" fill="{p}" opacity=".18" stroke="{d}" stroke-width="3"/>'
-    + ''.join(f'<path d="M190 170 L{190+38} {170} A38 38 0 0 0 {190+27} {170-27} Z" fill="{{p}}" opacity=".8" transform="rotate({a} 190 170)"/>' for a in (0,72,144,216,288))
-    + '<circle cx="190" cy="170" r="10" fill="{d}"/>'
-    '<rect x="250" y="150" width="130" height="40" rx="8" fill="{ground}" stroke="{d}" stroke-width="3"/>'
-    '<path d="M270 170 h90" stroke="{p}" stroke-width="4" stroke-dasharray="2 8" stroke-linecap="round"/>'
-    '<path d="M352 162 l12 8 l-12 8" fill="none" stroke="{p}" stroke-width="4" stroke-linecap="round"/>'
+M["D.1.2"] = (
+    # extractor de aire con conducto (más grande, sin sol ni suelo)
+    '<rect x="88" y="86" width="156" height="156" rx="16" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<circle cx="166" cy="164" r="58" fill="{p}" opacity=".16" stroke="{d}" stroke-width="3"/>'
+    + ''.join(f'<path d="M166 164 L{166+52} 164 A52 52 0 0 0 {166+37} {164-37} Z" fill="{{p}}" opacity=".8" transform="rotate({a} 166 164)"/>' for a in (0,72,144,216,288))
+    + '<circle cx="166" cy="164" r="14" fill="{d}"/>'
+    '<rect x="244" y="138" width="150" height="52" rx="12" fill="#eef1f5" stroke="{d}" stroke-width="3"/>'
+    '<path d="M266 164 h96" stroke="{p}" stroke-width="6" stroke-dasharray="2 10" stroke-linecap="round"/>'
+    '<path d="M354 154 l15 10 l-15 10" fill="none" stroke="{p}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>'
 )
 
-M["D.1.3"] = ground() + sun(410, 56) + (
-    # unidad de ventilación mecánica (caja + conductos)
-    '<rect x="120" y="110" width="150" height="120" rx="10" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
-    '<rect x="138" y="128" width="55" height="84" rx="4" fill="{glass}"/>'
-    + ''.join(f'<line x1="146" y1="{138+i*14}" x2="185" y2="{138+i*14}" stroke="{{d}}" stroke-width="3" opacity=".5"/>' for i in range(5))
-    + '<circle cx="230" cy="170" r="22" fill="{p}" opacity=".25" stroke="{d}" stroke-width="3"/>'
-    '<circle cx="230" cy="170" r="6" fill="{d}"/>'
-    '<rect x="270" y="140" width="120" height="24" rx="6" fill="{ground}" stroke="{d}" stroke-width="2"/>'
-    '<rect x="270" y="180" width="120" height="24" rx="6" fill="{ground}" stroke="{d}" stroke-width="2"/>'
-    '<path d="M285 152 h80" stroke="{p}" stroke-width="4" stroke-dasharray="2 7" stroke-linecap="round"/>'
-    '<path d="M365 192 h-80" stroke="{d}" stroke-width="4" stroke-dasharray="2 7" stroke-linecap="round"/>'
+M["D.1.3"] = (
+    # unidad de ventilación mecánica: filtro + ventilador + conductos (más grande)
+    '<rect x="92" y="86" width="190" height="160" rx="16" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<rect x="112" y="108" width="70" height="116" rx="6" fill="{glass}"/>'
+    + ''.join(f'<line x1="122" y1="{120+i*17}" x2="172" y2="{120+i*17}" stroke="{{d}}" stroke-width="3" opacity=".5"/>' for i in range(6))
+    + '<circle cx="232" cy="166" r="34" fill="{p}" opacity=".22" stroke="{d}" stroke-width="3"/>'
+    + ''.join(f'<path d="M232 166 L{232+30} 166 A30 30 0 0 0 {232+21} {166-21} Z" fill="{{p}}" opacity=".8" transform="rotate({a} 232 166)"/>' for a in (0,90,180,270))
+    + '<circle cx="232" cy="166" r="10" fill="{d}"/>'
+    '<rect x="282" y="112" width="118" height="32" rx="9" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    '<rect x="282" y="188" width="118" height="32" rx="9" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    '<path d="M298 128 h84" stroke="{p}" stroke-width="5" stroke-dasharray="2 9" stroke-linecap="round"/>'
+    '<path d="M374 119 l13 9 l-13 9" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+    '<path d="M384 204 h-84" stroke="{d}" stroke-width="5" stroke-dasharray="2 9" stroke-linecap="round"/>'
+    '<path d="M308 195 l-13 9 l13 9" fill="none" stroke="{d}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
 )
 
-M["D.1.4"] = ground() + sun(60, 58) + (
-    # ventana + ventilador (híbrido)
-    '<rect x="130" y="90" width="150" height="140" rx="8" fill="#ffffff" stroke="{d}" stroke-width="4"/>'
-    '<rect x="143" y="103" width="124" height="114" fill="{glass}" opacity=".7"/>'
-    '<path d="M143 155 l124 -16 l0 78 l-124 -16z" fill="{p}" opacity=".8"/>'
-    '<circle cx="360" cy="150" r="40" fill="{p}" opacity=".18" stroke="{d}" stroke-width="3"/>'
-    + ''.join(f'<path d="M360 150 L{360+36} 150 A36 36 0 0 0 {360+25} {150-25} Z" fill="{{p}}" opacity=".85" transform="rotate({a} 360 150)"/>' for a in (0,90,180,270))
-    + '<circle cx="360" cy="150" r="9" fill="{d}"/>'
+M["D.1.4"] = (
+    # ventana (natural) + ventilador (apoyo) = híbrida (más grande, sin sol ni suelo)
+    '<rect x="66" y="74" width="176" height="168" rx="10" fill="#ffffff" stroke="{d}" stroke-width="4"/>'
+    '<rect x="80" y="88" width="148" height="140" fill="{glass}" opacity=".7"/>'
+    '<path d="M80 158 l148 -19 l0 96 l-148 -19z" fill="{p}" opacity=".8"/>'
+    '<circle cx="344" cy="158" r="56" fill="{p}" opacity=".16" stroke="{d}" stroke-width="3"/>'
+    + ''.join(f'<path d="M344 158 L{344+50} 158 A50 50 0 0 0 {344+35} {158-35} Z" fill="{{p}}" opacity=".85" transform="rotate({a} 344 158)"/>' for a in (0,90,180,270))
+    + '<circle cx="344" cy="158" r="13" fill="{d}"/>'
 )
 
-M["D.2"] = ground() + sun(410, 56) + (
-    # split de climatización + aire frío
-    '<rect x="120" y="110" width="240" height="66" rx="14" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
-    '<rect x="120" y="150" width="240" height="10" fill="{p}"/>'
-    '<circle cx="330" cy="128" r="4" fill="{p}"/>'
-    + ''.join(f'<path d="M{160+i*40} 182 q-8 20 0 40" stroke="{{glass}}" stroke-width="6" fill="none" stroke-linecap="round"/>' for i in range(5))
-    + '<text x="240" y="140" font-family="sans-serif" font-size="18" fill="{d}" text-anchor="middle" opacity=".6">✳</text>'
+M["D.2"] = (
+    # split de climatización + aire frío (más grande, sin sol ni suelo)
+    '<rect x="86" y="92" width="308" height="86" rx="18" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<rect x="86" y="146" width="308" height="13" fill="{p}"/>'
+    '<circle cx="360" cy="116" r="5" fill="{p}"/>'
+    '<text x="240" y="132" font-family="sans-serif" font-size="24" fill="{d}" text-anchor="middle" opacity=".55">✳</text>'
+    + ''.join(f'<path d="M{140+i*44} 190 q-9 22 0 46" stroke="{{glass}}" stroke-width="7" fill="none" stroke-linecap="round"/>' for i in range(6))
 )
 
 M["D.3"] = sun(410, 58) + ground() + (
