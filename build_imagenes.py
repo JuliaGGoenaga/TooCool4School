@@ -247,9 +247,10 @@ M["C.1.1"] = sun(60, 58) + ground() + (
     '<path d="M132 143 l14 7 l-14 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round"/>'
     '<path d="M60 185 q40 -14 80 0" stroke="{d}" stroke-width="5" fill="none"/>'
     '<path d="M132 178 l14 7 l-14 7" fill="none" stroke="{d}" stroke-width="5" stroke-linecap="round"/>'
-    '<circle cx="400" cy="150" r="30" fill="#ffffff" stroke="{d}" stroke-width="4"/>'
-    '<line x1="400" y1="150" x2="400" y2="132" stroke="{d}" stroke-width="4" stroke-linecap="round"/>'
-    '<line x1="400" y1="150" x2="414" y2="158" stroke="{d}" stroke-width="4" stroke-linecap="round"/>'
+    '<circle cx="400" cy="150" r="30" fill="{p}" stroke="{d}" stroke-width="4"/>'
+    '<line x1="400" y1="150" x2="400" y2="131" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>'
+    '<line x1="400" y1="150" x2="415" y2="159" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>'
+    '<circle cx="400" cy="150" r="3.5" fill="#ffffff"/>'
 )
 
 M["C.1.2"] = (
