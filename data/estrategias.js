@@ -217,12 +217,12 @@ window.ESTRATEGIAS = [
     "grupo_nombre": "Pasiva exterior",
     "subgrupo": "A.5",
     "subgrupo_nombre": "Agua",
-    "titulo": "Pavimento drenante",
+    "titulo": "SUDS y gestión del agua",
     "imagen": "assets/img/A-5-1.svg",
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
-    "descripcion": "Incorporación de jardines de lluvia, cunetas verdes, zonas deprimidas vegetadas, pavimentos drenantes o recogida superficial controlada. Además de mejorar la gestión de la lluvia, permite introducir vegetación y reducir la dureza ambiental del patio. El drenaje basado en naturaleza aparece junto con desasfaltado, sombra y superficies permeables como intervención recurrente.",
+    "descripcion": "Conjunto de Sistemas de Drenaje Urbano Sostenible (SUDS): jardines de lluvia, cunetas verdes, zonas deprimidas vegetadas, pavimentos drenantes o recogida superficial controlada. Además de mejorar la gestión de la lluvia, permiten introducir vegetación y reducir la dureza ambiental del patio. El drenaje basado en naturaleza aparece junto con desasfaltado, sombra y superficies permeables como intervención recurrente.",
     "beneficios": [
       "Mejora la gestión de la lluvia y reduce la escorrentía superficial.",
       "Introduce vegetación y suelo vivo, reduciendo la dureza ambiental del patio.",
@@ -304,7 +304,7 @@ window.ESTRATEGIAS = [
     "titulo": "Protección solar exterior",
     "imagen": "assets/img/B-1-1.svg",
     "impacto": "Alto",
-    "coste": "Bajo",
+    "coste": "Medio",
     "plazo": "Corto plazo",
     "descripcion": "Colocación de toldos, lamas, persianas exteriores, celosías, estores exteriores o elementos equivalentes para bloquear la radiación antes de que atraviese el vidrio. Es una de las medidas más directas para aulas con radiación solar, especialmente en orientaciones sur, oeste o suroeste. Aporta reducción de ganancias solares, mejora del confort visual y menor dependencia de soluciones activas.",
     "beneficios": [
@@ -346,7 +346,7 @@ window.ESTRATEGIAS = [
     "titulo": "Protección solar interior",
     "imagen": "assets/img/B-1-2.svg",
     "impacto": "Bajo",
-    "coste": "Bajo",
+    "coste": "Medio",
     "plazo": "Inmediato",
     "descripcion": "Uso de cortinas técnicas, estores interiores, lamas interiores o films solares cuando la protección exterior no sea viable de forma inmediata. No evita que el calor entre con la misma eficacia que una protección exterior, pero puede reducir el deslumbramiento y mejorar la percepción de confort mientras se ejecutan medidas más eficaces. Es especialmente útil como solución transitoria o reversible.",
     "beneficios": [
