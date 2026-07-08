@@ -100,14 +100,16 @@
   .overlay.open { display: flex; }
   .modal { background: var(--panel); width: 100%; max-width: 760px; border-radius: 18px; box-shadow: 0 24px 70px rgba(0,0,0,.3); overflow: hidden; animation: pop .16s ease; }
   @keyframes pop { from { transform: translateY(8px) scale(.99); opacity: .6; } to { transform: none; opacity: 1; } }
-  .modal .mbanner { width: 100%; aspect-ratio: 24 / 7; background: var(--bg); overflow: hidden; }
-  .modal .mbanner img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .modal .mhead { padding: 22px 26px 18px; color: #fff; position: relative; }
+  /* Cabecera en dos mitades: imagen | texto, sobre la franja de color */
+  .modal .mhead { display: flex; align-items: stretch; color: #fff; position: relative; }
+  .modal .mh-img { flex: 0 0 44%; aspect-ratio: 1 / 1; background: #fff; overflow: hidden; }
+  .modal .mh-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .modal .mh-txt { flex: 1 1 0; min-width: 0; padding: 24px 26px; display: flex; flex-direction: column; justify-content: center; }
   .modal .mhead .code { font-size: .78rem; font-weight: 700; opacity: .85; letter-spacing: .05em; }
-  .modal .mhead h2 { margin: 4px 0 3px; font-size: 1.4rem; line-height: 1.25; }
+  .modal .mhead h2 { margin: 4px 0 3px; font-size: 1.35rem; line-height: 1.22; }
   .modal .mhead .path { font-size: .82rem; opacity: .88; }
-  .modal .close { position: absolute; top: 16px; right: 16px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgba(255,255,255,.2); color: #fff; font-size: 1.2rem; cursor: pointer; line-height: 1; }
-  .modal .close:hover { background: rgba(255,255,255,.32); }
+  .modal .close { position: absolute; top: 14px; right: 14px; width: 34px; height: 34px; border-radius: 50%; border: 0; background: rgba(0,0,0,.28); color: #fff; font-size: 1.2rem; cursor: pointer; line-height: 1; z-index: 2; }
+  .modal .close:hover { background: rgba(0,0,0,.42); }
   .mbadges { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
   .mbadge { background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.28); color: #fff; font-size: .76rem; padding: 4px 11px; border-radius: 999px; }
   .mbadge b { font-weight: 700; }
@@ -129,7 +131,12 @@
   footer.pg { max-width: 1180px; margin: 0 auto; padding: 0 22px 40px; color: var(--muted); font-size: .8rem; }
 
   @media (max-width: 1080px) { .board { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 720px) { .twocol { grid-template-columns: 1fr; } }
+  @media (max-width: 720px) {
+    .twocol { grid-template-columns: 1fr; }
+    .modal .mhead { flex-direction: column; }
+    .modal .mh-img { flex-basis: auto; width: 100%; aspect-ratio: 16 / 9; }
+    .modal .mh-txt { padding: 18px 22px 22px; }
+  }
   @media (max-width: 560px) { .board { grid-template-columns: 1fr; } .col-head { position: static; } }
 </style>
 </head>
@@ -299,16 +306,18 @@
     var fname = "data/estrategias/" + d.codigo.replace(/\./g, "-") + ".json";
     var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
     modal.innerHTML =
-      '<div class="mbanner" style="background:'+col+'"><img src="'+img+'" alt="'+esc(d.titulo)+'" onerror="this.style.display=\'none\'"></div>'
-      + '<div class="mhead" style="background:linear-gradient(135deg,'+col+', color-mix(in srgb,'+col+' 78%, #000))">'
+      '<div class="mhead" style="background:linear-gradient(135deg,'+col+', color-mix(in srgb,'+col+' 78%, #000))">'
       + '<button class="close" aria-label="Cerrar">&times;</button>'
-      + '<div class="code">'+esc(d.grupo)+' · '+esc(GRUPOS[d.grupo].nombre)+'</div>'
-      + '<h2>'+esc(d.codigo)+' · '+esc(d.titulo)+'</h2>'
-      + '<div class="path">'+esc(d.subgrupo_nombre||"")+'</div>'
-      + '<div class="mbadges">'
-      +   '<span class="mbadge">Impacto: <b>'+esc(d.impacto)+'</b></span>'
-      +   '<span class="mbadge">Coste: <b>'+esc(d.coste)+'</b></span>'
-      +   '<span class="mbadge">Plazo: <b>'+esc(d.plazo)+'</b></span>'
+      + '<div class="mh-img" style="background:'+col+'"><img src="'+img+'" alt="'+esc(d.titulo)+'" onerror="this.style.display=\'none\'"></div>'
+      + '<div class="mh-txt">'
+      +   '<div class="code">'+esc(d.grupo)+' · '+esc(GRUPOS[d.grupo].nombre)+'</div>'
+      +   '<h2>'+esc(d.codigo)+' · '+esc(d.titulo)+'</h2>'
+      +   '<div class="path">'+esc(d.subgrupo_nombre||"")+'</div>'
+      +   '<div class="mbadges">'
+      +     '<span class="mbadge">Impacto: <b>'+esc(d.impacto)+'</b></span>'
+      +     '<span class="mbadge">Coste: <b>'+esc(d.coste)+'</b></span>'
+      +     '<span class="mbadge">Plazo: <b>'+esc(d.plazo)+'</b></span>'
+      +   '</div>'
       + '</div></div>'
       + '<div class="mbody">'
       +   '<p class="lead">'+esc(d.descripcion)+'</p>'

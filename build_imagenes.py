@@ -25,15 +25,19 @@ GLASS = "#cfe6f2"
 
 
 def frame(g, inner):
+    # Lienzo CUADRADO (400x400). La escena se dibuja en coordenadas 480x300
+    # y se encaja a lo ancho, anclada abajo, de modo que el suelo quede a ras
+    # del borde inferior y el cielo rellene la parte superior (sin costuras).
     p, d, sky, ground = PAL[g]
+    body = inner.format(p=p, d=d, sky=sky, ground=ground, sun=SUN, glass=GLASS)
     return (
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="none">'
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">'
         '<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">'
         f'<stop offset="0" stop-color="{sky}"/><stop offset="1" stop-color="#ffffff"/>'
         '</linearGradient></defs>'
-        '<rect width="480" height="300" fill="url(#sky)"/>'
-        + inner.format(p=p, d=d, sky=sky, ground=ground, sun=SUN, glass=GLASS)
-        + '</svg>'
+        '<rect width="400" height="400" fill="url(#sky)"/>'
+        '<g transform="translate(0,150) scale(0.83333)">' + body + '</g>'
+        '</svg>'
     )
 
 
@@ -249,8 +253,8 @@ M["C.1.1"] = sun(60, 58) + ground() + (
 )
 
 M["C.1.2"] = (
-    # cielo nocturno oscuro
-    '<rect width="480" height="300" fill="#1e2c40"/>'
+    # cielo nocturno oscuro (se extiende hacia arriba para llenar el cuadrado)
+    '<rect x="0" y="-200" width="480" height="500" fill="#1e2c40"/>'
     '<rect x="0" y="232" width="480" height="68" fill="#141d2b"/>'
     # estrellas
     + ''.join(f'<circle cx="{54+_i*52}" cy="{34+((_i*41)%54)}" r="{1.6+(_i%2)}" fill="#f2f5ff" opacity=".85"/>' for _i in range(8))
