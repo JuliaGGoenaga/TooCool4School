@@ -78,7 +78,8 @@ Otras funciones:
   "ejemplos_mercado": ["…", "…"],// materiales, sistemas o productos del mercado
   "tipos_impacto": ["…", "…"],   // vista "Tipo de impacto" (puede tener varios)
   "nivel": 1,                    // vista "Planificación": 1..4 (complejidad)
-  "nivel_grupo": "…"             // subgrupo dentro del nivel 1 (vacío en 2..4)
+  "nivel_grupo": "…",            // subgrupo dentro del nivel 1 (vacío en 2..4)
+  "nivel_extra": [3]             // (opcional) niveles adicionales donde aparece
 }
 ```
 

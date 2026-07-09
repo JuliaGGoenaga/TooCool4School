@@ -387,12 +387,35 @@ M["D.2.2"] = (
 )
 
 M["D.2.1"] = (
-    # split de climatización + aire frío (más grande, sin sol ni suelo)
-    '<rect x="86" y="92" width="308" height="86" rx="18" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
-    '<rect x="86" y="146" width="308" height="13" fill="{p}"/>'
-    '<circle cx="360" cy="116" r="5" fill="{p}"/>'
-    '<text x="240" y="132" font-family="sans-serif" font-size="24" fill="{d}" text-anchor="middle" opacity=".55">✳</text>'
-    + ''.join(f'<path d="M{140+i*44} 190 q-9 22 0 46" stroke="{{glass}}" stroke-width="7" fill="none" stroke-linecap="round"/>' for i in range(6))
+    # recuperador de calor por planta + módulo DX, con salida por fachada
+    # unidad
+    '<rect x="92" y="106" width="214" height="112" rx="12" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    # núcleo recuperador (dos flujos que se cruzan)
+    '<rect x="112" y="124" width="78" height="78" rx="4" fill="{glass}" opacity=".4" stroke="{d}" stroke-width="2.5"/>'
+    '<path d="M112 124 L190 202" stroke="{p}" stroke-width="4" stroke-linecap="round"/>'
+    '<path d="M190 124 L112 202" stroke="{glass}" stroke-width="5" stroke-linecap="round"/>'
+    # módulo de expansión directa (batería DX)
+    '<rect x="206" y="130" width="86" height="66" rx="4" fill="{glass}"/>'
+    + ''.join(f'<path d="M212 {144+_i*18} q37 -8 74 0" stroke="{{d}}" stroke-width="2" fill="none" opacity=".55"/>' for _i in range(3))
+    + '<text x="249" y="170" font-family="sans-serif" font-size="20" fill="{d}" text-anchor="middle" opacity=".5">✳</text>'
+    # fachada (derecha) con rejilla de salida
+    '<rect x="392" y="92" width="26" height="150" fill="#d8cbb8"/>'
+    '<rect x="388" y="112" width="30" height="94" rx="3" fill="#efe6d6" stroke="{d}" stroke-width="2.5"/>'
+    + ''.join(f'<line x1="392" y1="{122+_i*16}" x2="414" y2="{122+_i*16}" stroke="{{d}}" stroke-width="2.5" opacity=".7"/>' for _i in range(5))
+    # conductos unidad<->fachada: extracción (arriba) e impulsión (abajo)
+    + '<rect x="306" y="124" width="84" height="20" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    '<rect x="306" y="180" width="84" height="20" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    # flechas: aire de extracción sale por fachada (cálido)
+    '<path d="M318 134 H384" stroke="{p}" stroke-width="4" stroke-dasharray="2 8" stroke-linecap="round"/>'
+    '<path d="M376 127 l12 7 l-12 7" fill="none" stroke="{p}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
+    # flechas: aire nuevo entra desde fachada (fresco)
+    '<path d="M384 190 H312" stroke="{glass}" stroke-width="4" stroke-dasharray="2 8" stroke-linecap="round"/>'
+    '<path d="M320 183 l-12 7 l12 7" fill="none" stroke="{glass}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
+    # lado sala: impulsión tratada al aula (fresco) y retorno del aula (cálido)
+    + '<path d="M92 138 H48" stroke="{glass}" stroke-width="5" stroke-linecap="round"/>'
+    '<path d="M56 131 l-12 7 l12 7" fill="none" stroke="{glass}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+    '<path d="M48 186 H92" stroke="{p}" stroke-width="5" stroke-linecap="round"/>'
+    '<path d="M84 179 l12 7 l-12 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
 )
 
 M["D.3"] = sun(410, 58) + ground() + (

@@ -1055,43 +1055,48 @@ window.ESTRATEGIAS = [
     "grupo_nombre": "Activa",
     "subgrupo": "D.2",
     "subgrupo_nombre": "Climatización",
-    "titulo": "Climatización puntual por zonas",
+    "titulo": "Recuperación de calor por planta con expansión directa",
     "imagen": "assets/img/D-2-1.svg",
     "impacto": "Alto",
     "coste": "Medio",
-    "plazo": "Corto-medio plazo",
-    "descripcion": "Instalación de splits, equipos autónomos o sistemas zonales solo en aulas o espacios con problema persistente: orientación oeste, bajo cubierta, biblioteca, comedor, aula de apoyo, sala de cuidados o espacios de alta vulnerabilidad. Debe plantearse como intervención selectiva, no como solución generalizada, y siempre tras reducir las ganancias solares.",
+    "plazo": "Medio plazo",
+    "descripcion": "Instalación, planta a planta, de una unidad de recuperación de calor (ventilación con recuperador) acoplada a un módulo de expansión directa (DX), con toma y expulsión de aire por fachada. Renueva y trata el aire recuperando la energía del aire de extracción y, gracias al módulo DX, permite además climatizar el aire de impulsión. Es una solución intermedia entre los equipos puntuales y la instalación centralizada de edificio (D.2.2): resuelve por planta, con recorridos cortos, tratando la calidad del aire y aportando frío/calor. Su interés aumenta si se combina con fotovoltaica en cubierta (D.3), ya que el consumo coincide con las horas solares.",
     "beneficios": [
-      "Impacto alto en el espacio intervenido: garantiza confort en aulas o usos críticos.",
-      "Intervención selectiva que concentra la inversión donde las medidas pasivas no bastan.",
-      "Asegura la continuidad docente y protege a usuarios vulnerables.",
-      "Con equipos eficientes (bomba de calor) puede aportar también calefacción."
+      "Regula la calidad del aire (renovación con recuperación de calor) y, a la vez, permite climatizar gracias al módulo de expansión directa.",
+      "La recuperación de calor reduce la demanda y mejora la eficiencia frente a climatizar sin tratar el aire.",
+      "Resolución por planta con recorridos cortos: simplifica conductos, obra y mantenimiento frente a una red centralizada.",
+      "Toma y expulsión por fachada, sin necesidad de grandes patinillos ni unidades exteriores en cubierta.",
+      "Muy sinérgica con la fotovoltaica en cubierta (D.3): el consumo coincide con las horas de mayor radiación."
     ],
     "limitaciones": [
-      "Consumo eléctrico y coste de operación y mantenimiento (refrigerante, condensados).",
-      "Requiere potencia eléctrica, ubicación de unidades exteriores y control del ruido.",
-      "Riesgo de desigualdad entre aulas climatizadas y no climatizadas.",
-      "Pierde eficacia y desperdicia energía si se usa con ventanas abiertas o sin reducir antes las ganancias solares."
+      "La salida por fachada obliga a estudiar su idoneidad, especialmente en fachadas históricas o protegidas (patrimonio, imagen, permisos).",
+      "Requiere pasos por fachada, espacio técnico por planta y potencia eléctrica; consumo y mantenimiento del módulo DX (refrigerante, filtros).",
+      "Impacto acústico y visual de las rejillas de fachada; condensados a resolver.",
+      "No debe sustituir a las medidas pasivas: dimensionar sobre la demanda ya reducida (control solar y ventilación previos)."
     ],
     "criterios": [
-      "Reservarla para espacios críticos donde las pasivas no bastan, con necesidad de continuidad docente o usuarios vulnerables.",
-      "Actuar siempre después de reducir ganancias solares (B.1) y mejorar ventilación (C.1, D.1).",
-      "Dimensionar equipos eficientes (bomba de calor inverter) y prever la ubicación de unidades exteriores.",
-      "Enlazar con control (D.4) para evitar uso simultáneo con ventanas abiertas y limitar consumos."
+      "Estudiar la idoneidad de la salida por fachada; en fachadas históricas o protegidas, valorar alternativas de ubicación y tramitar los permisos correspondientes.",
+      "Plantearla tras reducir ganancias solares (B.1) y mejorar la ventilación (C.1, D.1); dimensionar sobre la demanda ya reducida.",
+      "Zonificar por planta y regular por calidad de aire (CO₂) y temperatura, enlazando con el control (D.4).",
+      "Combinar con fotovoltaica en cubierta (D.3) para maximizar el autoconsumo, dado que el uso coincide con las horas solares.",
+      "Seleccionar recuperadores de alta eficiencia y módulos DX eficientes (bomba de calor), con acceso para el mantenimiento."
     ],
-    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La inversión y, sobre todo, el consumo eléctrico y el mantenimiento son los principales condicionantes; por eso se plantea de forma selectiva.",
+    "coste_detalle": "Coste medio. Ejecución a medio plazo. La inversión por unidad y planta es mayor que la de un equipo puntual pero menor que la de una instalación centralizada de edificio; el consumo y el mantenimiento del módulo DX son costes recurrentes. La recuperación de calor y la combinación con fotovoltaica mejoran el balance de operación.",
     "referencias": [
-      "Oferta IDOM: las medidas activas se plantean solo si la necesidad es real tras proponer las pasivas.",
-      "Tendencia europea en refrigeración eficiente: reducir demanda con diseño pasivo y luego combinar sistemas eficientes y renovables."
+      "RITE: exigencias de ventilación, recuperación de calor y eficiencia de las instalaciones térmicas.",
+      "UNE-EN 16798 / BB101: caudales de ventilación y calidad de aire interior en escuelas.",
+      "Guías de unidades de ventilación con recuperación de calor y expansión directa (roof-top y de fachada por planta).",
+      "Tendencia europea de refrigeración eficiente: reducir demanda con diseño pasivo y combinar sistemas eficientes con renovables (fotovoltaica)."
     ],
     "ejemplos_mercado": [
-      "Splits y multisplit inverter con bomba de calor de alta eficiencia (Daikin, Mitsubishi Electric, Fujitsu).",
-      "Sistemas VRF para zonificación en varios espacios (Daikin VRV, Mitsubishi City Multi).",
-      "Aerotermia con unidades interiores en espacios críticos.",
-      "Termostatos y control zonal integrados con la gestión del centro."
+      "Unidades de ventilación con recuperador de calor y módulo de expansión directa por planta (Swegon, Systemair, Daikin, Zehnder).",
+      "Rejillas y pasamuros de fachada para toma/expulsión de aire.",
+      "Bombas de calor / módulos DX de alta eficiencia integrados en la unidad.",
+      "Control por CO₂ y temperatura, integrable con la fotovoltaica de autoconsumo (D.3)."
     ],
     "tipos_impacto": [
-      "Mejora de las condiciones térmicas interiores"
+      "Mejora de las condiciones térmicas interiores",
+      "Ventilación y disipación del calor"
     ],
     "nivel": 3,
     "nivel_grupo": ""
@@ -1196,7 +1201,10 @@ window.ESTRATEGIAS = [
       "Mejora de las condiciones térmicas interiores"
     ],
     "nivel": 4,
-    "nivel_grupo": ""
+    "nivel_grupo": "",
+    "nivel_extra": [
+      3
+    ]
   },
   {
     "codigo": "D.4",
