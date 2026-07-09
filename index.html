@@ -58,6 +58,11 @@
   .chk input { margin: 2px 0 0; accent-color: var(--brand); cursor: pointer; flex: none; }
   .clearf { border: 1px solid var(--line); background: var(--bg); color: var(--muted); font-size: .82rem; font-weight: 600; padding: 8px 10px; border-radius: 9px; cursor: pointer; }
   .clearf:hover { color: var(--ink); border-color: var(--muted); }
+  .tfilters { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--line); background: var(--panel); color: var(--muted); font-size: .82rem; font-weight: 600; padding: 7px 12px; border-radius: 9px; cursor: pointer; box-shadow: var(--shadow); margin-bottom: 12px; }
+  .tfilters:hover { color: var(--ink); }
+  .tfilters svg { width: 15px; height: 15px; }
+  .app.no-filters { grid-template-columns: 1fr; }
+  .app.no-filters .filters { display: none; }
 
   /* ---------- Conmutador de vistas (pestañas en la franja verde) ---------- */
   .views { display: inline-flex; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.3); border-radius: 11px; padding: 4px; gap: 3px; flex-wrap: wrap; }
@@ -248,6 +253,10 @@
     </aside>
 
     <section class="content">
+      <button type="button" class="tfilters" id="toggleFilters" aria-expanded="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M7 12h10M10 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Ocultar filtros</span>
+      </button>
       <p class="viewhint" id="viewhint"></p>
       <div class="legend" id="legend">
         <span class="lg-label">Tipo de medida:</span>
@@ -555,6 +564,14 @@
   }
   document.querySelectorAll(".vbtn").forEach(function (b) {
     b.addEventListener("click", function () { setMode(b.getAttribute("data-view")); });
+  });
+
+  var appEl = document.querySelector(".app");
+  var toggleFilters = document.getElementById("toggleFilters");
+  toggleFilters.addEventListener("click", function () {
+    var hidden = appEl.classList.toggle("no-filters");
+    toggleFilters.setAttribute("aria-expanded", String(!hidden));
+    toggleFilters.querySelector("span").textContent = hidden ? "Mostrar filtros" : "Ocultar filtros";
   });
 
   q.addEventListener("input", render);
