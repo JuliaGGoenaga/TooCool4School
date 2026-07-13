@@ -271,7 +271,7 @@
 </main>
 
 <footer class="pg">
-  Datos de partida a partir del <em>Catálogo directo de estrategias tipo para mitigar el sobrecalentamiento en centros educativos de Bizkaia</em>. Fichas editables en <code>data/estrategias/</code>.
+  Webapp desarrollada por <strong>IDOM</strong> · Consulting, Engineering, Architecture.
 </footer>
 
 <div class="overlay" id="overlay">
@@ -507,7 +507,6 @@
     var d = DATA.filter(function (x) { return x.codigo === code; })[0];
     if (!d) return;
     var col = gcolor(d.grupo);
-    var fname = "data/estrategias/" + d.codigo.replace(/\./g, "-") + ".json";
     var img = esc(d.imagen || ("assets/img/" + d.codigo.replace(/\./g, "-") + ".svg"));
     modal.innerHTML =
       '<div class="mhead" style="background:linear-gradient(135deg,'+col+', color-mix(in srgb,'+col+' 78%, #000))">'
@@ -531,10 +530,8 @@
       +   '</div>'
       +   listSection("Criterios de aplicación y recomendaciones de diseño", d.criterios, "cri", IC.cri)
       +   '<div class="sect cost"><h4>'+IC.cost+'Coste</h4><p>'+esc(d.coste_detalle||"")+'</p></div>'
-      +   listSection("Referencias y casos de estudio", d.referencias, "ref", IC.ref)
       +   listSection("Ejemplos de materiales, sistemas o productos", d.ejemplos_mercado, "mkt", IC.mkt)
-      + '</div>'
-      + '<div class="mfoot">Ficha editable: <code>'+esc(fname)+'</code></div>';
+      + '</div>';
     // recolorea acentos de secciones al color del grupo
     modal.querySelectorAll('.sect:not(.lim) h4').forEach(function(h){ h.style.color = col; });
     modal.querySelectorAll('.sect:not(.lim) ul li::before');
