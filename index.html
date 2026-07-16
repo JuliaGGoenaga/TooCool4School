@@ -213,9 +213,9 @@
       <p>Medidas para mitigar el sobrecalentamiento en centros educativos, organizadas de lo pasivo a lo activo. Cada ficha recoge descripción, beneficios, limitaciones, criterios de aplicación, coste, referencias y ejemplos de mercado.</p>
     </div>
     <div class="views" id="views" role="tablist">
-      <button class="vbtn active" data-view="medida">Tipo de medida</button>
+      <button class="vbtn active" data-view="plan">Niveles de intervención</button>
+      <button class="vbtn" data-view="medida">Tipo de medida</button>
       <button class="vbtn" data-view="impacto">Tipo de impacto</button>
-      <button class="vbtn" data-view="plan">Planificación</button>
     </div>
   </div>
 </header>
@@ -349,7 +349,7 @@
     { n: 1, titulo: "Diseño pasivo y operación", desc: "Mejora de las condiciones actuales sin grandes modificaciones.",
       subs: ["Renaturalización y mejora microclimática", "Intervenciones en elementos construidos", "Gestión, uso y monitorización"] },
     { n: 2, titulo: "Sistemas sencillos de apoyo", desc: "Equipos de bajo consumo que acompañan a lo pasivo." },
-    { n: 3, titulo: "Tratamiento del aire por planta", desc: "Sistema de ventilación y climatización localizado, con apoyo fotovoltaico." },
+    { n: 3, titulo: "Tratamiento de aire localizado", desc: "Climatización por zonas con aportación y extracción de aire, con apoyo fotovoltaico." },
     { n: 4, titulo: "Instalación a escala de edificio", desc: "Climatización por planta, ventilación mecánica, control/automatización y soporte renovable." }
   ];
   var GORDER = { A: 0, B: 1, C: 2, D: 3 };
@@ -591,7 +591,7 @@
     viewhint.textContent = "";
     board.innerHTML = '<div class="empty">No se han podido cargar los datos.<br>Ejecuta <code>python3 build.py</code> para generar <code>data/estrategias.js</code>.</div>';
   } else {
-    setMode("medida");
+    setMode("plan");
     if (location.hash.length > 1) openModal(decodeURIComponent(location.hash.slice(1)));
   }
 })();

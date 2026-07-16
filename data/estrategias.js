@@ -60,12 +60,13 @@ window.ESTRATEGIAS = [
     "impacto": "Alto",
     "coste": "Medio",
     "plazo": "Medio plazo",
-    "descripcion": "Introducción de árboles, vegetación arbustiva, parterres, jardineras de gran formato o franjas verdes en patios y bordes del edificio. Aporta sombra futura, evapotranspiración, mejora microclimática, biodiversidad y mayor calidad de estancia. Es especialmente útil cuando el patio funciona como acumulador de calor por exceso de pavimento mineral.",
+    "descripcion": "Introducción de árboles, vegetación arbustiva, parterres, jardineras de gran formato o franjas verdes en patios y bordes del edificio. Aporta sombra futura, evapotranspiración, mejora microclimática, biodiversidad y mayor calidad de estancia. Es especialmente útil cuando el patio funciona como acumulador de calor por exceso de pavimento mineral. Puede incluir huertos escolares, que suman valor pedagógico y de biodiversidad.",
     "beneficios": [
       "Sombra natural creciente y enfriamiento por evapotranspiración del arbolado.",
       "Mejora microclimática, aumento de biodiversidad y mayor calidad de estancia y juego.",
       "Impacto medio a alto, que crece con el porte del árbol y la continuidad de la sombra.",
-      "Reduce el efecto de acumulación de calor de los patios muy mineralizados."
+      "Reduce el efecto de acumulación de calor de los patios muy mineralizados.",
+      "Los huertos escolares añaden valor pedagógico y de biodiversidad."
     ],
     "limitaciones": [
       "Efecto pleno a medio plazo por el tiempo de crecimiento del arbolado.",
@@ -172,7 +173,8 @@ window.ESTRATEGIAS = [
       "Aplicar en pavimentos y cubiertas oscuras muy expuestas y en aulas de última planta.",
       "Seleccionar acabados con SRI alto y resistencia al uso, evitando deslumbramientos en zonas de trabajo o juego.",
       "Combinar con sombra (A.1) y vegetación (A.2) para actuar también sobre la radiación directa a las personas.",
-      "Coordinar el tratamiento de cubiertas con la fotovoltaica (D.3) y futuras actuaciones."
+      "Coordinar el tratamiento de cubiertas con la fotovoltaica (D.3) y futuras actuaciones.",
+      "En cubiertas, coordinar con la cubierta fría/reflectante (B.2.1), que trata la cubierta como parte de la envolvente; A.3.2 actúa a escala de superficie y microclima."
     ],
     "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. El coste principal es el material de acabado y la limpieza/repintado periódico para mantener la reflectancia.",
     "referencias": [
@@ -183,7 +185,8 @@ window.ESTRATEGIAS = [
       "Pinturas y membranas reflectantes 'cool roof' de alto SRI (tipo Sika Sarnacol/Sarnafil claro, Kraton, revestimientos elastoméricos blancos).",
       "Revestimientos acrílicos reflectantes para pavimento (colores claros de alto índice de reflectancia solar).",
       "Áridos y morteros claros para acabados de patio.",
-      "Membranas de cubierta de PVC/TPO de color claro con SRI certificado."
+      "Membranas de cubierta de PVC/TPO de color claro con SRI certificado.",
+      "Pinturas fotocatalíticas (con TiO₂): además de aclarar la superficie, favorecen la autolimpieza y la calidad del aire."
     ],
     "tipos_impacto": [
       "Mejora microclimática"
@@ -338,6 +341,52 @@ window.ESTRATEGIAS = [
     "nivel_grupo": "Renaturalización y mejora microclimática"
   },
   {
+    "codigo": "A.5.3",
+    "grupo": "A",
+    "subgrupo": "A.5",
+    "subgrupo_nombre": "Agua",
+    "titulo": "Nebulización y micronebulización",
+    "imagen": "assets/img/A-5-3.svg",
+    "impacto": "Medio",
+    "coste": "Bajo",
+    "plazo": "Corto plazo",
+    "descripcion": "Instalación de micronebulizadores de baja presión en patios, zonas de estancia y en las inmediaciones de fachada para refrescar el aire por evaporación durante los episodios cálidos. Es una medida rápida y de bajo coste que mejora el confort exterior y puede rebajar la temperatura del aire próximo a la fachada, reduciendo la carga sobre el edificio. Debe dosificarse con cuidado por el consumo de agua y la humedad.",
+    "beneficios": [
+      "Enfriamiento evaporativo inmediato del aire en zonas de estancia y junto a fachada.",
+      "Coste bajo y puesta en marcha rápida, con control por temperatura/humedad.",
+      "Se combina muy bien con sombra y vegetación, y con los SUDS (A.5.1) reutilizando el agua de lluvia recogida en verano.",
+      "Sin obra pesada; reversible y ampliable."
+    ],
+    "limitaciones": [
+      "Consumo de agua: exige dosificación y control para no malgastarla.",
+      "Riesgo sanitario (legionella) si el mantenimiento del sistema es deficiente.",
+      "Poco eficaz con humedad ambiental alta; puede mojar superficies si se sobredimensiona.",
+      "Efecto local y temporal: no sustituye a la sombra ni a la vegetación."
+    ],
+    "criterios": [
+      "Ubicar los difusores en recorridos y zonas de estancia y junto a huecos de fachada expuestos.",
+      "Regular por temperatura y humedad, y priorizar micronebulización de baja presión y bajo consumo.",
+      "Alimentar, cuando sea posible, con agua de lluvia recogida por los SUDS (A.5.1).",
+      "Establecer un plan de mantenimiento sanitario (limpieza, prevención de legionella)."
+    ],
+    "coste_detalle": "Coste bajo. Ejecución a corto plazo. El coste principal es la instalación de la red de nebulización y el mantenimiento sanitario; el consumo de agua se acota con control y con reutilización de pluviales.",
+    "referencias": [
+      "Guías de refugios climáticos que incorporan agua y nebulización como enfriamiento evaporativo.",
+      "Buenas prácticas de prevención de legionella en sistemas de agua pulverizada."
+    ],
+    "ejemplos_mercado": [
+      "Sistemas de micronebulización de baja presión de bajo consumo.",
+      "Nebulizadores lineales para pérgolas y bordes de fachada.",
+      "Depósitos de recogida de pluviales (A.5.1) como fuente de agua para riego y nebulización."
+    ],
+    "tipos_impacto": [
+      "Mejora microclimática"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática",
+    "grupo_nombre": "Pasiva exterior"
+  },
+  {
     "codigo": "B.1.1",
     "grupo": "B",
     "grupo_nombre": "Pasiva envolvente",
@@ -480,6 +529,53 @@ window.ESTRATEGIAS = [
     "nivel_grupo": "Intervenciones en elementos construidos"
   },
   {
+    "codigo": "B.1.5",
+    "grupo": "B",
+    "subgrupo": "B.1",
+    "subgrupo_nombre": "Fachada vegetal",
+    "titulo": "Jardines verticales en fachada",
+    "imagen": "assets/img/B-1-5.svg",
+    "impacto": "Medio",
+    "coste": "Medio",
+    "plazo": "Medio plazo",
+    "descripcion": "Incorporación de vegetación en fachada mediante jardineras por plantas o enredaderas guiadas con un sistema de cables. Aporta sombra sobre el paramento y los huecos, enfriamiento por evapotranspiración y una capa vegetal que protege la fachada de la radiación directa. Es una medida de renaturalización que mejora el comportamiento bioclimático del edificio y su calidad ambiental y paisajística.",
+    "beneficios": [
+      "Sombrea la fachada y los huecos, reduciendo la radiación directa y las ganancias solares.",
+      "Enfriamiento por evapotranspiración y mejora del microclima próximo al edificio.",
+      "Aporta biodiversidad, calidad ambiental y valor paisajístico y pedagógico.",
+      "La solución con enredadera sobre cables es más ligera y económica que un muro vegetal técnico."
+    ],
+    "limitaciones": [
+      "Requiere riego y mantenimiento (poda, guiado, sustitución de marras).",
+      "Tiempo de crecimiento hasta cubrir la fachada (efecto pleno a medio plazo).",
+      "Cuidado con anclajes, humedad sobre el paramento y especies adecuadas.",
+      "Los muros vegetales técnicos con jardineras son más caros y exigentes de mantener."
+    ],
+    "criterios": [
+      "Priorizar fachadas muy expuestas (sur/oeste) y con huecos que reciben sol directo.",
+      "Elegir entre enredadera guiada con cables (más ligera) o jardineras por plantas según capacidad de riego y mantenimiento.",
+      "Seleccionar especies adaptadas y de bajo consumo hídrico; prever riego (posible con pluviales, A.5.1).",
+      "Cuidar los anclajes, la protección del paramento frente a humedad y la compatibilidad con la evacuación."
+    ],
+    "coste_detalle": "Coste medio y plazo de medio plazo. La enredadera guiada con cables es la opción más asequible; los muros vegetales con jardineras y riego técnico elevan la inversión y el mantenimiento.",
+    "referencias": [
+      "Guías de fachadas vegetales y su efecto sobre la radiación y el microclima.",
+      "C40 Cities: soluciones basadas en la naturaleza (muros y cubiertas verdes) en escuelas."
+    ],
+    "ejemplos_mercado": [
+      "Sistemas de enredadera guiada con cables tensados de acero inoxidable (Jakob, Carl Stahl).",
+      "Jardineras de fachada con riego por goteo y sustrato ligero.",
+      "Muros vegetales modulares (para actuaciones puntuales de mayor entidad)."
+    ],
+    "tipos_impacto": [
+      "Mejora microclimática",
+      "Reducción de la radiación directa"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Renaturalización y mejora microclimática",
+    "grupo_nombre": "Pasiva envolvente"
+  },
+  {
     "codigo": "B.2.1",
     "grupo": "B",
     "grupo_nombre": "Pasiva envolvente",
@@ -518,7 +614,8 @@ window.ESTRATEGIAS = [
       "Membranas de PVC/TPO de color claro con SRI certificado (Sika Sarnafil, Renolit Alkorplan, Firestone UltraPly).",
       "Pinturas y revestimientos elastoméricos reflectantes 'cool roof'.",
       "Impermeabilizaciones líquidas de poliuretano con acabado claro.",
-      "Áridos o láminas claras sobre cubiertas invertidas."
+      "Áridos o láminas claras sobre cubiertas invertidas.",
+      "Pinturas/acabados reflectantes fotocatalíticos (con TiO₂) para la autolimpieza y la calidad del aire."
     ],
     "tipos_impacto": [
       "Mejora del comportamiento térmico de los materiales",
@@ -817,18 +914,19 @@ window.ESTRATEGIAS = [
     "grupo": "C",
     "grupo_nombre": "Pasiva interior",
     "subgrupo": "C.2",
-    "subgrupo_nombre": "Monitorización",
-    "titulo": "Monitorización de Tª, HR y CO₂",
+    "subgrupo_nombre": "Monitorización y gestión",
+    "titulo": "Monitorización y gestión energética",
     "imagen": "assets/img/C-2.svg",
     "impacto": "Bajo",
     "coste": "Bajo",
     "plazo": "Inmediato",
-    "descripcion": "Colocar sensores portátiles o registradores en aulas representativas para confirmar los horarios críticos, la relación con la ventilación y la severidad real del problema. No enfría por sí misma, pero permite decidir mejor, evitar soluciones sobredimensionadas y comprobar si las medidas rápidas funcionan. BB101 se plantea como guía de ventilación, confort térmico y calidad de aire interior en escuelas, y el cuestionario IDOM ya prevé mediciones de Tª, HR y CO₂ en espacios representativos.",
+    "descripcion": "Colocar sensores portátiles o registradores en aulas representativas para confirmar los horarios críticos, la relación con la ventilación y la severidad real del problema. No enfría por sí misma, pero permite decidir mejor, evitar soluciones sobredimensionadas y comprobar si las medidas rápidas funcionan. BB101 se plantea como guía de ventilación, confort térmico y calidad de aire interior en escuelas, y el cuestionario IDOM ya prevé mediciones de Tª, HR y CO₂ en espacios representativos. Cuando existen equipos controlables (ventilación, climatización o iluminación), la monitorización se acompaña de una gestión energética que regula su funcionamiento según los datos y evita consumos innecesarios.",
     "beneficios": [
       "Diagnóstico objetivo: confirma horarios críticos, severidad y relación con la ventilación.",
       "Evita soluciones sobredimensionadas y ayuda a justificar las medidas.",
       "Permite comprobar si las medidas rápidas (protocolos, protecciones) funcionan.",
-      "Coste bajo y despliegue inmediato."
+      "Coste bajo y despliegue inmediato.",
+      "Con equipos controlables, habilita la gestión energética: regular ventilación, climatización o iluminación según los datos."
     ],
     "limitaciones": [
       "No enfría por sí misma: es una herramienta de diagnóstico y seguimiento.",
@@ -840,7 +938,8 @@ window.ESTRATEGIAS = [
       "Aplicar cuando hay dudas sobre la causa principal o discrepancia entre percepción y datos.",
       "Situar los sensores en aulas representativas de cada situación (orientación, planta, ocupación).",
       "Registrar Tª, HR y CO₂ en periodos significativos, incluyendo horas críticas.",
-      "Usar los datos para priorizar medidas y verificar su eficacia; enlazar con control y automatización (D.4)."
+      "Usar los datos para priorizar medidas y verificar su eficacia; enlazar con control y automatización (D.4).",
+      "Cuando haya equipos controlables, vincular la monitorización a una gestión energética (control por horario, CO₂ o temperatura) para optimizar el consumo."
     ],
     "coste_detalle": "Coste bajo. Despliegue inmediato. Los registradores portátiles son muy asequibles; los sistemas fijos con plataforma de datos elevan el coste.",
     "referencias": [
@@ -858,6 +957,143 @@ window.ESTRATEGIAS = [
     ],
     "nivel": 1,
     "nivel_grupo": "Gestión, uso y monitorización"
+  },
+  {
+    "codigo": "C.3",
+    "grupo": "C",
+    "subgrupo": "C.3",
+    "subgrupo_nombre": "Cargas internas",
+    "titulo": "Reducción de cargas internas (iluminación LED y equipos eficientes)",
+    "imagen": "assets/img/C-3.svg",
+    "impacto": "Bajo",
+    "coste": "Bajo",
+    "plazo": "Corto plazo",
+    "descripcion": "Reducción de las fuentes de calor internas del aula sustituyendo la iluminación (fluorescentes o halógenos) por LED de alta eficiencia y renovando o gestionando los equipos de mayor consumo. La iluminación y los equipos son una carga térmica real: el LED produce mucho menos calor para el mismo nivel de luz, de modo que su sustitución rebaja la temperatura interior además del consumo eléctrico. Complementa la gestión operativa de cargas (C.1.4).",
+    "beneficios": [
+      "Menos calor interno: el LED disipa mucho menos que un fluorescente o halógeno para la misma iluminación.",
+      "Reduce el consumo eléctrico y mejora la calidad y el confort visual.",
+      "Coste bajo y rápida amortización; actuación sencilla y poco invasiva.",
+      "Suma con la gestión de cargas (C.1.4) y con luminarias reguladas por luz natural (daylighting)."
+    ],
+    "limitaciones": [
+      "Impacto térmico modesto: reduce una parte de la carga, no el problema solar.",
+      "Requiere una sustitución completa para notar el efecto (no equipo a equipo).",
+      "Otros equipos (proyectores, informática) siguen aportando calor si no se gestionan.",
+      "La ganancia depende de la intensidad de uso de iluminación y equipos."
+    ],
+    "criterios": [
+      "Sustituir la iluminación existente por LED de alta eficiencia, con regulación y sensor de luz natural donde sea posible.",
+      "Priorizar aulas con mucha iluminación encendida o equipos, y horarios de uso intensivo.",
+      "Revisar y renovar equipos ineficientes y prever la desconexión de cargas en reposo.",
+      "Coordinar con la gestión operativa de cargas (C.1.4) y con la monitorización (C.2)."
+    ],
+    "coste_detalle": "Coste bajo y ejecución a corto plazo, con amortización rápida por el ahorro eléctrico. El grueso del coste es la sustitución de luminarias.",
+    "referencias": [
+      "Rehabilitación escolar: las intervenciones sobre cargas internas e iluminación como parte del conjunto de medidas de confort y eficiencia.",
+      "Guías de eficiencia en iluminación (LED) y gestión de cargas en aulas."
+    ],
+    "ejemplos_mercado": [
+      "Luminarias LED con regulación y sensor de presencia/luz natural.",
+      "Sustitución de tubos fluorescentes por tubos/paneles LED.",
+      "Regletas con temporizador y enchufes inteligentes para cortar cargas en reposo."
+    ],
+    "tipos_impacto": [
+      "Control y mejora del uso",
+      "Mejora de las condiciones térmicas interiores"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización",
+    "grupo_nombre": "Pasiva interior"
+  },
+  {
+    "codigo": "C.4.1",
+    "grupo": "C",
+    "subgrupo": "C.4",
+    "subgrupo_nombre": "Educación y protocolos",
+    "titulo": "Educación climática",
+    "imagen": "assets/img/C-4-1.svg",
+    "impacto": "Bajo",
+    "coste": "Bajo",
+    "plazo": "Inmediato",
+    "descripcion": "Formación y sensibilización de la comunidad educativa para saber gestionar el calor: cómo y cuándo ventilar, el uso correcto de las protecciones solares, el papel de la envolvente, el funcionamiento de la climatización cuando exista, la lectura de los sensores y la importancia de la calidad del aire. Convierte a docentes y alumnado en agentes activos del confort, condición necesaria para que las medidas pasivas y operativas funcionen.",
+    "beneficios": [
+      "Hace efectivas las medidas que dependen del comportamiento (ventilación, protecciones, gestión de cargas).",
+      "Fomenta el uso correcto de sensores e instalaciones y la cultura de la calidad del aire.",
+      "Coste muy bajo y aplicación inmediata; alto valor pedagógico y de autonomía.",
+      "Refuerza el resto de estrategias, especialmente las de uso y gestión (C.1)."
+    ],
+    "limitaciones": [
+      "Su eficacia depende de la implicación continuada del centro.",
+      "No modifica la causa física del sobrecalentamiento.",
+      "Requiere materiales sencillos y repetición para consolidar hábitos."
+    ],
+    "criterios": [
+      "Elaborar materiales simples y visuales (cómo ventilar, cuándo bajar protecciones, qué indican los sensores).",
+      "Integrar la calidad del aire y el confort térmico en la actividad del centro y en el currículo.",
+      "Apoyarse en la monitorización (C.2) para hacer visibles y comprensibles los datos.",
+      "Vincularla al protocolo ante episodios de calor (C.4.2) y a la gestión operativa (C.1)."
+    ],
+    "coste_detalle": "Coste muy bajo y aplicación inmediata. El coste es de elaboración de materiales y de tiempo de formación.",
+    "referencias": [
+      "Fuentes de educación y clima: el calor dificulta la concentración y el aprendizaje, y exige planificar la adaptación en los centros.",
+      "Programas de educación ambiental y de calidad de aire interior en escuelas."
+    ],
+    "ejemplos_mercado": [
+      "Guías e infografías de uso (ventilación, protecciones, sensores).",
+      "Paneles/semáforos de CO₂ como herramienta didáctica.",
+      "Actividades curriculares sobre clima, confort y energía."
+    ],
+    "tipos_impacto": [
+      "Control y mejora del uso"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización",
+    "grupo_nombre": "Pasiva interior"
+  },
+  {
+    "codigo": "C.4.2",
+    "grupo": "C",
+    "subgrupo": "C.4",
+    "subgrupo_nombre": "Educación y protocolos",
+    "titulo": "Protocolo ante episodios de calor extremo",
+    "imagen": "assets/img/C-4-2.svg",
+    "impacto": "Medio",
+    "coste": "Bajo",
+    "plazo": "Inmediato",
+    "descripcion": "Plan de actuación para los días de calor extremo que ordena las decisiones de gestión: bajar protecciones solares y persianas en aulas sin uso o con sol directo, ventilar por la noche y a primera hora, comparar la temperatura exterior e interior para no abrir cuando fuera hace más calor, y activar medidas de hidratación, redistribución de usos y flexibilización de horarios. Puede incorporar el manual de uso de las instalaciones propuestas más innovadoras.",
+    "beneficios": [
+      "Respuesta ordenada y rápida en los días críticos, sin depender de la improvisación.",
+      "Bajo coste y aplicación inmediata; aprovecha al máximo las medidas ya existentes.",
+      "Protege a los usuarios vulnerables (hidratación, espacios refugio, horarios).",
+      "Integra el uso correcto de las instalaciones innovadoras (manual de uso)."
+    ],
+    "limitaciones": [
+      "Depende de la coordinación y del cumplimiento por parte del centro.",
+      "No resuelve la causa física; es una capa de gestión sobre las demás medidas.",
+      "Requiere revisión y actualización tras cada temporada."
+    ],
+    "criterios": [
+      "Definir instrucciones claras: gestión de protecciones y persianas, ventilación nocturna y comparación de temperatura exterior/interior antes de abrir.",
+      "Incluir protocolos de hidratación, redistribución de usos hacia espacios más frescos y flexibilización de horarios.",
+      "Apoyarse en la monitorización de temperatura exterior e interior (C.2) para decidir.",
+      "Incorporar el manual de uso de las instalaciones (ventilación híbrida, climatización, sensores)."
+    ],
+    "coste_detalle": "Coste muy bajo y aplicación inmediata. El coste es de coordinación, difusión y actualización del protocolo.",
+    "referencias": [
+      "Planes de actuación frente a episodios de calor en centros educativos.",
+      "Cuestionario IDOM: horarios críticos, espacios afectados y operación del centro."
+    ],
+    "ejemplos_mercado": [
+      "Protocolos y checklists por episodio de calor.",
+      "Manual de uso de las instalaciones propuestas.",
+      "Señalización de espacios refugio y de pautas de ventilación e hidratación."
+    ],
+    "tipos_impacto": [
+      "Control y mejora del uso"
+    ],
+    "nivel": 1,
+    "nivel_grupo": "Gestión, uso y monitorización",
+    "grupo_nombre": "Pasiva interior"
   },
   {
     "codigo": "D.1.1",
@@ -1012,12 +1248,13 @@ window.ESTRATEGIAS = [
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
-    "descripcion": "Combinación de ventilación natural con apoyo mecánico puntual, compuertas, ventiladores de extracción/impulsión o control por CO₂/temperatura. Permite aprovechar las condiciones exteriores favorables y activar el apoyo cuando la ventilación natural no alcanza. La literatura sobre escuelas identifica la ventilación híbrida, la automatización y el control en tiempo real como soluciones con interés para confort y calidad ambiental.",
+    "descripcion": "Combinación de ventilación natural con apoyo mecánico puntual, compuertas, ventiladores de extracción/impulsión o control por CO₂/temperatura. Permite aprovechar las condiciones exteriores favorables y activar el apoyo cuando la ventilación natural no alcanza. La literatura sobre escuelas identifica la ventilación híbrida, la automatización y el control en tiempo real como soluciones con interés para confort y calidad ambiental. Se complementa con un control de la temperatura del aire interior y exterior y un sensor de CO₂ que, en una pantalla sencilla, indica cuándo conviene abrir las ventanas o encender el ventilador y cuándo no (por ejemplo, si fuera hace más calor que dentro).",
     "beneficios": [
       "Impacto medio y alto si permite una purga efectiva y el control de CO₂.",
       "Aprovecha las condiciones exteriores favorables y activa el apoyo solo cuando hace falta.",
       "Menor consumo que la climatización, manteniendo calidad de aire y confort.",
-      "Compatible con ventilación nocturna (C.1.2) y control por sensores (D.4)."
+      "Compatible con ventilación nocturna (C.1.2) y control por sensores (D.4).",
+      "El sensor de CO₂ y el control de temperatura interior/exterior informan en una pantalla de cuándo abrir ventanas o encender el ventilador, guiando al usuario en tiempo real."
     ],
     "limitaciones": [
       "Puede generar ruido y requiere huecos de fachada/cubierta o conductos.",
@@ -1055,12 +1292,61 @@ window.ESTRATEGIAS = [
     "grupo_nombre": "Activa",
     "subgrupo": "D.2",
     "subgrupo_nombre": "Climatización",
-    "titulo": "Recuperación de calor por planta con expansión directa",
+    "titulo": "Climatización por zonas con aportación y extracción de aire",
     "imagen": "assets/img/D-2-1.svg",
     "impacto": "Alto",
     "coste": "Medio",
+    "plazo": "Corto-medio plazo",
+    "descripcion": "Instalación de equipos tipo split o multisplit en aulas y espacios con problema persistente, pero con la particularidad de incorporar aportación de aire exterior y extracción del aire viciado (existen equipos en el mercado que integran la ventilación en la propia unidad). Además de climatizar de forma selectiva, renuevan el aire y mejoran su calidad, evitando el principal defecto de un split convencional. Se plantea de forma selectiva, tras reducir las ganancias solares y donde las medidas pasivas no bastan.",
+    "beneficios": [
+      "Climatiza el espacio y, a la vez, renueva el aire y mejora la calidad interior (aporta aire nuevo y extrae el viciado).",
+      "Intervención selectiva que concentra la inversión en las aulas o usos críticos.",
+      "Con bomba de calor puede aportar también calefacción y funcionar todo el año.",
+      "Recorridos cortos y ejecución sencilla frente a una instalación centralizada."
+    ],
+    "limitaciones": [
+      "Consumo eléctrico y mantenimiento (refrigerante, filtros, condensados); unidad exterior y ruido.",
+      "La ventilación integrada es limitada frente a un sistema de tratamiento de aire dedicado.",
+      "Riesgo de desigualdad entre aulas climatizadas y no climatizadas.",
+      "No sustituye a las pasivas: dimensionar sobre la demanda ya reducida y evitar su uso con ventanas abiertas."
+    ],
+    "criterios": [
+      "Reservarla para espacios críticos donde las pasivas no bastan, con necesidad de continuidad docente o usuarios vulnerables.",
+      "Actuar tras reducir ganancias solares (B.1) y mejorar la ventilación (C.1, D.1).",
+      "Seleccionar equipos eficientes (bomba de calor inverter) con módulo de aportación y extracción de aire, y filtración adecuada.",
+      "Regular por CO₂ y temperatura (D.4) y combinar con fotovoltaica en cubierta (D.3) para el autoconsumo."
+    ],
+    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La inversión es mayor que la de un split convencional por el módulo de ventilación, pero menor que la de una instalación centralizada; el consumo y el mantenimiento son costes recurrentes.",
+    "referencias": [
+      "RITE: exigencias de ventilación, filtración y eficiencia de las instalaciones térmicas.",
+      "UNE-EN 16798 / BB101: caudales de ventilación y calidad de aire interior en escuelas.",
+      "Fichas técnicas de equipos split/VRF con aportación de aire exterior y recuperación."
+    ],
+    "ejemplos_mercado": [
+      "Splits y multisplit inverter con módulo de aportación/extracción de aire (Daikin, Mitsubishi Electric, Fujitsu).",
+      "Sistemas VRF con unidad de ventilación con recuperación integrada (Daikin VRV + VAM, Mitsubishi Lossnay).",
+      "Recuperadores de calor compactos acoplados a la climatización por zonas.",
+      "Termostatos y control por CO₂/temperatura integrados con la gestión del centro."
+    ],
+    "tipos_impacto": [
+      "Mejora de las condiciones térmicas interiores",
+      "Ventilación y disipación del calor"
+    ],
+    "nivel": 3,
+    "nivel_grupo": ""
+  },
+  {
+    "codigo": "D.2.2",
+    "grupo": "D",
+    "grupo_nombre": "Activa",
+    "subgrupo": "D.2",
+    "subgrupo_nombre": "Climatización",
+    "titulo": "Recuperación de calor por planta con expansión directa",
+    "imagen": "assets/img/D-2-2.svg",
+    "impacto": "Alto",
+    "coste": "Medio",
     "plazo": "Medio plazo",
-    "descripcion": "Instalación, planta a planta, de una unidad de recuperación de calor (ventilación con recuperador) acoplada a un módulo de expansión directa (DX), con toma y expulsión de aire por fachada. Renueva y trata el aire recuperando la energía del aire de extracción y, gracias al módulo DX, permite además climatizar el aire de impulsión. Es una solución intermedia entre los equipos puntuales y la instalación centralizada de edificio (D.2.2): resuelve por planta, con recorridos cortos, tratando la calidad del aire y aportando frío/calor. Su interés aumenta si se combina con fotovoltaica en cubierta (D.3), ya que el consumo coincide con las horas solares.",
+    "descripcion": "Instalación, planta a planta, de una unidad de recuperación de calor (ventilación con recuperador) acoplada a un módulo de expansión directa (DX), con toma y expulsión de aire por fachada. Renueva y trata el aire recuperando la energía del aire de extracción y, gracias al módulo DX, permite además climatizar el aire de impulsión. Es una solución intermedia entre los equipos puntuales y la instalación centralizada de edificio (D.2.3): resuelve por planta, con recorridos cortos, tratando la calidad del aire y aportando frío/calor. Su interés aumenta si se combina con fotovoltaica en cubierta (D.3), ya que el consumo coincide con las horas solares.",
     "beneficios": [
       "Regula la calidad del aire (renovación con recuperación de calor) y, a la vez, permite climatizar gracias al módulo de expansión directa.",
       "La recuperación de calor reduce la demanda y mejora la eficiencia frente a climatizar sin tratar el aire.",
@@ -1098,17 +1384,17 @@ window.ESTRATEGIAS = [
       "Mejora de las condiciones térmicas interiores",
       "Ventilación y disipación del calor"
     ],
-    "nivel": 3,
+    "nivel": 4,
     "nivel_grupo": ""
   },
   {
-    "codigo": "D.2.2",
+    "codigo": "D.2.3",
     "grupo": "D",
     "grupo_nombre": "Activa",
     "subgrupo": "D.2",
     "subgrupo_nombre": "Climatización",
     "titulo": "Instalación de climatización y tratamiento del aire interior",
-    "imagen": "assets/img/D-2-2.svg",
+    "imagen": "assets/img/D-2-3.svg",
     "impacto": "Alto",
     "coste": "Alto",
     "plazo": "Medio-largo plazo",

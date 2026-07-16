@@ -1,0 +1,46 @@
+{
+  "codigo": "A.5.3",
+  "grupo": "A",
+  "subgrupo": "A.5",
+  "subgrupo_nombre": "Agua",
+  "titulo": "Nebulización y micronebulización",
+  "imagen": "assets/img/A-5-3.svg",
+  "impacto": "Medio",
+  "coste": "Bajo",
+  "plazo": "Corto plazo",
+  "descripcion": "Instalación de micronebulizadores de baja presión en patios, zonas de estancia y en las inmediaciones de fachada para refrescar el aire por evaporación durante los episodios cálidos. Es una medida rápida y de bajo coste que mejora el confort exterior y puede rebajar la temperatura del aire próximo a la fachada, reduciendo la carga sobre el edificio. Debe dosificarse con cuidado por el consumo de agua y la humedad.",
+  "beneficios": [
+    "Enfriamiento evaporativo inmediato del aire en zonas de estancia y junto a fachada.",
+    "Coste bajo y puesta en marcha rápida, con control por temperatura/humedad.",
+    "Se combina muy bien con sombra y vegetación, y con los SUDS (A.5.1) reutilizando el agua de lluvia recogida en verano.",
+    "Sin obra pesada; reversible y ampliable."
+  ],
+  "limitaciones": [
+    "Consumo de agua: exige dosificación y control para no malgastarla.",
+    "Riesgo sanitario (legionella) si el mantenimiento del sistema es deficiente.",
+    "Poco eficaz con humedad ambiental alta; puede mojar superficies si se sobredimensiona.",
+    "Efecto local y temporal: no sustituye a la sombra ni a la vegetación."
+  ],
+  "criterios": [
+    "Ubicar los difusores en recorridos y zonas de estancia y junto a huecos de fachada expuestos.",
+    "Regular por temperatura y humedad, y priorizar micronebulización de baja presión y bajo consumo.",
+    "Alimentar, cuando sea posible, con agua de lluvia recogida por los SUDS (A.5.1).",
+    "Establecer un plan de mantenimiento sanitario (limpieza, prevención de legionella)."
+  ],
+  "coste_detalle": "Coste bajo. Ejecución a corto plazo. El coste principal es la instalación de la red de nebulización y el mantenimiento sanitario; el consumo de agua se acota con control y con reutilización de pluviales.",
+  "referencias": [
+    "Guías de refugios climáticos que incorporan agua y nebulización como enfriamiento evaporativo.",
+    "Buenas prácticas de prevención de legionella en sistemas de agua pulverizada."
+  ],
+  "ejemplos_mercado": [
+    "Sistemas de micronebulización de baja presión de bajo consumo.",
+    "Nebulizadores lineales para pérgolas y bordes de fachada.",
+    "Depósitos de recogida de pluviales (A.5.1) como fuente de agua para riego y nebulización."
+  ],
+  "tipos_impacto": [
+    "Mejora microclimática"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática",
+  "grupo_nombre": "Pasiva exterior"
+}

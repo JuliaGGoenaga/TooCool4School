@@ -1,0 +1,45 @@
+{
+  "codigo": "C.4.2",
+  "grupo": "C",
+  "subgrupo": "C.4",
+  "subgrupo_nombre": "Educación y protocolos",
+  "titulo": "Protocolo ante episodios de calor extremo",
+  "imagen": "assets/img/C-4-2.svg",
+  "impacto": "Medio",
+  "coste": "Bajo",
+  "plazo": "Inmediato",
+  "descripcion": "Plan de actuación para los días de calor extremo que ordena las decisiones de gestión: bajar protecciones solares y persianas en aulas sin uso o con sol directo, ventilar por la noche y a primera hora, comparar la temperatura exterior e interior para no abrir cuando fuera hace más calor, y activar medidas de hidratación, redistribución de usos y flexibilización de horarios. Puede incorporar el manual de uso de las instalaciones propuestas más innovadoras.",
+  "beneficios": [
+    "Respuesta ordenada y rápida en los días críticos, sin depender de la improvisación.",
+    "Bajo coste y aplicación inmediata; aprovecha al máximo las medidas ya existentes.",
+    "Protege a los usuarios vulnerables (hidratación, espacios refugio, horarios).",
+    "Integra el uso correcto de las instalaciones innovadoras (manual de uso)."
+  ],
+  "limitaciones": [
+    "Depende de la coordinación y del cumplimiento por parte del centro.",
+    "No resuelve la causa física; es una capa de gestión sobre las demás medidas.",
+    "Requiere revisión y actualización tras cada temporada."
+  ],
+  "criterios": [
+    "Definir instrucciones claras: gestión de protecciones y persianas, ventilación nocturna y comparación de temperatura exterior/interior antes de abrir.",
+    "Incluir protocolos de hidratación, redistribución de usos hacia espacios más frescos y flexibilización de horarios.",
+    "Apoyarse en la monitorización de temperatura exterior e interior (C.2) para decidir.",
+    "Incorporar el manual de uso de las instalaciones (ventilación híbrida, climatización, sensores)."
+  ],
+  "coste_detalle": "Coste muy bajo y aplicación inmediata. El coste es de coordinación, difusión y actualización del protocolo.",
+  "referencias": [
+    "Planes de actuación frente a episodios de calor en centros educativos.",
+    "Cuestionario IDOM: horarios críticos, espacios afectados y operación del centro."
+  ],
+  "ejemplos_mercado": [
+    "Protocolos y checklists por episodio de calor.",
+    "Manual de uso de las instalaciones propuestas.",
+    "Señalización de espacios refugio y de pautas de ventilación e hidratación."
+  ],
+  "tipos_impacto": [
+    "Control y mejora del uso"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización",
+  "grupo_nombre": "Pasiva interior"
+}

@@ -1,0 +1,45 @@
+{
+  "codigo": "C.4.1",
+  "grupo": "C",
+  "subgrupo": "C.4",
+  "subgrupo_nombre": "Educación y protocolos",
+  "titulo": "Educación climática",
+  "imagen": "assets/img/C-4-1.svg",
+  "impacto": "Bajo",
+  "coste": "Bajo",
+  "plazo": "Inmediato",
+  "descripcion": "Formación y sensibilización de la comunidad educativa para saber gestionar el calor: cómo y cuándo ventilar, el uso correcto de las protecciones solares, el papel de la envolvente, el funcionamiento de la climatización cuando exista, la lectura de los sensores y la importancia de la calidad del aire. Convierte a docentes y alumnado en agentes activos del confort, condición necesaria para que las medidas pasivas y operativas funcionen.",
+  "beneficios": [
+    "Hace efectivas las medidas que dependen del comportamiento (ventilación, protecciones, gestión de cargas).",
+    "Fomenta el uso correcto de sensores e instalaciones y la cultura de la calidad del aire.",
+    "Coste muy bajo y aplicación inmediata; alto valor pedagógico y de autonomía.",
+    "Refuerza el resto de estrategias, especialmente las de uso y gestión (C.1)."
+  ],
+  "limitaciones": [
+    "Su eficacia depende de la implicación continuada del centro.",
+    "No modifica la causa física del sobrecalentamiento.",
+    "Requiere materiales sencillos y repetición para consolidar hábitos."
+  ],
+  "criterios": [
+    "Elaborar materiales simples y visuales (cómo ventilar, cuándo bajar protecciones, qué indican los sensores).",
+    "Integrar la calidad del aire y el confort térmico en la actividad del centro y en el currículo.",
+    "Apoyarse en la monitorización (C.2) para hacer visibles y comprensibles los datos.",
+    "Vincularla al protocolo ante episodios de calor (C.4.2) y a la gestión operativa (C.1)."
+  ],
+  "coste_detalle": "Coste muy bajo y aplicación inmediata. El coste es de elaboración de materiales y de tiempo de formación.",
+  "referencias": [
+    "Fuentes de educación y clima: el calor dificulta la concentración y el aprendizaje, y exige planificar la adaptación en los centros.",
+    "Programas de educación ambiental y de calidad de aire interior en escuelas."
+  ],
+  "ejemplos_mercado": [
+    "Guías e infografías de uso (ventilación, protecciones, sensores).",
+    "Paneles/semáforos de CO₂ como herramienta didáctica.",
+    "Actividades curriculares sobre clima, confort y energía."
+  ],
+  "tipos_impacto": [
+    "Control y mejora del uso"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización",
+  "grupo_nombre": "Pasiva interior"
+}

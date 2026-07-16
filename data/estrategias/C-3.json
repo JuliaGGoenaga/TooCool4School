@@ -1,0 +1,47 @@
+{
+  "codigo": "C.3",
+  "grupo": "C",
+  "subgrupo": "C.3",
+  "subgrupo_nombre": "Cargas internas",
+  "titulo": "Reducción de cargas internas (iluminación LED y equipos eficientes)",
+  "imagen": "assets/img/C-3.svg",
+  "impacto": "Bajo",
+  "coste": "Bajo",
+  "plazo": "Corto plazo",
+  "descripcion": "Reducción de las fuentes de calor internas del aula sustituyendo la iluminación (fluorescentes o halógenos) por LED de alta eficiencia y renovando o gestionando los equipos de mayor consumo. La iluminación y los equipos son una carga térmica real: el LED produce mucho menos calor para el mismo nivel de luz, de modo que su sustitución rebaja la temperatura interior además del consumo eléctrico. Complementa la gestión operativa de cargas (C.1.4).",
+  "beneficios": [
+    "Menos calor interno: el LED disipa mucho menos que un fluorescente o halógeno para la misma iluminación.",
+    "Reduce el consumo eléctrico y mejora la calidad y el confort visual.",
+    "Coste bajo y rápida amortización; actuación sencilla y poco invasiva.",
+    "Suma con la gestión de cargas (C.1.4) y con luminarias reguladas por luz natural (daylighting)."
+  ],
+  "limitaciones": [
+    "Impacto térmico modesto: reduce una parte de la carga, no el problema solar.",
+    "Requiere una sustitución completa para notar el efecto (no equipo a equipo).",
+    "Otros equipos (proyectores, informática) siguen aportando calor si no se gestionan.",
+    "La ganancia depende de la intensidad de uso de iluminación y equipos."
+  ],
+  "criterios": [
+    "Sustituir la iluminación existente por LED de alta eficiencia, con regulación y sensor de luz natural donde sea posible.",
+    "Priorizar aulas con mucha iluminación encendida o equipos, y horarios de uso intensivo.",
+    "Revisar y renovar equipos ineficientes y prever la desconexión de cargas en reposo.",
+    "Coordinar con la gestión operativa de cargas (C.1.4) y con la monitorización (C.2)."
+  ],
+  "coste_detalle": "Coste bajo y ejecución a corto plazo, con amortización rápida por el ahorro eléctrico. El grueso del coste es la sustitución de luminarias.",
+  "referencias": [
+    "Rehabilitación escolar: las intervenciones sobre cargas internas e iluminación como parte del conjunto de medidas de confort y eficiencia.",
+    "Guías de eficiencia en iluminación (LED) y gestión de cargas en aulas."
+  ],
+  "ejemplos_mercado": [
+    "Luminarias LED con regulación y sensor de presencia/luz natural.",
+    "Sustitución de tubos fluorescentes por tubos/paneles LED.",
+    "Regletas con temporizador y enchufes inteligentes para cortar cargas en reposo."
+  ],
+  "tipos_impacto": [
+    "Control y mejora del uso",
+    "Mejora de las condiciones térmicas interiores"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Gestión, uso y monitorización",
+  "grupo_nombre": "Pasiva interior"
+}

@@ -358,7 +358,7 @@ M["D.1.4"] = (
     + '<circle cx="344" cy="158" r="13" fill="{d}"/>'
 )
 
-M["D.2.2"] = (
+M["D.2.3"] = (
     # red de conductos en planta con cambios de sección que llegan a la UTA (máquina)
     # tramo estrecho (izquierda) -> transición -> tramo ancho -> máquina (derecha)
     '<rect x="60" y="148" width="118" height="18" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
@@ -386,7 +386,7 @@ M["D.2.2"] = (
     '<path d="M420 102 v-18" stroke="{glass}" stroke-width="6" stroke-linecap="round"/>'
 )
 
-M["D.2.1"] = (
+M["D.2.2"] = (
     # recuperador de calor por planta + módulo DX, con salida por fachada
     # unidad
     '<rect x="92" y="106" width="214" height="112" rx="12" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
@@ -416,6 +416,72 @@ M["D.2.1"] = (
     '<path d="M56 131 l-12 7 l12 7" fill="none" stroke="{glass}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
     '<path d="M48 186 H92" stroke="{p}" stroke-width="5" stroke-linecap="round"/>'
     '<path d="M84 179 l12 7 l-12 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+)
+
+M["D.2.1"] = (
+    # split con aportación de aire exterior y extracción de aire viciado
+    '<rect x="104" y="104" width="220" height="66" rx="16" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<rect x="104" y="150" width="220" height="12" fill="{p}"/>'
+    '<circle cx="296" cy="126" r="5" fill="{p}"/>'
+    '<text x="196" y="140" font-family="sans-serif" font-size="22" fill="{d}" text-anchor="middle" opacity=".5">✳</text>'
+    + ''.join(f'<path d="M{144+_i*40} 178 q-8 20 0 42" stroke="{{glass}}" stroke-width="6" fill="none" stroke-linecap="round"/>' for _i in range(5))
+    # módulo de ventilación: aportación de aire nuevo (fresco) y extracción de viciado (cálido)
+    + '<rect x="338" y="96" width="72" height="88" rx="10" fill="#eef1f5" stroke="{d}" stroke-width="2.5"/>'
+    '<rect x="324" y="120" width="16" height="30" fill="#eef1f5" stroke="{d}" stroke-width="2"/>'
+    '<path d="M474 116 H386" stroke="{glass}" stroke-width="5" stroke-dasharray="2 8" stroke-linecap="round"/>'
+    '<path d="M394 109 l-12 7 l12 7" fill="none" stroke="{glass}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+    '<path d="M386 164 H474" stroke="{p}" stroke-width="5" stroke-dasharray="2 8" stroke-linecap="round"/>'
+    '<path d="M466 157 l12 7 l-12 7" fill="none" stroke="{p}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>'
+)
+
+M["A.5.3"] = ground() + sun(60, 56) + (
+    # tubo de nebulización con boquillas, conos de niebla y gotas finas
+    '<rect x="120" y="120" width="244" height="9" rx="4" fill="{d}"/>'
+    '<rect x="122" y="100" width="8" height="22" fill="{d}"/><rect x="354" y="100" width="8" height="22" fill="{d}"/>'
+    + ''.join(f'<circle cx="{150+_i*50}" cy="131" r="4" fill="{{d}}"/>' for _i in range(5))
+    + ''.join(f'<path d="M{150+_i*50} 135 l-15 58 q15 8 30 0 z" fill="{{glass}}" opacity=".28"/>' for _i in range(5))
+    + ''.join(f'<circle cx="{138+_i*22}" cy="{150+((_i*17)%56)}" r="2" fill="{{glass}}"/>' for _i in range(15))
+)
+
+M["B.1.5"] = ground() + sun(410, 56) + (
+    # fachada con jardín vertical (enredadera sobre cables) y ventana
+    '<rect x="150" y="80" width="180" height="152" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    + ''.join(f'<line x1="{164+_i*24}" y1="84" x2="{164+_i*24}" y2="230" stroke="{{d}}" stroke-width="1.5" opacity=".3"/>' for _i in range(8))
+    + '<rect x="246" y="120" width="60" height="72" fill="{glass}" stroke="{d}" stroke-width="2"/>'
+    + ''.join(f'<circle cx="{160+ (_i%7)*25}" cy="{226 - (_i//7)*30}" r="{11+ (_i%3)*2}" fill="#3a9e73"/>' for _i in range(21))
+    + ''.join(f'<circle cx="{172+ (_i%6)*25}" cy="{216 - (_i//6)*30}" r="7" fill="#2b7d5a"/>' for _i in range(12))
+)
+
+M["C.3"] = ground() + sun(410, 56) + (
+    # panel LED (poco calor) que sustituye a un tubo antiguo (tachado)
+    '<rect x="150" y="108" width="184" height="60" rx="10" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<rect x="162" y="120" width="160" height="36" rx="6" fill="{glass}"/>'
+    + ''.join(f'<line x1="{178+_i*28}" y1="120" x2="{178+_i*28}" y2="156" stroke="#ffffff" stroke-width="4" opacity=".7"/>' for _i in range(5))
+    + '<text x="242" y="145" font-family="sans-serif" font-size="17" font-weight="700" fill="{d}" text-anchor="middle">LED</text>'
+    + ''.join(f'<line x1="{192+_i*30}" y1="174" x2="{192+_i*30}" y2="194" stroke="{{sun}}" stroke-width="3" stroke-linecap="round" opacity=".7"/>' for _i in range(4))
+    + '<rect x="58" y="118" width="72" height="16" rx="8" fill="#e6e0d2" stroke="{d}" stroke-width="2"/>'
+    '<line x1="56" y1="136" x2="132" y2="116" stroke="{p}" stroke-width="4" stroke-linecap="round"/>'
+)
+
+M["C.4.1"] = ground() + sun(410, 56) + (
+    # panel didáctico con símbolos de clima (sol, termómetro, CO2)
+    '<rect x="128" y="94" width="224" height="132" rx="10" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<rect x="142" y="108" width="196" height="90" rx="5" fill="{glass}" opacity=".5"/>'
+    '<circle cx="182" cy="140" r="13" fill="{sun}"/>'
+    '<rect x="232" y="122" width="9" height="34" rx="4" fill="#ffffff" stroke="{d}" stroke-width="2"/><circle cx="236" cy="162" r="9" fill="{p}"/>'
+    '<text x="298" y="150" font-family="sans-serif" font-size="16" font-weight="700" fill="{d}" text-anchor="middle">CO₂</text>'
+    '<line x1="360" y1="150" x2="332" y2="176" stroke="{d}" stroke-width="3" stroke-linecap="round"/>'
+)
+
+M["C.4.2"] = ground() + sun(60, 56) + (
+    # portapapeles con checklist (protocolo ante calor)
+    '<rect x="160" y="88" width="160" height="152" rx="10" fill="#ffffff" stroke="{d}" stroke-width="3"/>'
+    '<rect x="210" y="80" width="60" height="20" rx="6" fill="{d}"/>'
+    + ''.join(
+        f'<rect x="178" y="{116+_i*30}" width="16" height="16" rx="3" fill="{{glass}}" stroke="{{d}}" stroke-width="1.5"/>'
+        f'<path d="M181 {124+_i*30} l4 4 l7 -8" fill="none" stroke="{{p}}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'
+        f'<rect x="202" y="{121+_i*30}" width="102" height="6" rx="3" fill="{{d}}" opacity=".25"/>'
+        for _i in range(4))
 )
 
 M["D.3"] = sun(410, 58) + ground() + (

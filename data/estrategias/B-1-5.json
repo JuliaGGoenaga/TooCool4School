@@ -1,0 +1,47 @@
+{
+  "codigo": "B.1.5",
+  "grupo": "B",
+  "subgrupo": "B.1",
+  "subgrupo_nombre": "Fachada vegetal",
+  "titulo": "Jardines verticales en fachada",
+  "imagen": "assets/img/B-1-5.svg",
+  "impacto": "Medio",
+  "coste": "Medio",
+  "plazo": "Medio plazo",
+  "descripcion": "Incorporación de vegetación en fachada mediante jardineras por plantas o enredaderas guiadas con un sistema de cables. Aporta sombra sobre el paramento y los huecos, enfriamiento por evapotranspiración y una capa vegetal que protege la fachada de la radiación directa. Es una medida de renaturalización que mejora el comportamiento bioclimático del edificio y su calidad ambiental y paisajística.",
+  "beneficios": [
+    "Sombrea la fachada y los huecos, reduciendo la radiación directa y las ganancias solares.",
+    "Enfriamiento por evapotranspiración y mejora del microclima próximo al edificio.",
+    "Aporta biodiversidad, calidad ambiental y valor paisajístico y pedagógico.",
+    "La solución con enredadera sobre cables es más ligera y económica que un muro vegetal técnico."
+  ],
+  "limitaciones": [
+    "Requiere riego y mantenimiento (poda, guiado, sustitución de marras).",
+    "Tiempo de crecimiento hasta cubrir la fachada (efecto pleno a medio plazo).",
+    "Cuidado con anclajes, humedad sobre el paramento y especies adecuadas.",
+    "Los muros vegetales técnicos con jardineras son más caros y exigentes de mantener."
+  ],
+  "criterios": [
+    "Priorizar fachadas muy expuestas (sur/oeste) y con huecos que reciben sol directo.",
+    "Elegir entre enredadera guiada con cables (más ligera) o jardineras por plantas según capacidad de riego y mantenimiento.",
+    "Seleccionar especies adaptadas y de bajo consumo hídrico; prever riego (posible con pluviales, A.5.1).",
+    "Cuidar los anclajes, la protección del paramento frente a humedad y la compatibilidad con la evacuación."
+  ],
+  "coste_detalle": "Coste medio y plazo de medio plazo. La enredadera guiada con cables es la opción más asequible; los muros vegetales con jardineras y riego técnico elevan la inversión y el mantenimiento.",
+  "referencias": [
+    "Guías de fachadas vegetales y su efecto sobre la radiación y el microclima.",
+    "C40 Cities: soluciones basadas en la naturaleza (muros y cubiertas verdes) en escuelas."
+  ],
+  "ejemplos_mercado": [
+    "Sistemas de enredadera guiada con cables tensados de acero inoxidable (Jakob, Carl Stahl).",
+    "Jardineras de fachada con riego por goteo y sustrato ligero.",
+    "Muros vegetales modulares (para actuaciones puntuales de mayor entidad)."
+  ],
+  "tipos_impacto": [
+    "Mejora microclimática",
+    "Reducción de la radiación directa"
+  ],
+  "nivel": 1,
+  "nivel_grupo": "Renaturalización y mejora microclimática",
+  "grupo_nombre": "Pasiva envolvente"
+}

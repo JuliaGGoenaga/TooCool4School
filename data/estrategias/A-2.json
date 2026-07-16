@@ -9,12 +9,13 @@
   "impacto": "Alto",
   "coste": "Medio",
   "plazo": "Medio plazo",
-  "descripcion": "Introducción de árboles, vegetación arbustiva, parterres, jardineras de gran formato o franjas verdes en patios y bordes del edificio. Aporta sombra futura, evapotranspiración, mejora microclimática, biodiversidad y mayor calidad de estancia. Es especialmente útil cuando el patio funciona como acumulador de calor por exceso de pavimento mineral.",
+  "descripcion": "Introducción de árboles, vegetación arbustiva, parterres, jardineras de gran formato o franjas verdes en patios y bordes del edificio. Aporta sombra futura, evapotranspiración, mejora microclimática, biodiversidad y mayor calidad de estancia. Es especialmente útil cuando el patio funciona como acumulador de calor por exceso de pavimento mineral. Puede incluir huertos escolares, que suman valor pedagógico y de biodiversidad.",
   "beneficios": [
     "Sombra natural creciente y enfriamiento por evapotranspiración del arbolado.",
     "Mejora microclimática, aumento de biodiversidad y mayor calidad de estancia y juego.",
     "Impacto medio a alto, que crece con el porte del árbol y la continuidad de la sombra.",
-    "Reduce el efecto de acumulación de calor de los patios muy mineralizados."
+    "Reduce el efecto de acumulación de calor de los patios muy mineralizados.",
+    "Los huertos escolares añaden valor pedagógico y de biodiversidad."
   ],
   "limitaciones": [
     "Efecto pleno a medio plazo por el tiempo de crecimiento del arbolado.",

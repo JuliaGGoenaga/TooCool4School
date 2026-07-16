@@ -26,7 +26,8 @@
     "Aplicar en pavimentos y cubiertas oscuras muy expuestas y en aulas de última planta.",
     "Seleccionar acabados con SRI alto y resistencia al uso, evitando deslumbramientos en zonas de trabajo o juego.",
     "Combinar con sombra (A.1) y vegetación (A.2) para actuar también sobre la radiación directa a las personas.",
-    "Coordinar el tratamiento de cubiertas con la fotovoltaica (D.3) y futuras actuaciones."
+    "Coordinar el tratamiento de cubiertas con la fotovoltaica (D.3) y futuras actuaciones.",
+    "En cubiertas, coordinar con la cubierta fría/reflectante (B.2.1), que trata la cubierta como parte de la envolvente; A.3.2 actúa a escala de superficie y microclima."
   ],
   "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. El coste principal es el material de acabado y la limpieza/repintado periódico para mantener la reflectancia.",
   "referencias": [
@@ -37,7 +38,8 @@
     "Pinturas y membranas reflectantes 'cool roof' de alto SRI (tipo Sika Sarnacol/Sarnafil claro, Kraton, revestimientos elastoméricos blancos).",
     "Revestimientos acrílicos reflectantes para pavimento (colores claros de alto índice de reflectancia solar).",
     "Áridos y morteros claros para acabados de patio.",
-    "Membranas de cubierta de PVC/TPO de color claro con SRI certificado."
+    "Membranas de cubierta de PVC/TPO de color claro con SRI certificado.",
+    "Pinturas fotocatalíticas (con TiO₂): además de aclarar la superficie, favorecen la autolimpieza y la calidad del aire."
   ],
   "tipos_impacto": [
     "Mejora microclimática"

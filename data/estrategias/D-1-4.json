@@ -9,12 +9,13 @@
   "impacto": "Medio",
   "coste": "Medio",
   "plazo": "Corto-medio plazo",
-  "descripcion": "Combinación de ventilación natural con apoyo mecánico puntual, compuertas, ventiladores de extracción/impulsión o control por CO₂/temperatura. Permite aprovechar las condiciones exteriores favorables y activar el apoyo cuando la ventilación natural no alcanza. La literatura sobre escuelas identifica la ventilación híbrida, la automatización y el control en tiempo real como soluciones con interés para confort y calidad ambiental.",
+  "descripcion": "Combinación de ventilación natural con apoyo mecánico puntual, compuertas, ventiladores de extracción/impulsión o control por CO₂/temperatura. Permite aprovechar las condiciones exteriores favorables y activar el apoyo cuando la ventilación natural no alcanza. La literatura sobre escuelas identifica la ventilación híbrida, la automatización y el control en tiempo real como soluciones con interés para confort y calidad ambiental. Se complementa con un control de la temperatura del aire interior y exterior y un sensor de CO₂ que, en una pantalla sencilla, indica cuándo conviene abrir las ventanas o encender el ventilador y cuándo no (por ejemplo, si fuera hace más calor que dentro).",
   "beneficios": [
     "Impacto medio y alto si permite una purga efectiva y el control de CO₂.",
     "Aprovecha las condiciones exteriores favorables y activa el apoyo solo cuando hace falta.",
     "Menor consumo que la climatización, manteniendo calidad de aire y confort.",
-    "Compatible con ventilación nocturna (C.1.2) y control por sensores (D.4)."
+    "Compatible con ventilación nocturna (C.1.2) y control por sensores (D.4).",
+    "El sensor de CO₂ y el control de temperatura interior/exterior informan en una pantalla de cuándo abrir ventanas o encender el ventilador, guiando al usuario en tiempo real."
   ],
   "limitaciones": [
     "Puede generar ruido y requiere huecos de fachada/cubierta o conductos.",
