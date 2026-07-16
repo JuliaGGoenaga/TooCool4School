@@ -11,9 +11,9 @@
   "plazo": "Corto plazo",
   "descripcion": "Apertura controlada de huecos, compuertas o sistemas de ventilación para disipar el calor acumulado durante la noche o a primera hora. Es especialmente útil en edificios con cierta masa térmica, siempre que pueda garantizarse la seguridad y la protección frente a la lluvia. La literatura sobre adaptación en escuelas recoge la ventilación natural diurna y la refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
   "beneficios": [
-    "Impacto medio-alto en edificios con inercia térmica: disipa el calor acumulado antes de empezar la jornada.",
+    "Disipa el calor acumulado antes de empezar la jornada, muy eficaz en edificios con inercia térmica.",
     "Permite arrancar el día con las aulas más frescas.",
-    "Coste bajo-medio si existen condiciones de seguridad.",
+    "Prácticamente sin coste cuando existen condiciones de seguridad.",
     "Complementa el aislamiento (B.3) y la cubierta fría (B.2.1) en aulas de última planta."
   ],
   "limitaciones": [
@@ -28,7 +28,7 @@
     "Proteger frente a lluvia (huecos abrigados, sensores de lluvia) y coordinar con las alarmas.",
     "Combinar con ventilación híbrida (D.1.4) y control/automatización (D.4) para operarla sin vigilancia."
   ],
-  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo si existen condiciones de seguridad. La automatización de compuertas y las rejillas seguras elevan el coste.",
+  "coste_detalle": "El principal coste es la automatización de compuertas y las rejillas seguras; sin ellas, apenas tiene coste cuando existen condiciones de seguridad.",
   "referencias": [
     "Literatura de adaptación en escuelas: ventilación natural diurna y refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
     "Guías de free-cooling y night purge en edificios de uso docente."

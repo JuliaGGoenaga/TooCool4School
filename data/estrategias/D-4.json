@@ -12,7 +12,7 @@
   "descripcion": "Instalación de sondas de temperatura, humedad, CO₂, temporizadores, control horario, control por presencia o regulación básica de ventilación/climatización. Aporta consistencia operativa y evita que la eficacia dependa solo del uso manual. La literatura sobre escuelas en clima templado incluye sensores, automatización y BEMS como herramientas para localizar problemas y optimizar el confort y los sistemas.",
   "beneficios": [
     "Aporta consistencia operativa: los sistemas funcionan sin depender solo del uso manual.",
-    "Impacto medio-alto cuando gobierna la ventilación o la climatización.",
+    "Su efecto es mayor cuando gobierna la ventilación o la climatización.",
     "Optimiza el confort y el consumo (activar apoyo solo cuando hace falta).",
     "Permite localizar problemas y hacer seguimiento (enlaza con monitorización, C.2)."
   ],
@@ -28,7 +28,7 @@
     "Diseñar una interfaz sencilla para el personal del centro y prever el mantenimiento.",
     "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2.1) y protecciones solares."
   ],
-  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Desde temporizadores y sondas sencillas hasta un BEMS completo; escalar según la complejidad del centro.",
+  "coste_detalle": "Desde temporizadores y sondas sencillas hasta un BEMS completo: escalar según la complejidad del centro.",
   "referencias": [
     "Literatura de escuelas en clima templado: sensores, automatización y BEMS para localizar problemas y optimizar confort y sistemas.",
     "Guías de control y regulación de instalaciones (RITE) en edificios docentes."

@@ -11,13 +11,13 @@
   "plazo": "Corto plazo",
   "descripcion": "Comprobación de equipos, caudales, horarios, filtros, extracción/impulsión y regulación de la ventilación mecánica existente. Puede resolver problemas de aire viciado y mejorar la disipación si el sistema está infrautilizado o mal ajustado. Es una medida lógica antes de instalar nuevos equipos.",
   "beneficios": [
-    "Alto impacto en la calidad de aire si existe déficit de ventilación.",
+    "Mejora notablemente la calidad de aire si existe déficit de ventilación.",
     "Aprovecha la instalación existente antes de invertir en equipos nuevos.",
-    "Coste bajo-medio y ejecución a corto plazo.",
+    "Ejecución a corto plazo aprovechando la instalación existente.",
     "Puede mejorar la disipación de calor si el sistema estaba infrautilizado o mal ajustado."
   ],
   "limitaciones": [
-    "Impacto térmico bajo-medio: la ventilación mecánica no climatiza por sí sola.",
+    "La ventilación mecánica no climatiza por sí sola.",
     "Condicionada por el ruido, el consumo y la capacidad real del sistema.",
     "Requiere equilibrado, revisión de filtros y mantenimiento.",
     "Puede no bastar si el sistema está infradimensionado."
@@ -28,7 +28,7 @@
     "Ajustar el funcionamiento a la ocupación real (control por CO₂/horario, ver D.4).",
     "Verificar el equilibrado impulsión/extracción y el estado de conductos y recuperadores."
   ],
-  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Es una medida de bajo coste y alta lógica: optimizar antes de invertir en equipos nuevos.",
+  "coste_detalle": "Medida de alta lógica: optimizar la instalación existente antes de invertir en equipos nuevos.",
   "referencias": [
     "Buenas prácticas de operación y mantenimiento de sistemas de ventilación en edificios docentes.",
     "BB101 y RITE: caudales de ventilación y calidad de aire interior en aulas."

@@ -11,7 +11,7 @@
   "plazo": "Medio plazo",
   "descripcion": "Transformación total o parcial de la cubierta en sistema vegetal extensivo o semi-intensivo. Aporta amortiguación térmica, retención de agua, biodiversidad y mejora ambiental. Su interés aumenta cuando la cubierta tiene capacidad portante, accesibilidad de mantenimiento y oportunidad de combinar adaptación climática con gestión de lluvia.",
   "beneficios": [
-    "Amortiguación térmica de la cubierta, con impacto alto en aulas bajo cubierta si se diseña correctamente.",
+    "Amortiguación térmica de la cubierta, muy eficaz en aulas bajo cubierta si se diseña correctamente.",
     "Retención de agua de lluvia y reducción de la escorrentía.",
     "Aumento de la biodiversidad y mejora ambiental y paisajística.",
     "Potencial valor pedagógico y de uso (cubierta accesible/huerto)."
@@ -19,7 +19,6 @@
   "limitaciones": [
     "Carga estructural elevada: requiere capacidad portante suficiente.",
     "Necesita impermeabilización antirraíces, drenaje y mantenimiento especializado.",
-    "Coste inicial medio-alto y plazo de medio plazo.",
     "Seguridad de acceso para el mantenimiento."
   ],
   "criterios": [
@@ -28,7 +27,7 @@
     "Diseñar la impermeabilización antirraíces, el drenaje y los recorridos de mantenimiento seguros.",
     "Combinar con la gestión de pluviales (A.5) y valorar la compatibilidad con fotovoltaica (D.3)."
   ],
-  "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. El refuerzo estructural, la impermeabilización antirraíces y el mantenimiento son los principales condicionantes económicos.",
+  "coste_detalle": "El refuerzo estructural, la impermeabilización antirraíces y el mantenimiento especializado son los principales condicionantes económicos.",
   "referencias": [
     "C40 Cities: cubiertas y muros verdes dentro del enfriamiento pasivo en escuelas.",
     "Guías técnicas de cubiertas vegetales (p. ej. norma alemana FLL) aplicadas a edificios docentes."

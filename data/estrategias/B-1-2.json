@@ -11,13 +11,13 @@
   "plazo": "Inmediato",
   "descripcion": "Uso de cortinas técnicas, estores interiores, lamas interiores o films solares cuando la protección exterior no sea viable de forma inmediata. No evita que el calor entre con la misma eficacia que una protección exterior, pero puede reducir el deslumbramiento y mejorar la percepción de confort mientras se ejecutan medidas más eficaces. Es especialmente útil como solución transitoria o reversible.",
   "beneficios": [
-    "Impacto medio-alto en confort visual: reduce deslumbramiento de forma inmediata.",
-    "Coste bajo y solución reversible o transitoria mientras se ejecutan medidas más eficaces.",
+    "Reduce el deslumbramiento de forma inmediata y mejora el confort visual.",
+    "Solución reversible y transitoria mientras se ejecutan medidas más eficaces.",
     "No requiere obra en fachada ni permisos especiales.",
     "Útil cuando hay restricciones patrimoniales o de fachada para la protección exterior."
   ],
   "limitaciones": [
-    "Impacto térmico bajo-medio: el calor ya ha atravesado el vidrio, por lo que no sustituye a la protección exterior.",
+    "El calor ya ha atravesado el vidrio, por lo que no sustituye a la protección exterior.",
     "Puede oscurecer el aula en exceso y penalizar la iluminación natural.",
     "Requiere un uso correcto por parte de docentes y alumnado.",
     "Los films solares son permanentes y reducen la ganancia solar útil en invierno."
@@ -28,7 +28,7 @@
     "Plantearla como medida transitoria hacia una protección solar exterior (B.1.1).",
     "Acompañar de instrucciones simples de uso para docentes (gestión coordinada, C.1.4)."
   ],
-  "coste_detalle": "Coste bajo. Ejecución inmediata o a corto plazo. Es la medida de control solar más económica, aunque menos eficaz térmicamente que la exterior.",
+  "coste_detalle": "Es la opción de control solar más asequible, aunque menos eficaz térmicamente que la exterior.",
   "referencias": [
     "Literatura escolar sobre equilibrio entre luz, calor y ventilación en la selección de protecciones.",
     "Guías de confort en aulas: la protección interior como apoyo transitorio, no como solución principal."

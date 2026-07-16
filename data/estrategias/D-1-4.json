@@ -29,7 +29,7 @@
     "Coordinar el sistema con las protecciones solares (B.1) y la ventilación nocturna (C.1.2).",
     "Diseñar el control (D.4) para activar el apoyo solo cuando la ventilación natural no alcanza."
   ],
-  "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. El coste depende de los actuadores, compuertas y del sistema de control asociado.",
+  "coste_detalle": "Depende de los actuadores, las compuertas y el sistema de control asociado.",
   "referencias": [
     "Literatura escolar: ventilación híbrida, automatización y control en tiempo real como soluciones de interés para confort y calidad ambiental.",
     "BB101: estrategias mixtas de ventilación en escuelas."

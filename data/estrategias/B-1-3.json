@@ -12,14 +12,13 @@
   "descripcion": "Sustitución o ajuste de ventanas con mal comportamiento: vidrios simples, carpinterías metálicas antiguas, infiltraciones, baja capacidad de apertura o imposibilidad de ventilación eficaz. La medida puede mejorar confort, estanqueidad, acústica y control solar si se selecciona adecuadamente el vidrio y se mantiene capacidad de apertura. La selección de ventana, la relación hueco-muro, la ventilación natural y la protección solar deben equilibrar luz, calor y ventilación.",
   "beneficios": [
     "Mejora el confort, la estanqueidad y la acústica de las aulas.",
-    "Impacto medio, que se hace alto si se combina con control solar exterior (B.1.1).",
+    "Su efecto se refuerza combinado con control solar exterior (B.1.1).",
     "Permite recuperar la capacidad de apertura y una ventilación natural eficaz (C.1).",
     "Con vidrio de control solar reduce las ganancias solares por el hueco."
   ],
   "limitaciones": [
     "No resuelve el problema por sí sola si falta sombra: el vidrio de control solar no sustituye a la protección exterior.",
     "Obra intrusiva, difícil de compatibilizar con el periodo lectivo.",
-    "Coste medio-alto y plazo de medio plazo.",
     "Debe cuidar la ventilación, la seguridad infantil y el mantenimiento de los nuevos huecos."
   ],
   "criterios": [
@@ -28,7 +27,7 @@
     "No actuar solo sobre el vidrio si falta sombra: combinar con protección solar exterior (B.1.1).",
     "Prever apertura segura para ventilación (limitadores, oscilobatiente) y ejecutar fuera del periodo lectivo si es posible."
   ],
-  "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. La sustitución completa de carpintería y vidrio es una de las medidas de envolvente más costosas; priorizar aulas críticas.",
+  "coste_detalle": "La sustitución completa de carpintería y vidrio es de las medidas de envolvente más costosas: conviene priorizar las aulas críticas.",
   "referencias": [
     "Literatura escolar: la selección de ventana, relación hueco-muro, ventilación natural y protección solar deben equilibrar luz, calor y ventilación.",
     "Guías de rehabilitación energética de centros educativos."

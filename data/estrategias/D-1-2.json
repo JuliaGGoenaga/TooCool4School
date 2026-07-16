@@ -13,7 +13,7 @@
   "beneficios": [
     "Garantiza la renovación de aire y elimina olores y humedad en aseos y vestuarios.",
     "Puede contribuir a recorridos de aire (purga) si hay entrada controlada desde zonas docentes.",
-    "Coste bajo-medio y ejecución a corto plazo.",
+    "Ejecución sencilla y a corto plazo.",
     "Mejora la calidad de aire y la salubridad del centro."
   ],
   "limitaciones": [
@@ -28,7 +28,7 @@
     "Integrarlo en una estrategia de ventilación equilibrada (con entrada de aire controlada).",
     "Cuidar el nivel sonoro, el mantenimiento y el consumo de los equipos."
   ],
-  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. El coste depende de si existen conductos y del alcance de la instalación.",
+  "coste_detalle": "Depende de si existen conductos y del alcance de la instalación.",
   "referencias": [
     "Estrategias de ventilación equilibrada en edificios docentes.",
     "Normativa de ventilación y calidad de aire interior (RITE) para espacios húmedos."

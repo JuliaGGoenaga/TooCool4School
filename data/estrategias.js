@@ -15,7 +15,7 @@ window.ESTRATEGIAS = [
     "descripcion": "Instalación de velas tensadas, toldos, pérgolas ligeras o elementos desmontables para crear sombra en patios, zonas de espera, accesos y recorridos de mayor uso. Es una medida rápida que reduce la exposición solar directa y permite recuperar espacios exteriores que en episodios cálidos quedan infrautilizados. También puede proteger parcialmente fachadas o huecos cercanos si se ubica estratégicamente.",
     "beneficios": [
       "Reduce de forma inmediata la radiación solar directa sobre las zonas de uso del patio.",
-      "Impacto alto en confort exterior y medio-alto si además protege fachadas o huecos próximos.",
+      "Aún más efectiva si se ubica para proteger también fachadas o huecos próximos.",
       "Permite recuperar espacios exteriores infrautilizados durante episodios cálidos (recreos, entradas y salidas).",
       "Solución reversible y desmontable, con puesta en obra rápida y bajo impacto constructivo."
     ],
@@ -31,7 +31,7 @@ window.ESTRATEGIAS = [
       "Combinar con vegetación (A.2) para sombra estable a medio plazo y con puntos de agua (A.5) para refugios climáticos (A.4).",
       "Prever sistema de tensado y anclaje calculado a viento, con posibilidad de plegado o retirada en temporada fría."
     ],
-    "coste_detalle": "Coste bajo-medio. Puesta en marcha inmediata o a corto plazo. Las velas y toldos textiles son la opción más económica; las pérgolas fijas suben el coste pero aportan durabilidad.",
+    "coste_detalle": "Las velas y toldos textiles son la opción más económica; las pérgolas fijas encarecen pero aportan durabilidad.",
     "referencias": [
       "C40 Cities — Cool schools / enfriamiento pasivo en escuelas: sombra, cubiertas frías, ventilación y soluciones basadas en la naturaleza, empezando por pilotos escalables.",
       "Catálogos de patios climáticamente resilientes: la sombra aparece como intervención recurrente junto al desasfaltado y las superficies frescas."
@@ -64,7 +64,7 @@ window.ESTRATEGIAS = [
     "beneficios": [
       "Sombra natural creciente y enfriamiento por evapotranspiración del arbolado.",
       "Mejora microclimática, aumento de biodiversidad y mayor calidad de estancia y juego.",
-      "Impacto medio a alto, que crece con el porte del árbol y la continuidad de la sombra.",
+      "El efecto crece con el porte del árbol y la continuidad de la sombra.",
       "Reduce el efecto de acumulación de calor de los patios muy mineralizados.",
       "Los huertos escolares añaden valor pedagógico y de biodiversidad."
     ],
@@ -80,7 +80,7 @@ window.ESTRATEGIAS = [
       "Situar el arbolado para sombrear zonas de estancia, juego y fachadas orientadas al sur/oeste.",
       "Combinar con desasfaltado (A.3.1) y drenaje verde (A.5.1) para maximizar el efecto y garantizar el riego natural."
     ],
-    "coste_detalle": "Coste medio. Implantación a corto plazo, pero el efecto de sombra pleno se alcanza a medio plazo conforme crece el arbolado. El riego y el mantenimiento son costes recurrentes a considerar.",
+    "coste_detalle": "El riego y el mantenimiento son costes recurrentes a considerar; el efecto de sombra pleno llega conforme crece el arbolado.",
     "referencias": [
       "Evidencia comparada sobre espacios exteriores escolares: la plantación de arbolado y la renaturalización son medidas recurrentes asociadas a mejoras de confort térmico y biodiversidad.",
       "C40 Cities: promoción de soluciones basadas en la naturaleza en centros educativos."
@@ -113,7 +113,7 @@ window.ESTRATEGIAS = [
     "beneficios": [
       "Reduce la temperatura superficial del patio al eliminar asfalto oscuro y superficies impermeables.",
       "Mejora el comportamiento frente a la lluvia y la gestión del agua de escorrentía.",
-      "Impacto medio-alto en el patio e indirecto sobre las aulas próximas.",
+      "Actúa sobre el patio y, de forma indirecta, sobre las aulas próximas.",
       "Se potencia al combinarse con sombra (A.1), vegetación (A.2) y drenaje verde (A.5.1)."
     ],
     "limitaciones": [
@@ -128,7 +128,7 @@ window.ESTRATEGIAS = [
       "Reservar pavimento continuo resistente en pistas deportivas y combinar con áreas terrizas o vegetadas.",
       "Diseñar pendientes y capas drenantes coordinadas con el saneamiento y el drenaje verde."
     ],
-    "coste_detalle": "Coste medio. Ejecución a corto o medio plazo según superficie y fases de obra. Los terrizos estabilizados son más económicos que los pavimentos drenantes técnicos.",
+    "coste_detalle": "Los terrizos estabilizados son más económicos que los pavimentos drenantes técnicos; depende de la superficie y de las fases de obra.",
     "referencias": [
       "Catálogo de patios climáticamente resilientes: desasfaltado, superficies permeables/frescas y drenaje basado en naturaleza como repertorio recurrente.",
       "Evidencia sobre patios escolares: el desasfaltado se asocia a mejoras de confort térmico y gestión del agua."
@@ -176,7 +176,7 @@ window.ESTRATEGIAS = [
       "Coordinar el tratamiento de cubiertas con la fotovoltaica (D.3) y futuras actuaciones.",
       "En cubiertas, coordinar con la cubierta fría/reflectante (B.2.1), que trata la cubierta como parte de la envolvente; A.3.2 actúa a escala de superficie y microclima."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. El coste principal es el material de acabado y la limpieza/repintado periódico para mantener la reflectancia.",
+    "coste_detalle": "El coste principal es el material de acabado y la limpieza o repintado periódico para mantener la reflectancia.",
     "referencias": [
       "Estudios de adaptación escolar: el 'cool roof' y el aumento de reflectancia aparecen como medida necesaria en escenarios climáticos futuros.",
       "Catálogos de patios resilientes: superficies frescas/claras como intervención recurrente para reducir la temperatura superficial."
@@ -207,7 +207,7 @@ window.ESTRATEGIAS = [
     "plazo": "Corto plazo",
     "descripcion": "Creación de áreas exteriores confortables mediante combinación de sombra, vegetación, bancos, fuentes o puntos de agua, pavimentos menos calientes y recorridos protegidos. No se trata solo de 'poner sombra', sino de definir espacios utilizables durante recreos, entradas, salidas o actividades al aire libre. Las escuelas pueden actuar como espacios demostradores o incluso centros de enfriamiento comunitario fuera de horario escolar.",
     "beneficios": [
-      "Impacto alto en confort exterior y en la gestión de episodios cálidos.",
+      "Muy eficaz para el confort exterior y la gestión de episodios cálidos.",
       "Integra varias medidas (sombra, vegetación, agua, superficies frescas) en un espacio de uso definido.",
       "Permite mantener el uso del patio durante recreos y actividades al aire libre.",
       "Potencial de uso comunitario y demostrador fuera del horario escolar."
@@ -224,7 +224,7 @@ window.ESTRATEGIAS = [
       "Definir recorridos protegidos y zonas de sombra continua entre accesos y áreas de estancia.",
       "Valorar el uso comunitario fuera de horario y prever la gestión de apertura y mantenimiento."
     ],
-    "coste_detalle": "Coste bajo-medio si se resuelve con mobiliario y sombra ligera; coste medio si incluye obra (fuentes, pérgolas fijas, pavimentos). Ejecución a corto plazo.",
+    "coste_detalle": "Más económico si se resuelve con mobiliario y sombra ligera; se encarece si incluye obra (fuentes, pérgolas fijas, pavimentos).",
     "referencias": [
       "C40 Cities: los patios escolares sombreados favorecen el uso exterior; las escuelas pueden actuar como centros de enfriamiento comunitario.",
       "Programas de refugios climáticos urbanos y escolares (p. ej. red de refugios climáticos de ciudades como Barcelona)."
@@ -274,7 +274,7 @@ window.ESTRATEGIAS = [
       "Diseñar pendientes suaves, rebosaderos y protección infantil, y prever la reutilización de pluviales para riego.",
       "Combinar con desasfaltado (A.3.1), arbolado (A.2) y cubierta vegetal (B.2.2) para maximizar el efecto microclimático."
     ],
-    "coste_detalle": "Coste medio y escalable por fases. Ejecución a corto-medio plazo. Depende del movimiento de tierras, la impermeabilización, los depósitos y la vegetación asociada; las superficies permeables y los jardines de lluvia resultan más asequibles que los depósitos enterrados.",
+    "coste_detalle": "Escalable por fases; las superficies permeables y los jardines de lluvia son más asequibles que los depósitos enterrados. Depende del movimiento de tierras, la impermeabilización y la vegetación asociada.",
     "referencias": [
       "CIRIA SuDS Manual (C753): guía de referencia para el diseño de Sistemas de Drenaje Urbano Sostenible.",
       "Catálogo de patios climáticamente resilientes: el drenaje basado en naturaleza junto con desasfaltado, sombra y superficies permeables.",
@@ -304,9 +304,9 @@ window.ESTRATEGIAS = [
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
-    "descripcion": "Incorporación de fuentes de agua potable, láminas o puntos de agua, micronebulización y pequeñas infraestructuras de recogida y reutilización de pluviales para riego. El agua aporta enfriamiento evaporativo puntual, mejora el confort de los refugios climáticos exteriores y refuerza la resiliencia hídrica del centro frente a episodios cálidos.",
+    "descripcion": "Incorporación de fuentes de agua potable, láminas o puntos de agua y pequeñas infraestructuras de recogida y reutilización de pluviales para riego. El agua aporta enfriamiento evaporativo puntual, mejora el confort de los refugios climáticos exteriores y refuerza la resiliencia hídrica del centro frente a episodios cálidos.",
     "beneficios": [
-      "Enfriamiento evaporativo puntual que mejora el confort en zonas de estancia y refugios climáticos (A.4).",
+      "Puntos de agua y láminas que refrescan las zonas de estancia y los refugios climáticos exteriores (A.4).",
       "Puntos de hidratación accesibles durante los episodios de calor.",
       "La recogida de pluviales permite garantizar el riego de la vegetación (A.2) en periodos secos.",
       "Refuerza la resiliencia hídrica y el valor pedagógico del centro."
@@ -319,18 +319,17 @@ window.ESTRATEGIAS = [
     ],
     "criterios": [
       "Integrar los puntos de agua en los refugios climáticos exteriores (A.4) y recorridos de mayor uso.",
-      "Priorizar micronebulización de bajo consumo con control de mantenimiento sanitario.",
+      "Coordinar con la nebulización (A.5.3) cuando se busque enfriamiento evaporativo del aire.",
       "Aprovechar la recogida de pluviales del drenaje verde (A.5.1) para riego y limpieza.",
       "Prever fuentes de agua potable accesibles y seguras para el uso escolar."
     ],
-    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. Las fuentes y la micronebulización son asequibles; los depósitos de reutilización de pluviales elevan la inversión inicial.",
+    "coste_detalle": "Las fuentes y los puntos de agua son asequibles; los depósitos de reutilización de pluviales elevan la inversión inicial.",
     "referencias": [
       "Evidencia sobre espacios exteriores escolares: los puntos de agua se asocian a mejoras de confort térmico en episodios cálidos.",
       "Guías de refugios climáticos que incorporan agua como elemento de enfriamiento evaporativo."
     ],
     "ejemplos_mercado": [
       "Fuentes de agua potable exteriores y bebederos escolares.",
-      "Sistemas de micronebulización de baja presión de bajo consumo.",
       "Depósitos de recogida de pluviales y grupos de riego (tipo Graf, Remosa).",
       "Láminas de agua o juegos de agua de poca profundidad con recirculación controlada."
     ],
@@ -369,7 +368,7 @@ window.ESTRATEGIAS = [
       "Alimentar, cuando sea posible, con agua de lluvia recogida por los SUDS (A.5.1).",
       "Establecer un plan de mantenimiento sanitario (limpieza, prevención de legionella)."
     ],
-    "coste_detalle": "Coste bajo. Ejecución a corto plazo. El coste principal es la instalación de la red de nebulización y el mantenimiento sanitario; el consumo de agua se acota con control y con reutilización de pluviales.",
+    "coste_detalle": "El coste principal es la red de nebulización y el mantenimiento sanitario; el consumo de agua se acota con control y con reutilización de pluviales.",
     "referencias": [
       "Guías de refugios climáticos que incorporan agua y nebulización como enfriamiento evaporativo.",
       "Buenas prácticas de prevención de legionella en sistemas de agua pulverizada."
@@ -399,10 +398,10 @@ window.ESTRATEGIAS = [
     "plazo": "Corto plazo",
     "descripcion": "Colocación de toldos, lamas, persianas exteriores, celosías, estores exteriores o elementos equivalentes para bloquear la radiación antes de que atraviese el vidrio. Es una de las medidas más directas para aulas con radiación solar, especialmente en orientaciones sur, oeste o suroeste. Aporta reducción de ganancias solares, mejora del confort visual y menor dependencia de soluciones activas.",
     "beneficios": [
-      "Impacto alto en aulas con sol directo: bloquea la radiación antes de que entre por el vidrio.",
+      "Bloquea la radiación antes de que atraviese el vidrio, muy eficaz en aulas con sol directo.",
       "Reduce ganancias solares y la necesidad de climatización activa.",
       "Mejora el confort visual y reduce el deslumbramiento.",
-      "Coste contenido y ejecución a corto plazo."
+      "Una de las medidas de control solar más directas y eficaces."
     ],
     "limitaciones": [
       "Exposición al viento y necesidad de mantenimiento y accionamiento de los elementos móviles.",
@@ -416,7 +415,7 @@ window.ESTRATEGIAS = [
       "Preferir protecciones móviles/regulables para no penalizar la iluminación natural en invierno.",
       "Coordinar con la ventilación natural (C.1) para no bloquear la apertura de huecos."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Los toldos y estores exteriores son la opción más económica; las lamas orientables y celosías fijas suben el coste.",
+    "coste_detalle": "Los toldos y estores exteriores son la opción más económica; las lamas orientables y las celosías fijas encarecen.",
     "referencias": [
       "Literatura de adaptación en escuelas: el control solar exterior es una de las estrategias más relevantes frente al sobrecalentamiento.",
       "Estudios que combinan protección solar exterior con aleros y sombreamiento móvil en escenarios climáticos futuros."
@@ -446,13 +445,13 @@ window.ESTRATEGIAS = [
     "plazo": "Inmediato",
     "descripcion": "Uso de cortinas técnicas, estores interiores, lamas interiores o films solares cuando la protección exterior no sea viable de forma inmediata. No evita que el calor entre con la misma eficacia que una protección exterior, pero puede reducir el deslumbramiento y mejorar la percepción de confort mientras se ejecutan medidas más eficaces. Es especialmente útil como solución transitoria o reversible.",
     "beneficios": [
-      "Impacto medio-alto en confort visual: reduce deslumbramiento de forma inmediata.",
-      "Coste bajo y solución reversible o transitoria mientras se ejecutan medidas más eficaces.",
+      "Reduce el deslumbramiento de forma inmediata y mejora el confort visual.",
+      "Solución reversible y transitoria mientras se ejecutan medidas más eficaces.",
       "No requiere obra en fachada ni permisos especiales.",
       "Útil cuando hay restricciones patrimoniales o de fachada para la protección exterior."
     ],
     "limitaciones": [
-      "Impacto térmico bajo-medio: el calor ya ha atravesado el vidrio, por lo que no sustituye a la protección exterior.",
+      "El calor ya ha atravesado el vidrio, por lo que no sustituye a la protección exterior.",
       "Puede oscurecer el aula en exceso y penalizar la iluminación natural.",
       "Requiere un uso correcto por parte de docentes y alumnado.",
       "Los films solares son permanentes y reducen la ganancia solar útil en invierno."
@@ -463,7 +462,7 @@ window.ESTRATEGIAS = [
       "Plantearla como medida transitoria hacia una protección solar exterior (B.1.1).",
       "Acompañar de instrucciones simples de uso para docentes (gestión coordinada, C.1.4)."
     ],
-    "coste_detalle": "Coste bajo. Ejecución inmediata o a corto plazo. Es la medida de control solar más económica, aunque menos eficaz térmicamente que la exterior.",
+    "coste_detalle": "Es la opción de control solar más asequible, aunque menos eficaz térmicamente que la exterior.",
     "referencias": [
       "Literatura escolar sobre equilibrio entre luz, calor y ventilación en la selección de protecciones.",
       "Guías de confort en aulas: la protección interior como apoyo transitorio, no como solución principal."
@@ -494,14 +493,13 @@ window.ESTRATEGIAS = [
     "descripcion": "Sustitución o ajuste de ventanas con mal comportamiento: vidrios simples, carpinterías metálicas antiguas, infiltraciones, baja capacidad de apertura o imposibilidad de ventilación eficaz. La medida puede mejorar confort, estanqueidad, acústica y control solar si se selecciona adecuadamente el vidrio y se mantiene capacidad de apertura. La selección de ventana, la relación hueco-muro, la ventilación natural y la protección solar deben equilibrar luz, calor y ventilación.",
     "beneficios": [
       "Mejora el confort, la estanqueidad y la acústica de las aulas.",
-      "Impacto medio, que se hace alto si se combina con control solar exterior (B.1.1).",
+      "Su efecto se refuerza combinado con control solar exterior (B.1.1).",
       "Permite recuperar la capacidad de apertura y una ventilación natural eficaz (C.1).",
       "Con vidrio de control solar reduce las ganancias solares por el hueco."
     ],
     "limitaciones": [
       "No resuelve el problema por sí sola si falta sombra: el vidrio de control solar no sustituye a la protección exterior.",
       "Obra intrusiva, difícil de compatibilizar con el periodo lectivo.",
-      "Coste medio-alto y plazo de medio plazo.",
       "Debe cuidar la ventilación, la seguridad infantil y el mantenimiento de los nuevos huecos."
     ],
     "criterios": [
@@ -510,7 +508,7 @@ window.ESTRATEGIAS = [
       "No actuar solo sobre el vidrio si falta sombra: combinar con protección solar exterior (B.1.1).",
       "Prever apertura segura para ventilación (limitadores, oscilobatiente) y ejecutar fuera del periodo lectivo si es posible."
     ],
-    "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. La sustitución completa de carpintería y vidrio es una de las medidas de envolvente más costosas; priorizar aulas críticas.",
+    "coste_detalle": "La sustitución completa de carpintería y vidrio es de las medidas de envolvente más costosas: conviene priorizar las aulas críticas.",
     "referencias": [
       "Literatura escolar: la selección de ventana, relación hueco-muro, ventilación natural y protección solar deben equilibrar luz, calor y ventilación.",
       "Guías de rehabilitación energética de centros educativos."
@@ -557,7 +555,7 @@ window.ESTRATEGIAS = [
       "Seleccionar especies adaptadas y de bajo consumo hídrico; prever riego (posible con pluviales, A.5.1).",
       "Cuidar los anclajes, la protección del paramento frente a humedad y la compatibilidad con la evacuación."
     ],
-    "coste_detalle": "Coste medio y plazo de medio plazo. La enredadera guiada con cables es la opción más asequible; los muros vegetales con jardineras y riego técnico elevan la inversión y el mantenimiento.",
+    "coste_detalle": "La enredadera guiada con cables es la opción más asequible; los muros vegetales con jardineras y riego técnico elevan la inversión y el mantenimiento.",
     "referencias": [
       "Guías de fachadas vegetales y su efecto sobre la radiación y el microclima.",
       "C40 Cities: soluciones basadas en la naturaleza (muros y cubiertas verdes) en escuelas."
@@ -588,7 +586,7 @@ window.ESTRATEGIAS = [
     "plazo": "Corto-medio plazo",
     "descripcion": "Aplicación de acabado claro, pintura reflectante o solución de cubierta con mayor reflectancia solar en cubiertas expuestas. Reduce la absorción de radiación y puede ser especialmente relevante en aulas de última planta o bajo cubierta. En estudios de adaptación escolar, el 'cool roof' aparece como medida adicional necesaria en escenarios climáticos futuros junto con aleros exteriores y sombreamiento móvil.",
     "beneficios": [
-      "Impacto medio-alto en aulas de última planta y bajo cubierta.",
+      "Especialmente eficaz en aulas de última planta y bajo cubierta.",
       "Reduce la absorción de radiación y la temperatura de la cubierta.",
       "Ejecución relativamente rápida y de bajo impacto sobre la cubierta existente.",
       "Compatible con instalación fotovoltaica y otras actuaciones en cubierta."
@@ -605,7 +603,7 @@ window.ESTRATEGIAS = [
       "Verificar y, si procede, renovar la impermeabilización antes o durante la actuación.",
       "Combinar con ventilación nocturna (C.1.2) y aislamiento selectivo (B.3) en aulas de última planta."
     ],
-    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La pintura reflectante es más económica; las membranas de cubierta fría con impermeabilización nueva elevan el coste.",
+    "coste_detalle": "La pintura reflectante es más económica; las membranas de cubierta fría con impermeabilización nueva encarecen.",
     "referencias": [
       "Estudios de adaptación escolar: el 'cool roof' como medida necesaria en escenarios climáticos futuros junto a aleros y sombreamiento móvil.",
       "Guías de cubiertas frías y reflectancia solar (SRI) en edificios de uso docente."
@@ -637,7 +635,7 @@ window.ESTRATEGIAS = [
     "plazo": "Medio plazo",
     "descripcion": "Transformación total o parcial de la cubierta en sistema vegetal extensivo o semi-intensivo. Aporta amortiguación térmica, retención de agua, biodiversidad y mejora ambiental. Su interés aumenta cuando la cubierta tiene capacidad portante, accesibilidad de mantenimiento y oportunidad de combinar adaptación climática con gestión de lluvia.",
     "beneficios": [
-      "Amortiguación térmica de la cubierta, con impacto alto en aulas bajo cubierta si se diseña correctamente.",
+      "Amortiguación térmica de la cubierta, muy eficaz en aulas bajo cubierta si se diseña correctamente.",
       "Retención de agua de lluvia y reducción de la escorrentía.",
       "Aumento de la biodiversidad y mejora ambiental y paisajística.",
       "Potencial valor pedagógico y de uso (cubierta accesible/huerto)."
@@ -645,7 +643,6 @@ window.ESTRATEGIAS = [
     "limitaciones": [
       "Carga estructural elevada: requiere capacidad portante suficiente.",
       "Necesita impermeabilización antirraíces, drenaje y mantenimiento especializado.",
-      "Coste inicial medio-alto y plazo de medio plazo.",
       "Seguridad de acceso para el mantenimiento."
     ],
     "criterios": [
@@ -654,7 +651,7 @@ window.ESTRATEGIAS = [
       "Diseñar la impermeabilización antirraíces, el drenaje y los recorridos de mantenimiento seguros.",
       "Combinar con la gestión de pluviales (A.5) y valorar la compatibilidad con fotovoltaica (D.3)."
     ],
-    "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. El refuerzo estructural, la impermeabilización antirraíces y el mantenimiento son los principales condicionantes económicos.",
+    "coste_detalle": "El refuerzo estructural, la impermeabilización antirraíces y el mantenimiento especializado son los principales condicionantes económicos.",
     "referencias": [
       "C40 Cities: cubiertas y muros verdes dentro del enfriamiento pasivo en escuelas.",
       "Guías técnicas de cubiertas vegetales (p. ej. norma alemana FLL) aplicadas a edificios docentes."
@@ -685,7 +682,7 @@ window.ESTRATEGIAS = [
     "plazo": "Medio plazo",
     "descripcion": "Mejora localizada del aislamiento en zonas críticas: cubierta sobre aulas problemáticas, fachadas muy expuestas o cerramientos con baja prestación. No debe plantearse de forma automática: en clima templado con riesgo de calor, el aislamiento debe combinarse con ventilación y control solar para evitar retener el calor interior. Mejorar la envolvente sin ajustar la ventilación puede deteriorar el confort, la calidad de aire, la temperatura o la humedad.",
     "beneficios": [
-      "Impacto medio-alto cuando el problema es la transmisión de calor por cubierta o fachada.",
+      "Muy eficaz cuando el problema es la transmisión de calor por cubierta o fachada.",
       "Mejora el confort térmico en invierno y verano y reduce la demanda energética.",
       "Actuación localizada en las zonas realmente críticas, optimizando la inversión.",
       "Compatible con la mejora de la envolvente global del centro."
@@ -702,7 +699,7 @@ window.ESTRATEGIAS = [
       "Cuidar la continuidad del aislamiento para evitar puentes térmicos y condensaciones.",
       "Aprovechar reformas ya previstas para minimizar el impacto sobre el periodo lectivo."
     ],
-    "coste_detalle": "Coste medio. Ejecución a medio plazo. Priorizar cubiertas y fachadas de aulas críticas frente a una intervención generalizada.",
+    "coste_detalle": "Conviene priorizar cubiertas y fachadas de aulas críticas frente a una intervención generalizada.",
     "referencias": [
       "Revisión sobre escuelas en clima templado: mejorar envolvente sin ajustar ventilación puede deteriorar confort, calidad de aire, temperatura o humedad.",
       "Guías de rehabilitación energética con enfoque de confort de verano en clima oceánico."
@@ -732,7 +729,7 @@ window.ESTRATEGIAS = [
     "plazo": "Inmediato",
     "descripcion": "Definir instrucciones simples: ventilar intensivamente a primera hora, cerrar huecos y protecciones cuando entre radiación o aire más caliente, y reabrir cuando las condiciones exteriores sean favorables. Evita que cada aula actúe de forma improvisada y permite aprovechar el clima de Bizkaia cuando las mañanas son más frescas.",
     "beneficios": [
-      "Impacto medio, que se hace alto cuando existe ventilación cruzada real.",
+      "Su efecto se hace alto cuando existe ventilación cruzada real.",
       "Coste muy bajo y aplicación inmediata: no requiere obra.",
       "Aprovecha el clima oceánico (mañanas frescas) para arrancar el día con las aulas ventiladas.",
       "Homogeneiza el comportamiento entre aulas y evita decisiones improvisadas."
@@ -749,7 +746,7 @@ window.ESTRATEGIAS = [
       "Aprovechar las horas frescas para ventilación intensiva y cerrar en las horas de mayor radiación.",
       "Apoyarse en la monitorización (C.2) para ajustar el protocolo y en la gestión de protecciones (C.1.4)."
     ],
-    "coste_detalle": "Coste bajo. Aplicación inmediata. Es una de las medidas más coste-eficaces: el gasto es de coordinación y difusión del protocolo.",
+    "coste_detalle": "Una de las medidas más coste-eficaces: el gasto es de coordinación y difusión del protocolo.",
     "referencias": [
       "Cuestionario IDOM: la visita técnica contempla percepción de usuarios, horarios críticos y operación del centro.",
       "BB101 (Building Bulletin 101): guía de ventilación, confort térmico y calidad de aire interior en escuelas."
@@ -780,9 +777,9 @@ window.ESTRATEGIAS = [
     "plazo": "Corto plazo",
     "descripcion": "Apertura controlada de huecos, compuertas o sistemas de ventilación para disipar el calor acumulado durante la noche o a primera hora. Es especialmente útil en edificios con cierta masa térmica, siempre que pueda garantizarse la seguridad y la protección frente a la lluvia. La literatura sobre adaptación en escuelas recoge la ventilación natural diurna y la refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
     "beneficios": [
-      "Impacto medio-alto en edificios con inercia térmica: disipa el calor acumulado antes de empezar la jornada.",
+      "Disipa el calor acumulado antes de empezar la jornada, muy eficaz en edificios con inercia térmica.",
       "Permite arrancar el día con las aulas más frescas.",
-      "Coste bajo-medio si existen condiciones de seguridad.",
+      "Prácticamente sin coste cuando existen condiciones de seguridad.",
       "Complementa el aislamiento (B.3) y la cubierta fría (B.2.1) en aulas de última planta."
     ],
     "limitaciones": [
@@ -797,7 +794,7 @@ window.ESTRATEGIAS = [
       "Proteger frente a lluvia (huecos abrigados, sensores de lluvia) y coordinar con las alarmas.",
       "Combinar con ventilación híbrida (D.1.4) y control/automatización (D.4) para operarla sin vigilancia."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo si existen condiciones de seguridad. La automatización de compuertas y las rejillas seguras elevan el coste.",
+    "coste_detalle": "El principal coste es la automatización de compuertas y las rejillas seguras; sin ellas, apenas tiene coste cuando existen condiciones de seguridad.",
     "referencias": [
       "Literatura de adaptación en escuelas: ventilación natural diurna y refrigeración nocturna como estrategias relevantes frente al sobrecalentamiento.",
       "Guías de free-cooling y night purge en edificios de uso docente."
@@ -828,7 +825,7 @@ window.ESTRATEGIAS = [
     "plazo": "Inmediato",
     "descripcion": "Mover temporalmente actividades, grupos o usos sensibles hacia espacios menos expuestos durante episodios cálidos. Por ejemplo, usar aulas de orientación norte, biblioteca o planta baja como refugio interior, y evitar aulas bajo cubierta en horas críticas. No resuelve la causa física, pero reduce la exposición mientras se implantan medidas.",
     "beneficios": [
-      "Impacto medio y alto para usuarios vulnerables o aulas críticas.",
+      "Especialmente valiosa para usuarios vulnerables o aulas críticas.",
       "Coste muy bajo y aplicación inmediata: es una medida organizativa.",
       "Reduce la exposición al calor mientras se ejecutan intervenciones físicas.",
       "Aprovecha las diferencias térmicas entre espacios del propio centro."
@@ -845,7 +842,7 @@ window.ESTRATEGIAS = [
       "Evitar aulas bajo cubierta y orientadas al oeste en las horas críticas de la tarde.",
       "Apoyarse en la monitorización (C.2) para decidir qué espacios usar en cada episodio."
     ],
-    "coste_detalle": "Coste bajo. Aplicación inmediata. El coste es puramente organizativo y de coordinación de horarios y espacios.",
+    "coste_detalle": "Coste puramente organizativo y de coordinación de horarios y espacios.",
     "referencias": [
       "Cuestionario IDOM: identificación de espacios afectados, horarios críticos y percepción de usuarios.",
       "Planes de actuación frente a episodios de calor en centros educativos."
@@ -880,7 +877,7 @@ window.ESTRATEGIAS = [
       "Mejora también la eficiencia energética y el confort visual."
     ],
     "limitaciones": [
-      "Impacto térmico bajo-medio: complementa, no sustituye, a las medidas físicas.",
+      "Complementa, no sustituye, a las medidas físicas.",
       "Puede provocar pérdida de luz natural si las protecciones se gestionan mal.",
       "Depende de los hábitos de uso del personal y del alumnado.",
       "Requiere instrucciones muy simples y constantes para ser efectiva."
@@ -891,7 +888,7 @@ window.ESTRATEGIAS = [
       "Fomentar el apagado de equipos en reposo y el uso de luz natural cuando sea suficiente.",
       "Dar instrucciones simples y visuales para docentes y alumnado."
     ],
-    "coste_detalle": "Coste bajo. Aplicación inmediata. El coste es de coordinación; puede apoyarse en sensores/temporizadores de bajo coste (D.4) para automatizar apagados.",
+    "coste_detalle": "Coste de coordinación; puede apoyarse en sensores o temporizadores de bajo coste (D.4) para automatizar apagados.",
     "referencias": [
       "Rehabilitación escolar: las intervenciones operativas y de comportamiento como parte del conjunto de medidas para confort y eficiencia.",
       "Guías de gestión energética y de cargas internas en aulas."
@@ -941,7 +938,7 @@ window.ESTRATEGIAS = [
       "Usar los datos para priorizar medidas y verificar su eficacia; enlazar con control y automatización (D.4).",
       "Cuando haya equipos controlables, vincular la monitorización a una gestión energética (control por horario, CO₂ o temperatura) para optimizar el consumo."
     ],
-    "coste_detalle": "Coste bajo. Despliegue inmediato. Los registradores portátiles son muy asequibles; los sistemas fijos con plataforma de datos elevan el coste.",
+    "coste_detalle": "Los registradores portátiles son muy asequibles; los sistemas fijos con plataforma de datos y la integración de gestión energética elevan el coste.",
     "referencias": [
       "BB101 (Building Bulletin 101): ventilación, confort térmico y calidad de aire interior en escuelas.",
       "Cuestionario IDOM: mediciones de Tª, HR y CO₂ en espacios representativos como parte de la auditoría."
@@ -987,7 +984,7 @@ window.ESTRATEGIAS = [
       "Revisar y renovar equipos ineficientes y prever la desconexión de cargas en reposo.",
       "Coordinar con la gestión operativa de cargas (C.1.4) y con la monitorización (C.2)."
     ],
-    "coste_detalle": "Coste bajo y ejecución a corto plazo, con amortización rápida por el ahorro eléctrico. El grueso del coste es la sustitución de luminarias.",
+    "coste_detalle": "Amortización rápida por el ahorro eléctrico; el grueso del coste es la sustitución de luminarias.",
     "referencias": [
       "Rehabilitación escolar: las intervenciones sobre cargas internas e iluminación como parte del conjunto de medidas de confort y eficiencia.",
       "Guías de eficiencia en iluminación (LED) y gestión de cargas en aulas."
@@ -1033,7 +1030,7 @@ window.ESTRATEGIAS = [
       "Apoyarse en la monitorización (C.2) para hacer visibles y comprensibles los datos.",
       "Vincularla al protocolo ante episodios de calor (C.4.2) y a la gestión operativa (C.1)."
     ],
-    "coste_detalle": "Coste muy bajo y aplicación inmediata. El coste es de elaboración de materiales y de tiempo de formación.",
+    "coste_detalle": "El coste es de elaboración de materiales y de tiempo de formación.",
     "referencias": [
       "Fuentes de educación y clima: el calor dificulta la concentración y el aprendizaje, y exige planificar la adaptación en los centros.",
       "Programas de educación ambiental y de calidad de aire interior en escuelas."
@@ -1078,7 +1075,7 @@ window.ESTRATEGIAS = [
       "Apoyarse en la monitorización de temperatura exterior e interior (C.2) para decidir.",
       "Incorporar el manual de uso de las instalaciones (ventilación híbrida, climatización, sensores)."
     ],
-    "coste_detalle": "Coste muy bajo y aplicación inmediata. El coste es de coordinación, difusión y actualización del protocolo.",
+    "coste_detalle": "El coste es de coordinación, difusión y actualización del protocolo.",
     "referencias": [
       "Planes de actuación frente a episodios de calor en centros educativos.",
       "Cuestionario IDOM: horarios críticos, espacios afectados y operación del centro."
@@ -1125,7 +1122,7 @@ window.ESTRATEGIAS = [
       "Verificar la altura libre y la seguridad de anclaje sobre las zonas de ocupación.",
       "Combinar con protocolo de ventilación (C.1.1) y control solar (B.1) para maximizar el efecto."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Los ventiladores de techo DC son muy eficientes; el coste principal es la instalación eléctrica y el anclaje.",
+    "coste_detalle": "Los ventiladores de techo DC son muy eficientes; el coste principal es la instalación eléctrica y el anclaje.",
     "referencias": [
       "Estrategias de refrigeración eficiente y asequible: el movimiento de aire de bajo consumo como medida previa a la climatización.",
       "Guías de confort adaptativo que incorporan velocidad de aire para ampliar el rango de confort."
@@ -1158,7 +1155,7 @@ window.ESTRATEGIAS = [
     "beneficios": [
       "Garantiza la renovación de aire y elimina olores y humedad en aseos y vestuarios.",
       "Puede contribuir a recorridos de aire (purga) si hay entrada controlada desde zonas docentes.",
-      "Coste bajo-medio y ejecución a corto plazo.",
+      "Ejecución sencilla y a corto plazo.",
       "Mejora la calidad de aire y la salubridad del centro."
     ],
     "limitaciones": [
@@ -1173,7 +1170,7 @@ window.ESTRATEGIAS = [
       "Integrarlo en una estrategia de ventilación equilibrada (con entrada de aire controlada).",
       "Cuidar el nivel sonoro, el mantenimiento y el consumo de los equipos."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. El coste depende de si existen conductos y del alcance de la instalación.",
+    "coste_detalle": "Depende de si existen conductos y del alcance de la instalación.",
     "referencias": [
       "Estrategias de ventilación equilibrada en edificios docentes.",
       "Normativa de ventilación y calidad de aire interior (RITE) para espacios húmedos."
@@ -1203,13 +1200,13 @@ window.ESTRATEGIAS = [
     "plazo": "Corto plazo",
     "descripcion": "Comprobación de equipos, caudales, horarios, filtros, extracción/impulsión y regulación de la ventilación mecánica existente. Puede resolver problemas de aire viciado y mejorar la disipación si el sistema está infrautilizado o mal ajustado. Es una medida lógica antes de instalar nuevos equipos.",
     "beneficios": [
-      "Alto impacto en la calidad de aire si existe déficit de ventilación.",
+      "Mejora notablemente la calidad de aire si existe déficit de ventilación.",
       "Aprovecha la instalación existente antes de invertir en equipos nuevos.",
-      "Coste bajo-medio y ejecución a corto plazo.",
+      "Ejecución a corto plazo aprovechando la instalación existente.",
       "Puede mejorar la disipación de calor si el sistema estaba infrautilizado o mal ajustado."
     ],
     "limitaciones": [
-      "Impacto térmico bajo-medio: la ventilación mecánica no climatiza por sí sola.",
+      "La ventilación mecánica no climatiza por sí sola.",
       "Condicionada por el ruido, el consumo y la capacidad real del sistema.",
       "Requiere equilibrado, revisión de filtros y mantenimiento.",
       "Puede no bastar si el sistema está infradimensionado."
@@ -1220,7 +1217,7 @@ window.ESTRATEGIAS = [
       "Ajustar el funcionamiento a la ocupación real (control por CO₂/horario, ver D.4).",
       "Verificar el equilibrado impulsión/extracción y el estado de conductos y recuperadores."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Es una medida de bajo coste y alta lógica: optimizar antes de invertir en equipos nuevos.",
+    "coste_detalle": "Medida de alta lógica: optimizar la instalación existente antes de invertir en equipos nuevos.",
     "referencias": [
       "Buenas prácticas de operación y mantenimiento de sistemas de ventilación en edificios docentes.",
       "BB101 y RITE: caudales de ventilación y calidad de aire interior en aulas."
@@ -1268,7 +1265,7 @@ window.ESTRATEGIAS = [
       "Coordinar el sistema con las protecciones solares (B.1) y la ventilación nocturna (C.1.2).",
       "Diseñar el control (D.4) para activar el apoyo solo cuando la ventilación natural no alcanza."
     ],
-    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. El coste depende de los actuadores, compuertas y del sistema de control asociado.",
+    "coste_detalle": "Depende de los actuadores, las compuertas y el sistema de control asociado.",
     "referencias": [
       "Literatura escolar: ventilación híbrida, automatización y control en tiempo real como soluciones de interés para confort y calidad ambiental.",
       "BB101: estrategias mixtas de ventilación en escuelas."
@@ -1316,7 +1313,7 @@ window.ESTRATEGIAS = [
       "Seleccionar equipos eficientes (bomba de calor inverter) con módulo de aportación y extracción de aire, y filtración adecuada.",
       "Regular por CO₂ y temperatura (D.4) y combinar con fotovoltaica en cubierta (D.3) para el autoconsumo."
     ],
-    "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La inversión es mayor que la de un split convencional por el módulo de ventilación, pero menor que la de una instalación centralizada; el consumo y el mantenimiento son costes recurrentes.",
+    "coste_detalle": "Mayor que un split convencional por el módulo de ventilación, pero menor que una instalación centralizada; el consumo y el mantenimiento son costes recurrentes.",
     "referencias": [
       "RITE: exigencias de ventilación, filtración y eficiencia de las instalaciones térmicas.",
       "UNE-EN 16798 / BB101: caudales de ventilación y calidad de aire interior en escuelas.",
@@ -1367,7 +1364,7 @@ window.ESTRATEGIAS = [
       "Combinar con fotovoltaica en cubierta (D.3) para maximizar el autoconsumo, dado que el uso coincide con las horas solares.",
       "Seleccionar recuperadores de alta eficiencia y módulos DX eficientes (bomba de calor), con acceso para el mantenimiento."
     ],
-    "coste_detalle": "Coste medio. Ejecución a medio plazo. La inversión por unidad y planta es mayor que la de un equipo puntual pero menor que la de una instalación centralizada de edificio; el consumo y el mantenimiento del módulo DX son costes recurrentes. La recuperación de calor y la combinación con fotovoltaica mejoran el balance de operación.",
+    "coste_detalle": "Mayor por unidad y planta que un equipo puntual, pero menor que una instalación centralizada; la recuperación de calor y la fotovoltaica mejoran el balance de operación. El consumo y el mantenimiento del módulo DX son recurrentes.",
     "referencias": [
       "RITE: exigencias de ventilación, recuperación de calor y eficiencia de las instalaciones térmicas.",
       "UNE-EN 16798 / BB101: caudales de ventilación y calidad de aire interior en escuelas.",
@@ -1421,7 +1418,7 @@ window.ESTRATEGIAS = [
       "Integrar filtración y ventilación con control por CO₂/temperatura (enlaza con D.4), zonificar por uso y coordinar con la fotovoltaica (D.3) para maximizar el autoconsumo.",
       "Ejecutar por fases y fuera del periodo lectivo siempre que sea posible."
     ],
-    "coste_detalle": "Coste alto y plazo medio-largo (proyecto más obra). La inversión depende del alcance (centralizada frente a por planta), de la red de conductos y del espacio para máquinas; el consumo y el mantenimiento son costes recurrentes relevantes. La opción por planta suele reducir el coste de conductos y la afección de la obra.",
+    "coste_detalle": "Depende del alcance (centralizada frente a por planta), de la red de conductos y del espacio para máquinas; el consumo y el mantenimiento son costes recurrentes relevantes. La opción por planta reduce el coste de conductos y la afección de la obra.",
     "referencias": [
       "RITE (Reglamento de Instalaciones Térmicas en los Edificios): exigencias de eficiencia energética, ventilación y mantenimiento de las instalaciones.",
       "UNE-EN 16798 y BB101: caudales de ventilación, confort térmico y calidad de aire interior en escuelas.",
@@ -1463,7 +1460,6 @@ window.ESTRATEGIAS = [
     "limitaciones": [
       "No elimina la necesidad de reducir la demanda con medidas pasivas.",
       "Requiere estructura portante, ausencia de sombras y conexión/legalización eléctrica.",
-      "Coste medio-alto y plazo de medio plazo.",
       "Necesita simultaneidad entre producción y uso para ser eficiente (o almacenamiento)."
     ],
     "criterios": [
@@ -1472,7 +1468,7 @@ window.ESTRATEGIAS = [
       "Verificar la estructura, las sombras y la compatibilidad con cubierta fría o vegetal.",
       "Combinar con climatización eficiente (D.2.1) y control (D.4) para maximizar el autoconsumo."
     ],
-    "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. La estructura, la conexión y la legalización condicionan la inversión; el retorno mejora con alto autoconsumo en horas solares.",
+    "coste_detalle": "La estructura, la conexión y la legalización condicionan la inversión; el retorno mejora con un autoconsumo elevado en horas solares.",
     "referencias": [
       "Revisión de rehabilitación escolar: renovables, fotovoltaica, bombas de calor y sistemas activos, condicionados por coste y contexto.",
       "Programas de autoconsumo y comunidades energéticas en centros educativos."
@@ -1506,7 +1502,7 @@ window.ESTRATEGIAS = [
     "descripcion": "Instalación de sondas de temperatura, humedad, CO₂, temporizadores, control horario, control por presencia o regulación básica de ventilación/climatización. Aporta consistencia operativa y evita que la eficacia dependa solo del uso manual. La literatura sobre escuelas en clima templado incluye sensores, automatización y BEMS como herramientas para localizar problemas y optimizar el confort y los sistemas.",
     "beneficios": [
       "Aporta consistencia operativa: los sistemas funcionan sin depender solo del uso manual.",
-      "Impacto medio-alto cuando gobierna la ventilación o la climatización.",
+      "Su efecto es mayor cuando gobierna la ventilación o la climatización.",
       "Optimiza el confort y el consumo (activar apoyo solo cuando hace falta).",
       "Permite localizar problemas y hacer seguimiento (enlaza con monitorización, C.2)."
     ],
@@ -1522,7 +1518,7 @@ window.ESTRATEGIAS = [
       "Diseñar una interfaz sencilla para el personal del centro y prever el mantenimiento.",
       "Integrar el control con ventilación híbrida (D.1.4), climatización (D.2.1) y protecciones solares."
     ],
-    "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Desde temporizadores y sondas sencillas hasta un BEMS completo; escalar según la complejidad del centro.",
+    "coste_detalle": "Desde temporizadores y sondas sencillas hasta un BEMS completo: escalar según la complejidad del centro.",
     "referencias": [
       "Literatura de escuelas en clima templado: sensores, automatización y BEMS para localizar problemas y optimizar confort y sistemas.",
       "Guías de control y regulación de instalaciones (RITE) en edificios docentes."

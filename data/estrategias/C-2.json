@@ -30,7 +30,7 @@
     "Usar los datos para priorizar medidas y verificar su eficacia; enlazar con control y automatización (D.4).",
     "Cuando haya equipos controlables, vincular la monitorización a una gestión energética (control por horario, CO₂ o temperatura) para optimizar el consumo."
   ],
-  "coste_detalle": "Coste bajo. Despliegue inmediato. Los registradores portátiles son muy asequibles; los sistemas fijos con plataforma de datos elevan el coste.",
+  "coste_detalle": "Los registradores portátiles son muy asequibles; los sistemas fijos con plataforma de datos y la integración de gestión energética elevan el coste.",
   "referencias": [
     "BB101 (Building Bulletin 101): ventilación, confort térmico y calidad de aire interior en escuelas.",
     "Cuestionario IDOM: mediciones de Tª, HR y CO₂ en espacios representativos como parte de la auditoría."

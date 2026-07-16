@@ -30,7 +30,7 @@
     "Combinar con fotovoltaica en cubierta (D.3) para maximizar el autoconsumo, dado que el uso coincide con las horas solares.",
     "Seleccionar recuperadores de alta eficiencia y módulos DX eficientes (bomba de calor), con acceso para el mantenimiento."
   ],
-  "coste_detalle": "Coste medio. Ejecución a medio plazo. La inversión por unidad y planta es mayor que la de un equipo puntual pero menor que la de una instalación centralizada de edificio; el consumo y el mantenimiento del módulo DX son costes recurrentes. La recuperación de calor y la combinación con fotovoltaica mejoran el balance de operación.",
+  "coste_detalle": "Mayor por unidad y planta que un equipo puntual, pero menor que una instalación centralizada; la recuperación de calor y la fotovoltaica mejoran el balance de operación. El consumo y el mantenimiento del módulo DX son recurrentes.",
   "referencias": [
     "RITE: exigencias de ventilación, recuperación de calor y eficiencia de las instalaciones térmicas.",
     "UNE-EN 16798 / BB101: caudales de ventilación y calidad de aire interior en escuelas.",

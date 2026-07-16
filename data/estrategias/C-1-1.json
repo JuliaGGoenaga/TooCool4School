@@ -11,7 +11,7 @@
   "plazo": "Inmediato",
   "descripcion": "Definir instrucciones simples: ventilar intensivamente a primera hora, cerrar huecos y protecciones cuando entre radiación o aire más caliente, y reabrir cuando las condiciones exteriores sean favorables. Evita que cada aula actúe de forma improvisada y permite aprovechar el clima de Bizkaia cuando las mañanas son más frescas.",
   "beneficios": [
-    "Impacto medio, que se hace alto cuando existe ventilación cruzada real.",
+    "Su efecto se hace alto cuando existe ventilación cruzada real.",
     "Coste muy bajo y aplicación inmediata: no requiere obra.",
     "Aprovecha el clima oceánico (mañanas frescas) para arrancar el día con las aulas ventiladas.",
     "Homogeneiza el comportamiento entre aulas y evita decisiones improvisadas."
@@ -28,7 +28,7 @@
     "Aprovechar las horas frescas para ventilación intensiva y cerrar en las horas de mayor radiación.",
     "Apoyarse en la monitorización (C.2) para ajustar el protocolo y en la gestión de protecciones (C.1.4)."
   ],
-  "coste_detalle": "Coste bajo. Aplicación inmediata. Es una de las medidas más coste-eficaces: el gasto es de coordinación y difusión del protocolo.",
+  "coste_detalle": "Una de las medidas más coste-eficaces: el gasto es de coordinación y difusión del protocolo.",
   "referencias": [
     "Cuestionario IDOM: la visita técnica contempla percepción de usuarios, horarios críticos y operación del centro.",
     "BB101 (Building Bulletin 101): guía de ventilación, confort térmico y calidad de aire interior en escuelas."

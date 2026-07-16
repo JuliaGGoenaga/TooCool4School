@@ -28,7 +28,7 @@
     "Verificar la altura libre y la seguridad de anclaje sobre las zonas de ocupación.",
     "Combinar con protocolo de ventilación (C.1.1) y control solar (B.1) para maximizar el efecto."
   ],
-  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Los ventiladores de techo DC son muy eficientes; el coste principal es la instalación eléctrica y el anclaje.",
+  "coste_detalle": "Los ventiladores de techo DC son muy eficientes; el coste principal es la instalación eléctrica y el anclaje.",
   "referencias": [
     "Estrategias de refrigeración eficiente y asequible: el movimiento de aire de bajo consumo como medida previa a la climatización.",
     "Guías de confort adaptativo que incorporan velocidad de aire para ampliar el rango de confort."

@@ -19,7 +19,6 @@
   "limitaciones": [
     "No elimina la necesidad de reducir la demanda con medidas pasivas.",
     "Requiere estructura portante, ausencia de sombras y conexión/legalización eléctrica.",
-    "Coste medio-alto y plazo de medio plazo.",
     "Necesita simultaneidad entre producción y uso para ser eficiente (o almacenamiento)."
   ],
   "criterios": [
@@ -28,7 +27,7 @@
     "Verificar la estructura, las sombras y la compatibilidad con cubierta fría o vegetal.",
     "Combinar con climatización eficiente (D.2.1) y control (D.4) para maximizar el autoconsumo."
   ],
-  "coste_detalle": "Coste medio-alto. Ejecución a medio plazo. La estructura, la conexión y la legalización condicionan la inversión; el retorno mejora con alto autoconsumo en horas solares.",
+  "coste_detalle": "La estructura, la conexión y la legalización condicionan la inversión; el retorno mejora con un autoconsumo elevado en horas solares.",
   "referencias": [
     "Revisión de rehabilitación escolar: renovables, fotovoltaica, bombas de calor y sistemas activos, condicionados por coste y contexto.",
     "Programas de autoconsumo y comunidades energéticas en centros educativos."

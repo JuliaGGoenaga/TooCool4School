@@ -32,7 +32,7 @@
     "Integrar filtración y ventilación con control por CO₂/temperatura (enlaza con D.4), zonificar por uso y coordinar con la fotovoltaica (D.3) para maximizar el autoconsumo.",
     "Ejecutar por fases y fuera del periodo lectivo siempre que sea posible."
   ],
-  "coste_detalle": "Coste alto y plazo medio-largo (proyecto más obra). La inversión depende del alcance (centralizada frente a por planta), de la red de conductos y del espacio para máquinas; el consumo y el mantenimiento son costes recurrentes relevantes. La opción por planta suele reducir el coste de conductos y la afección de la obra.",
+  "coste_detalle": "Depende del alcance (centralizada frente a por planta), de la red de conductos y del espacio para máquinas; el consumo y el mantenimiento son costes recurrentes relevantes. La opción por planta reduce el coste de conductos y la afección de la obra.",
   "referencias": [
     "RITE (Reglamento de Instalaciones Térmicas en los Edificios): exigencias de eficiencia energética, ventilación y mantenimiento de las instalaciones.",
     "UNE-EN 16798 y BB101: caudales de ventilación, confort térmico y calidad de aire interior en escuelas.",

@@ -17,7 +17,7 @@
     "Mejora también la eficiencia energética y el confort visual."
   ],
   "limitaciones": [
-    "Impacto térmico bajo-medio: complementa, no sustituye, a las medidas físicas.",
+    "Complementa, no sustituye, a las medidas físicas.",
     "Puede provocar pérdida de luz natural si las protecciones se gestionan mal.",
     "Depende de los hábitos de uso del personal y del alumnado.",
     "Requiere instrucciones muy simples y constantes para ser efectiva."
@@ -28,7 +28,7 @@
     "Fomentar el apagado de equipos en reposo y el uso de luz natural cuando sea suficiente.",
     "Dar instrucciones simples y visuales para docentes y alumnado."
   ],
-  "coste_detalle": "Coste bajo. Aplicación inmediata. El coste es de coordinación; puede apoyarse en sensores/temporizadores de bajo coste (D.4) para automatizar apagados.",
+  "coste_detalle": "Coste de coordinación; puede apoyarse en sensores o temporizadores de bajo coste (D.4) para automatizar apagados.",
   "referencias": [
     "Rehabilitación escolar: las intervenciones operativas y de comportamiento como parte del conjunto de medidas para confort y eficiencia.",
     "Guías de gestión energética y de cargas internas en aulas."

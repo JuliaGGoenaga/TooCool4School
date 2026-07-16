@@ -11,7 +11,7 @@
   "plazo": "Inmediato",
   "descripcion": "Mover temporalmente actividades, grupos o usos sensibles hacia espacios menos expuestos durante episodios cálidos. Por ejemplo, usar aulas de orientación norte, biblioteca o planta baja como refugio interior, y evitar aulas bajo cubierta en horas críticas. No resuelve la causa física, pero reduce la exposición mientras se implantan medidas.",
   "beneficios": [
-    "Impacto medio y alto para usuarios vulnerables o aulas críticas.",
+    "Especialmente valiosa para usuarios vulnerables o aulas críticas.",
     "Coste muy bajo y aplicación inmediata: es una medida organizativa.",
     "Reduce la exposición al calor mientras se ejecutan intervenciones físicas.",
     "Aprovecha las diferencias térmicas entre espacios del propio centro."
@@ -28,7 +28,7 @@
     "Evitar aulas bajo cubierta y orientadas al oeste en las horas críticas de la tarde.",
     "Apoyarse en la monitorización (C.2) para decidir qué espacios usar en cada episodio."
   ],
-  "coste_detalle": "Coste bajo. Aplicación inmediata. El coste es puramente organizativo y de coordinación de horarios y espacios.",
+  "coste_detalle": "Coste puramente organizativo y de coordinación de horarios y espacios.",
   "referencias": [
     "Cuestionario IDOM: identificación de espacios afectados, horarios críticos y percepción de usuarios.",
     "Planes de actuación frente a episodios de calor en centros educativos."

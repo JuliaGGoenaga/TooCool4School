@@ -11,10 +11,10 @@
   "plazo": "Corto plazo",
   "descripcion": "Colocación de toldos, lamas, persianas exteriores, celosías, estores exteriores o elementos equivalentes para bloquear la radiación antes de que atraviese el vidrio. Es una de las medidas más directas para aulas con radiación solar, especialmente en orientaciones sur, oeste o suroeste. Aporta reducción de ganancias solares, mejora del confort visual y menor dependencia de soluciones activas.",
   "beneficios": [
-    "Impacto alto en aulas con sol directo: bloquea la radiación antes de que entre por el vidrio.",
+    "Bloquea la radiación antes de que atraviese el vidrio, muy eficaz en aulas con sol directo.",
     "Reduce ganancias solares y la necesidad de climatización activa.",
     "Mejora el confort visual y reduce el deslumbramiento.",
-    "Coste contenido y ejecución a corto plazo."
+    "Una de las medidas de control solar más directas y eficaces."
   ],
   "limitaciones": [
     "Exposición al viento y necesidad de mantenimiento y accionamiento de los elementos móviles.",
@@ -28,7 +28,7 @@
     "Preferir protecciones móviles/regulables para no penalizar la iluminación natural en invierno.",
     "Coordinar con la ventilación natural (C.1) para no bloquear la apertura de huecos."
   ],
-  "coste_detalle": "Coste bajo-medio. Ejecución a corto plazo. Los toldos y estores exteriores son la opción más económica; las lamas orientables y celosías fijas suben el coste.",
+  "coste_detalle": "Los toldos y estores exteriores son la opción más económica; las lamas orientables y las celosías fijas encarecen.",
   "referencias": [
     "Literatura de adaptación en escuelas: el control solar exterior es una de las estrategias más relevantes frente al sobrecalentamiento.",
     "Estudios que combinan protección solar exterior con aleros y sombreamiento móvil en escenarios climáticos futuros."

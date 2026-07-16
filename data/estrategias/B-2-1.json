@@ -11,7 +11,7 @@
   "plazo": "Corto-medio plazo",
   "descripcion": "Aplicación de acabado claro, pintura reflectante o solución de cubierta con mayor reflectancia solar en cubiertas expuestas. Reduce la absorción de radiación y puede ser especialmente relevante en aulas de última planta o bajo cubierta. En estudios de adaptación escolar, el 'cool roof' aparece como medida adicional necesaria en escenarios climáticos futuros junto con aleros exteriores y sombreamiento móvil.",
   "beneficios": [
-    "Impacto medio-alto en aulas de última planta y bajo cubierta.",
+    "Especialmente eficaz en aulas de última planta y bajo cubierta.",
     "Reduce la absorción de radiación y la temperatura de la cubierta.",
     "Ejecución relativamente rápida y de bajo impacto sobre la cubierta existente.",
     "Compatible con instalación fotovoltaica y otras actuaciones en cubierta."
@@ -28,7 +28,7 @@
     "Verificar y, si procede, renovar la impermeabilización antes o durante la actuación.",
     "Combinar con ventilación nocturna (C.1.2) y aislamiento selectivo (B.3) en aulas de última planta."
   ],
-  "coste_detalle": "Coste medio. Ejecución a corto-medio plazo. La pintura reflectante es más económica; las membranas de cubierta fría con impermeabilización nueva elevan el coste.",
+  "coste_detalle": "La pintura reflectante es más económica; las membranas de cubierta fría con impermeabilización nueva encarecen.",
   "referencias": [
     "Estudios de adaptación escolar: el 'cool roof' como medida necesaria en escenarios climáticos futuros junto a aleros y sombreamiento móvil.",
     "Guías de cubiertas frías y reflectancia solar (SRI) en edificios de uso docente."
