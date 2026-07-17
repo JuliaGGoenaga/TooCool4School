@@ -109,7 +109,7 @@ window.ESTRATEGIAS = [
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
-    "descripcion": "Reducción progresiva de superficies oscuras e impermeables mediante pavimentos drenantes, terrizos estabilizados, áridos compactados, superficies claras o soluciones mixtas con vegetación. Disminuye la temperatura superficial y mejora el comportamiento del patio frente a la lluvia, especialmente si se combina con sombra y drenaje verde.",
+    "descripcion": "Reducción progresiva de superficies oscuras e impermeables mediante pavimentos drenantes, terrizos estabilizados, áridos compactados, superficies claras o soluciones mixtas con vegetación. Disminuye la temperatura superficial y mejora el comportamiento del patio frente a la lluvia, especialmente si se combina con sombra y drenaje verde. Se centra en la superficie del patio (temperatura y permeabilidad); su integración en la cadena de gestión del agua se aborda en los SUDS (A.5.1).",
     "beneficios": [
       "Reduce la temperatura superficial del patio al eliminar asfalto oscuro y superficies impermeables.",
       "Mejora el comportamiento frente a la lluvia y la gestión del agua de escorrentía.",
@@ -253,7 +253,7 @@ window.ESTRATEGIAS = [
     "impacto": "Medio",
     "coste": "Medio",
     "plazo": "Corto-medio plazo",
-    "descripcion": "Conjunto de Sistemas de Drenaje Urbano Sostenible (SUDS): pavimentos permeables, jardines de lluvia y zonas de biorretención, cunetas verdes, superficies deprimidas vegetadas y depósitos o aljibes de recogida de pluviales. Gestionan el agua de lluvia lo más cerca posible de donde cae (control en origen), reduciendo la escorrentía y aprovechándola para introducir vegetación y refrescar el patio. El drenaje basado en naturaleza aparece junto con el desasfaltado, la sombra y las superficies permeables como intervención recurrente en patios climáticamente resilientes.",
+    "descripcion": "Conjunto de Sistemas de Drenaje Urbano Sostenible (SUDS): pavimentos y superficies permeables (control en origen; ver A.3.1), jardines de lluvia y zonas de biorretención, cunetas verdes, superficies deprimidas vegetadas y depósitos o aljibes de recogida de pluviales. Gestionan el agua de lluvia lo más cerca posible de donde cae (control en origen), reduciendo la escorrentía y aprovechándola para introducir vegetación y refrescar el patio. El drenaje basado en naturaleza aparece junto con el desasfaltado, la sombra y las superficies permeables como intervención recurrente en patios climáticamente resilientes.",
     "beneficios": [
       "Reducen la escorrentía y el riesgo de encharcamiento gestionando el agua en origen (laminación e infiltración).",
       "Favorecen la recarga del terreno y permiten reutilizar el agua de lluvia para el riego de la vegetación (A.2).",
@@ -268,7 +268,7 @@ window.ESTRATEGIAS = [
       "Necesitan espacio disponible y compatibilidad con el saneamiento existente del centro."
     ],
     "criterios": [
-      "Aplicar la lógica de la cadena de gestión del agua (SuDS management train): primero control en origen (superficies permeables, biorretención) y solo después conducción y almacenamiento.",
+      "Aplicar la lógica de la cadena de gestión del agua (SuDS management train): primero control en origen (superficies permeables — A.3.1 — y biorretención) y solo después conducción y almacenamiento.",
       "Priorizar patios impermeables, con problemas de escorrentía y oportunidades de renaturalización.",
       "Dimensionar cada técnica (jardines de lluvia, cunetas, depósitos) según la superficie de captación y la pluviometría local.",
       "Diseñar pendientes suaves, rebosaderos y protección infantil, y prever la reutilización de pluviales para riego.",
@@ -281,7 +281,7 @@ window.ESTRATEGIAS = [
       "Guías de SUDS aplicadas a entornos escolares y planes de renaturalización de patios."
     ],
     "ejemplos_mercado": [
-      "Pavimentos permeables y superficies drenantes (hormigón poroso, adoquín ecológico, terrizos estabilizados).",
+      "Pavimentos y superficies permeables como control en origen (ver A.3.1).",
       "Jardines de lluvia y zonas de biorretención con sustrato filtrante y vegetación de humedal.",
       "Cunetas verdes (bioswales) para la conducción vegetada del agua.",
       "Celdas de infiltración/laminación enterradas (tipo Aquacell, Wavin Q-Bic).",
